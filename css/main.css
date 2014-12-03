@@ -160,18 +160,25 @@ body > .b-layout {
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: table;
 }
 
 .b-layoutContainer__eMainMenu ul li {
-    margin: 0 67px 0 0;
+    margin: 0;
     padding: 0;
-    float: left;
+    display: table-cell;
+    text-align: center;
     list-style: none;
 }
 
+.b-layoutContainer__eMainMenu ul li:first-child {
+    width: 21%;
+    text-align: left;
+}
+
 .b-layoutContainer__eMainMenu ul li:last-child {
-    margin-right: 0;
+    width: 18%;
+    text-align: right;
 }
 
 .b-layoutContainer__eMainMenu ul li a {
