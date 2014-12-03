@@ -1,151 +1,143 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Widget</title>
 
-    <link href="css/jquery.scrollbar.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/jquery.scrollbar.min.js"></script>
-    <script src="js/main.js"></script>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <section class="bWidget">
-        <div class="bWidget__eContainer">
-            <div class="bWidget__eTabPanel">
+    <section class="b-layout">
+        <div class="b-layoutContainer m-width clearfix">
+            <h1 class="b-layoutContainer__eBigTitle">Тестовое задание верстальщика</h1>
+            <nav class="b-layoutContainer__eMainMenu">
                 <ul>
-                    <li class="active"><span>Users</span></li>
-                    <li><span>Statistics</span></li>
-                </ul>
-            </div>
+                    <li>
+                        <span class="icon icon-portfolio"></span>
+                        <a href="http://www.linkedin.com/pub/alla-selivanova/88/562/640/" target=_blank>
+                            Портфолио
+                        </a>
+                    </li>
 
-            <div class="bWidget__eContainerText active">
-                <div class="bWidget__eContainerScroll scrollbar-inner">
-                    <ul class="bWidget__eContainerList">
-                        <li>
-                          <figure class="border">
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure>
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure class="border">
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure>
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure class="border">
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure>
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure class="border">
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Vova</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure>
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li class="last-child">
-                          <figure class="border">
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                        <li class="last-child">
-                          <figure>
-                              <img src="pic/user.jpg" alt="User">
-                              <figcaption>
-                                  <h1><a href="#">Angela</a></h1>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-                              </figcaption>
-                          </figure>
-                        </li>
-                    </ul>
-                </div>
+                    <li>
+                        <span class="icon icon-twitter"></span>
+                        <a href="https://twitter.com/kweyjiba" target=_blank>
+                            Twitter
+                        </a>
+                    </li>
 
-                <div class="bWidget__eControlPanel">
-                    <div class="bWidget__eSelect">
-                        <div class="wrapper">
-                            <select id="lang">
-                                <option value="Русский">Русский</option>
-                                <option value="English">English</option>
-                            </select>
-
-                            <span class="title"></span>
-                        </div>
-                    </div>
-
-                    <span class="bWidget__eCheckbox">
-                        <input type="checkbox" id="eCheckbox">
-                        <span class="checkbox">
-                            <span class="icon" id="eCheckboxIcon"></span>
+                    <li class="disabled">
+                        <span class="icon icon-fb"></span>
+                        <span class="none">
+                            Facebook
                         </span>
-                        <label for="eCheckbox">OK</label>
-                    </span>
-                </div>
-            </div>
+                    </li>
 
-            <div class="bWidget__eContainerText">
-                <div class="bWidget__eContainerStatistics">
-                    <p>После установки вы получаете доступ к команде coffee, которая может выполнять скрипты, компилировать файлы  .coffee в файлы .js, и предоставляет интерактивный REPL. Команда coffee принимает следующие опции:</p>
+                    <li class="disabled">
+                        <span class="icon icon-vk"></span>
+                        <span class="none">
+                            VK
+                        </span>
+                    </li>
+
+                    <li class="disabled">
+                        <span class="icon icon-google"></span>
+                        <span class="none">
+                            Google+
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="b-layoutContainer__eInner">
+                <h1>Селиванова Алла Олеговна</h1>
+
+                <div class="b-userInfo">
+                    <figure class="b-userInfo__ePhoto">
+                        <a href="file/DSC_0959.jpg" id="photo">
+                            <img src="file/default.gif">
+                        </a>
+                    </figure>
+
+
+                    <div class="b-userInfo__eFields">
+
+                        <dl class="b-fields">
+                            <dt>Дата рождения:</dt>
+                            <dd><input type="text" id="datepicker" value="12.12.1983"></dd>
+                        </dl>
+
+                        <dl class="b-fields">
+                            <dt>Место проживания:</dt>
+                            <dd>г. Санкт-Петербург</dd>
+                        </dl>
+
+                        <dl class="b-fields">
+                            <dt>Семейное положение:</dt>
+                            <dd>разведена</dd>
+                        </dl>
+
+                        <dl class="b-fields">
+                            <dt>Опыт работы:</dt>
+                            <dd>7 лет</dd>
+                        </dl>
+
+                        <dl class="b-fields">
+                            <dt>Образование:</dt>
+                            <dd>высшее техническое</dd>
+                        </dl>
+                    </div>
                 </div>
+
+                <h2>Контактные данные</h2>
+
+                <dl class="b-fields m-fieldsContacts">
+                    <dt>Телефон:</dt>
+                    <dd>+7(921)592-31-96</dd>
+                </dl>
+
+                <dl class="b-fields m-fieldsContacts">
+                    <dt>Email:</dt>
+                    <dd><a href="mailto:kweyjiba12@gmail.com">kweyjiba12@gmail.com</a></dd>
+                </dl>
+
+                <dl class="b-fields m-fieldsContacts">
+                    <dt>Skype:</dt>
+                    <dd>kweyjibo</dd>
+                </dl>
+
+                <h2 class="m-top15">О себе</h2>
+
+                <h3>Личные качества</h3>
+                <p>Есть желание обучаться, развиваться профессионально, стремиться к
+                карьерному росту; хочу повышать уровень знаний в данной области, обучаться
+                новым технологиям и уметь применять полученные знания на практике.</p>
+
+                <h3>Ожидания от работы</h3>
+                <p>Возможность профессионального роста, повышения квалификации, приемлемые
+                условия труда.</p>
+
+                <h3>А еще я ...</h3>
+                <p>Умею кататься на скутере и играть на нервах. Люблю путешествия
+                и интересных людей</p>
             </div>
         </div>
-
     </section>
+
+    <footer class="m-width">
+        <h2>
+            8-921-5923-196
+        </h2>
+        мой телефон
+    </footer>
+
+    <div class="overlay"></div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/calendar.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
