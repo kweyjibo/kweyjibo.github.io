@@ -2,142 +2,51 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Widget</title>
+    <title>Menu</title>
 
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/jquery-ui.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <section class="b-layout">
-        <div class="b-layoutContainer m-width clearfix">
-            <h1 class="b-layoutContainer__eBigTitle">Тестовое задание верстальщика</h1>
-            <nav class="b-layoutContainer__eMainMenu">
-                <ul>
-                    <li>
-                        <span class="icon icon-portfolio"></span>
-                        <a href="http://www.linkedin.com/pub/alla-selivanova/88/562/640/" target=_blank>
-                            Портфолио
-                        </a>
-                    </li>
-
-                    <li>
-                        <span class="icon icon-twitter"></span>
-                        <a href="https://twitter.com/kweyjiba" target=_blank>
-                            Twitter
-                        </a>
-                    </li>
-
-                    <li class="disabled">
-                        <span class="icon icon-fb"></span>
-                        <span class="none">
-                            Facebook
-                        </span>
-                    </li>
-
-                    <li class="disabled">
-                        <span class="icon icon-vk"></span>
-                        <span class="none">
-                            VK
-                        </span>
-                    </li>
-
-                    <li class="disabled">
-                        <span class="icon icon-google"></span>
-                        <span class="none">
-                            Google+
-                        </span>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="b-layoutContainer__eInner">
-                <h1>Селиванова Алла Олеговна</h1>
-
-                <div class="b-userInfo">
-                    <figure class="b-userInfo__ePhoto">
-                        <a href="file/DSC_0959.jpg" id="photo">
-                            <img src="file/default.gif" alt="photo">
-                        </a>
-                    </figure>
-
-
-                    <div class="b-userInfo__eFields">
-
-                        <dl class="b-fields">
-                            <dt>Дата рождения:</dt>
-                            <dd><input type="text" id="datepicker" value="12.12.1983"></dd>
-                        </dl>
-
-                        <dl class="b-fields">
-                            <dt>Место проживания:</dt>
-                            <dd>г. Санкт-Петербург</dd>
-                        </dl>
-
-                        <dl class="b-fields">
-                            <dt>Семейное положение:</dt>
-                            <dd>разведена</dd>
-                        </dl>
-
-                        <dl class="b-fields">
-                            <dt>Опыт работы:</dt>
-                            <dd>7 лет</dd>
-                        </dl>
-
-                        <dl class="b-fields">
-                            <dt>Образование:</dt>
-                            <dd>высшее техническое</dd>
-                        </dl>
-                    </div>
-                </div>
-
-                <h2>Контактные данные</h2>
-
-                <dl class="b-fields m-fieldsContacts">
-                    <dt>Телефон:</dt>
-                    <dd>+7(921)592-31-96</dd>
-                </dl>
-
-                <dl class="b-fields m-fieldsContacts">
-                    <dt>Email:</dt>
-                    <dd><a href="mailto:kweyjiba12@gmail.com">kweyjiba12@gmail.com</a></dd>
-                </dl>
-
-                <dl class="b-fields m-fieldsContacts">
-                    <dt>Skype:</dt>
-                    <dd>kweyjibo</dd>
-                </dl>
-
-                <h2 class="m-top15">О себе</h2>
-
-                <h3>Личные качества</h3>
-                <p>Есть желание обучаться, развиваться профессионально, стремиться к
-                карьерному росту; хочу повышать уровень знаний в данной области, обучаться
-                новым технологиям и уметь применять полученные знания на практике.</p>
-
-                <h3>Ожидания от работы</h3>
-                <p>Возможность профессионального роста, повышения квалификации, приемлемые
-                условия труда.</p>
-
-                <h3>А еще я ...</h3>
-                <p>Умею кататься на скутере и играть на нервах. Люблю путешествия
-                и интересных людей</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="m-width">
-        <h2>
-            8-921-5923-196
-        </h2>
-        мой телефон
-    </footer>
-
-    <div class="overlay"></div>
+    <nav class="m-horizontal">
+        <ul>
+            <li><a href="#">Полезные советы</a></li>
+            <li><a href="#">Красота</a></li>
+            <li><a href="#">Сделай сам</a></li>
+            <li class="adaptive-6"><a href="#">Отношения</a></li>
+            <li class="adaptive-5"><a href="#">Интересные факты</a></li>
+            <li class="adaptive-4"><a href="#">Звезды</a></li>
+            <li class="adaptive-3"><a href="#">Путешествия</a></li>
+            <li class="adaptive-2"><a href="#">Полезные советы</a></li>
+            <li class="adaptive-1"><a href="#">Красота</a></li>
+            <li>
+                <span class="b-menuMore">
+                    <a href="javascript:" id="subMenu">еще...</a>
+                    <span class="b-contaunerMenu">
+                        <a href="#" class="adaptive-6">Отношения</a>
+                        <a href="#" class="adaptive-5">Интересные факты</a>
+                        <a href="#" class="adaptive-4">Звезды</a>
+                        <a href="#" class="adaptive-3">Путешествия</a>
+                        <a href="#" class="adaptive-2">Полезные советы</a>
+                        <a href="#" class="adaptive-1">Красота</a>
+                        <a href="#">Сделай сам</a>
+                        <a href="#">Отношения</a>
+                        <a href="#">Видео</a>
+                        <a href="#">Мода</a>
+                        <a href="#">Бренды</a>
+                        <a href="#">Дизайн</a>
+                        <a href="#">Архитектурный клад</a>
+                        <a href="#">Стрит-арт</a>
+                        <a href="#">Боди-арт</a>
+                        <a href="#">Арт-события</a>
+                        <a href="#">Культура</a>
+                    </span>
+                </span>
+            </li>
+        </ul>
+    </nav>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/vendor/jquery-ui.min.js"></script>
-    <script src="js/vendor/calendar.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
