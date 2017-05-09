@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-09T20:26:45+03:00</updated><id>http://localhost:4000/</id><title type="html">Заметки frontend-разработчика</title><subtitle>Привет. Меня зовут Алла Селиванова и я уже более 8 лет занимаюсь frontend-разработкой.
+</subtitle><entry><title type="html">Добро пожаловать</title><link href="http://localhost:4000/life/2017/05/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Добро пожаловать" /><published>2017-05-08T21:43:55+03:00</published><updated>2017-05-08T21:43:55+03:00</updated><id>http://localhost:4000/life/2017/05/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/life/2017/05/08/welcome-to-jekyll.html">&lt;p&gt;Добро пожаловать в мой блог&lt;/p&gt;</content><author><name></name></author><summary type="html">Добро пожаловать в мой блог</summary></entry><entry><title type="html">Ubuntu - настройка виртуальных хостов</title><link href="http://localhost:4000/ubuntu/2012/11/23/localhost.html" rel="alternate" type="text/html" title="Ubuntu - настройка виртуальных хостов" /><published>2012-11-23T22:43:55+04:00</published><updated>2012-11-23T22:43:55+04:00</updated><id>http://localhost:4000/ubuntu/2012/11/23/localhost</id><content type="html" xml:base="http://localhost:4000/ubuntu/2012/11/23/localhost.html">&lt;p&gt;Итак, приступим.&lt;/p&gt;
+
+&lt;p&gt;Для настройки виртуальных хостов необходимо проделать несколько операций. Настраивала я все это счастье под Ubuntu 12.10. Так как сайт на php, пришлось поставить соответствующие инструменты. Откройте терминал.&lt;/p&gt;
+
+&lt;p&gt;Для начала устанавливаем Apache. В окне терминала введите строку:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Теперь установим PHP:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;php5&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;php5-mysql&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;libapache2-mod-php5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Перезагрузите Apache-сервер, чтобы загрузить php-модули:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Для проверки статуса сервиса, его старта, остановки, рестарта или перезагрузки конфигурационных файлов используются следующие команды:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;status&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;start&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;stop&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;restart&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;reload&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Файл конфигурации Apache хранится по адресу &lt;code class=&quot;highlighter-rouge&quot;&gt;/ect/apache2/apache2.conf&lt;/code&gt;. Проверьте его обязательно. У меня была закомментирована строчка &lt;code class=&quot;highlighter-rouge&quot;&gt;Include sites-enabled/&lt;/code&gt;, в следствии чего не получалось запустить созданный хост из нужного каталога.&lt;/p&gt;
+
+&lt;p&gt;В браузере наберите адрес &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost&lt;/code&gt;. Если все хорошо, то должна появится надпись “It works!”. Эта надпись выводится из файла &lt;code class=&quot;highlighter-rouge&quot;&gt;/var/www/index.html&lt;/code&gt;. Можете отредактировать его и убедиться, что все правильно.&lt;/p&gt;
+
+&lt;p&gt;Теперь можно приступить к настройке хоста. Я захотела для начала установить у себя фреймворк Symfony2. Создала в домашнем каталоге папку website, а в ней symfony. Путь к такой папке:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;/home/User/website/symfony&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Он нам понадобится для конфигурационных файлов. User - это ваше имя в системе (пользователь/логин). Затем закачала туда файлы. И теперь мне нужно, чтобы по ссылке symfony.me открывалось окно с приветствием данного фреймворка.&lt;/p&gt;
+
+&lt;p&gt;Зайдем в папку &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apache2&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/etc/apache2&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;ls&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Командой &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; посмотрите, что находится в данной директории. Нас интересуют два каталога — &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; и &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-enabled&lt;/code&gt;. В папке &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; хранится информация о существующих хостах, а в папке &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-enabled&lt;/code&gt; о подключенных, причем файлы в ней являются символическими ссылками на файлы из папки &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Создадим в каталоге &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; файл &lt;code class=&quot;highlighter-rouge&quot;&gt;symfony.me&lt;/code&gt; (к слову, назвать его можно как угодно, но так просто легче не запутаться) и откроем его для редактирования.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gedit&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/etc/apache2/sites-available/symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Откроется пустой файл. Можете скопировать в него полностью содержимое файла &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/apache2/sites-available/default&lt;/code&gt; (отрыть для чтения его можно просто двойным кликом, зайдя в эту папку):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;&amp;lt;VirtualHost&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;*:80&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;ServerAdmin&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;webmaster@symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;ServerName&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;DocumentRoot&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/home/user/website/symfony&lt;/span&gt;
+        
+	&lt;span class=&quot;nv&quot;&gt;&amp;lt;Directory&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;Options&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;FollowSymLinks&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;AllowOverride&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;None&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;&amp;lt;/Directory&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;&amp;lt;Directory&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/home/user/website/symfony&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;Options&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Indexes&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;FollowSymLinks&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;MultiViews&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;AllowOverride&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;All&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;allow,deny&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;all&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;&amp;lt;/Directory&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;ErrorLog&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/var/log/apache2/error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;log&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;LogLevel&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;debug&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;CustomLog&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/var/log/apache2/access&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;combined&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;&amp;lt;/VirtualHost&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Итак, приступим.</summary></entry></feed>
