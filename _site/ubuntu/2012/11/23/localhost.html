@@ -103,13 +103,13 @@
 
 <p>Файл конфигурации Apache хранится по адресу <code class="highlighter-rouge">/ect/apache2/apache2.conf</code>. Проверьте его обязательно. У меня была закомментирована строчка <code class="highlighter-rouge">Include sites-enabled/</code>, в следствии чего не получалось запустить созданный хост из нужного каталога.</p>
 
-<p>В браузере наберите адрес <code class="highlighter-rouge">http://localhost</code>. Если все хорошо, то должна появится надпись “It works!”. Эта надпись выводится из файла <code class="highlighter-rouge">/var/www/index.html</code>. Можете отредактировать его и убедиться, что все правильно.</p>
+<p>В браузере наберите адрес <code class="highlighter-rouge">http://localhost</code>. Если все хорошо, то должна появится надпись <strong>“It works!”</strong>. Эта надпись выводится из файла <code class="highlighter-rouge">/var/www/index.html</code>. Можете отредактировать его и убедиться, что все правильно.</p>
 
-<p>Теперь можно приступить к настройке хоста. Я захотела для начала установить у себя фреймворк Symfony2. Создала в домашнем каталоге папку website, а в ней symfony. Путь к такой папке:</p>
+<p>Теперь можно приступить к настройке хоста. Я захотела для начала установить у себя фреймворк Symfony2. Создала в домашнем каталоге папку <code class="highlighter-rouge">website</code>, а в ней <code class="highlighter-rouge">symfony</code>. Путь к такой папке:</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">/home/User/website/symfony</span></code></pre></figure>
 
-<p>Он нам понадобится для конфигурационных файлов. User - это ваше имя в системе (пользователь/логин). Затем закачала туда файлы. И теперь мне нужно, чтобы по ссылке symfony.me открывалось окно с приветствием данного фреймворка.</p>
+<p>Он нам понадобится для конфигурационных файлов. <strong>User</strong> - это ваше имя в системе (пользователь/логин). Затем закачала туда файлы. И теперь мне нужно, чтобы по ссылке <code class="highlighter-rouge">symfony.me</code> открывалось окно с приветствием данного фреймворка.</p>
 
 <p>Зайдем в папку <code class="highlighter-rouge">/etc/apache2</code>:</p>
 
@@ -118,6 +118,7 @@
 
 <p>Командой <code class="highlighter-rouge">ls</code> посмотрите, что находится в данной директории. Нас интересуют два каталога — <code class="highlighter-rouge">sites-available</code> и <code class="highlighter-rouge">sites-enabled</code>. В папке <code class="highlighter-rouge">sites-available</code> хранится информация о существующих хостах, а в папке <code class="highlighter-rouge">sites-enabled</code> о подключенных, причем файлы в ней являются символическими ссылками на файлы из папки <code class="highlighter-rouge">sites-available</code></p>
 
+<h4 id="Шаг-1">Шаг 1</h4>
 <p>Создадим в каталоге <code class="highlighter-rouge">sites-available</code> файл <code class="highlighter-rouge">symfony.me</code> (к слову, назвать его можно как угодно, но так просто легче не запутаться) и откроем его для редактирования.</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">gedit</span> <span class="nv">/etc/apache2/sites-available/symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
@@ -143,6 +144,66 @@
 	<span class="nv">LogLevel</span> <span class="nv">debug</span>
 	<span class="nv">CustomLog</span> <span class="nv">/var/log/apache2/access</span><span class="o">.</span><span class="nv">log</span> <span class="nv">combined</span>
 <span class="nv">&lt;/VirtualHost&gt;</span></code></pre></figure>
+
+<p>Внесем некоторые изменения: отредактируйте <code class="highlighter-rouge">ServerName</code>:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">ServerName</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
+
+<p>Заменим адрес директории <code class="highlighter-rouge">DocumentRoot</code> на свою:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">DocumentRoot</span> <span class="nv">/home/user/website/symfony</span></code></pre></figure>
+
+<p>Изменим строчку <code class="highlighter-rouge">Directory /var/www/</code>:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">Directory</span> <span class="nv">/home/user/website/symfony</span></code></pre></figure>
+
+<p>И изменим значение <code class="highlighter-rouge">AllowOverride None</code> на:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">AllowOverride</span> <span class="nv">All</span></code></pre></figure>
+
+<h4 id="Шаг-2">Шаг 2</h4>
+<p>Теперь отредактируем файл <code class="highlighter-rouge">hosts</code>:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">gedit</span> <span class="nv">/etc/hosts</span>
+<span class="nv">terminal</span></code></pre></figure>
+
+<p>У меня он выглядит так:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span> <span class="nv">localhost</span><span class="o">.</span><span class="nv">localdomain</span> <span class="nv">localhost</span> <span class="nv">HOME-SP</span>
+<span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span> 
+
+<span class="o">#</span> <span class="nv">The</span> <span class="nv">following</span> <span class="nv">lines</span> <span class="nv">are</span> <span class="nv">desirable</span> <span class="nv">for</span> <span class="nv">IPv6</span> <span class="nv">capable</span> <span class="nv">hosts</span>
+<span class="nv">::1</span> <span class="nv">ip6-localhost</span> <span class="nv">ip6-loopback</span>
+<span class="nv">fe00::0</span> <span class="nv">ip6-localnet</span>
+<span class="nv">ff00::0</span> <span class="nv">ip6-mcastprefix</span>
+<span class="nv">ff02::1</span> <span class="nv">ip6-allnodes</span>
+<span class="nv">ff02::2</span> <span class="nv">ip6-allrouters</span></code></pre></figure>
+
+<p>Вам нужно добавить строчку:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
+
+<h4 id="Шаг-3">Шаг 3</h4>
+<p>Теперь включим наш сайт</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">a2ensite</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
+
+<p>Чтобы выключить сайт</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">a2dissite</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
+
+<h4 id="Шаг-4">Шаг 4</h4>
+<p>Перезагружаем Apache</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">service</span> <span class="nv">apache2</span> <span class="nv">restart</span></code></pre></figure>
+
+<p>Идем в браузер и в набираем адрес хоста, в моем случае это <code class="highlighter-rouge">symfony.me/web/app_dev.php</code>. У меня конечно не с первого раза вышло. Это уже вопрос фреймворка. В <code class="highlighter-rouge">php.ini</code> пришлось отредактировать строчку <code class="highlighter-rouge">date.timezone</code>:</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">gedit</span> <span class="nv">/etc/php5/apache2/php</span><span class="o">.</span><span class="nv">ini</span></code></pre></figure>
+
+<p>Раскомментировать и прописать <code class="highlighter-rouge">Europe/Moscow</code>.</p>
+
+<figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">date</span><span class="o">.</span><span class="nv">timezone</span> <span class="nv">=</span> <span class="nv">Europe/Moscow</span></code></pre></figure>
 
   </div>
 
