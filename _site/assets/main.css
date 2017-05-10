@@ -257,7 +257,8 @@ pre {
 
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
+  width: calc(45% - (30px / 2));
+  text-align: right; }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
