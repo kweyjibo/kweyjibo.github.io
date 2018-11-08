@@ -10,7 +10,7 @@
   <meta name="description" content="Итак, приступим.">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/ubuntu/2012/11/23/localhost.html">
+  <link rel="canonical" href="http://0.0.0.0:4000/ubuntu/2012/11/23/localhost.html">
   
   
 </head>
@@ -68,7 +68,7 @@
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Ubuntu - настройка виртуальных хостов</h1>
     <p class="post-meta">
-      <time datetime="2012-11-23T22:43:55+04:00" itemprop="datePublished">
+      <time datetime="2012-11-23T12:43:55-06:00" itemprop="datePublished">
         
         Nov 23, 2012
       </time>
@@ -117,7 +117,7 @@
 
 <p>Командой <code class="highlighter-rouge">ls</code> посмотрите, что находится в данной директории. Нас интересуют два каталога — <code class="highlighter-rouge">sites-available</code> и <code class="highlighter-rouge">sites-enabled</code>. В папке <code class="highlighter-rouge">sites-available</code> хранится информация о существующих хостах, а в папке <code class="highlighter-rouge">sites-enabled</code> о подключенных, причем файлы в ней являются символическими ссылками на файлы из папки <code class="highlighter-rouge">sites-available</code></p>
 
-<h4 id="Шаг-1">Шаг 1</h4>
+<h4 id="шаг-1">Шаг 1</h4>
 <p>Создадим в каталоге <code class="highlighter-rouge">sites-available</code> файл <code class="highlighter-rouge">symfony.me</code> (к слову, назвать его можно как угодно, но так просто легче не запутаться) и откроем его для редактирования.</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">gedit</span> <span class="nv">/etc/apache2/sites-available/symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
@@ -160,7 +160,7 @@
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">AllowOverride</span> <span class="nv">All</span></code></pre></figure>
 
-<h4 id="Шаг-2">Шаг 2</h4>
+<h4 id="шаг-2">Шаг 2</h4>
 <p>Теперь отредактируем файл <code class="highlighter-rouge">hosts</code>:</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">gedit</span> <span class="nv">/etc/hosts</span>
@@ -182,7 +182,7 @@
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
 
-<h4 id="Шаг-3">Шаг 3</h4>
+<h4 id="шаг-3">Шаг 3</h4>
 <p>Теперь включим наш сайт</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">a2ensite</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
@@ -191,7 +191,7 @@
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">a2dissite</span> <span class="nv">symfony</span><span class="o">.</span><span class="nv">me</span></code></pre></figure>
 
-<h4 id="Шаг-4">Шаг 4</h4>
+<h4 id="шаг-4">Шаг 4</h4>
 <p>Перезагружаем Apache</p>
 
 <figure class="highlight"><pre><code class="language-scheme" data-lang="scheme"><span class="nv">sudo</span> <span class="nv">service</span> <span class="nv">apache2</span> <span class="nv">restart</span></code></pre></figure>
@@ -225,7 +225,7 @@
             
             </li>
             
-            <li><a href="mailto:kweyjiba@gmail.com">kweyjiba@gmail.com</a></li>
+            <li><a href="mailto:kweyjiba12@gmail.com">kweyjiba12@gmail.com</a></li>
             
         </ul>
       </div>

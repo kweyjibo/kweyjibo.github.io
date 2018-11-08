@@ -16,17 +16,13 @@ permalink: /about/
 <dd class="about-list_dd">kweyjiba12[at]gmail[dot]com</dd>
 
 <dt class="about-list_dt">Деятельность:</dt>
-<dd class="about-list_dd">2008 - 2017 frontend-разработчик</dd>
+<dd class="about-list_dd">2008 - 2018 frontend-разработчик</dd>
 
 <dt class="about-list_dt">Навыки:</dt>
 <dd class="about-list_dd">
 — кроссбраузерная, блочная верстка любой сложности;<br>
-— адаптивная верстка, микроформаты;<br>
-— Adobe Photoshop, Illustrator, Adobe Fireworks;<br> 
-— JavaScript(jQuery);<br>
-— базовые знания Python (Django - работа с шаблонами);<br>
-— шаблонизаторы: twig, smarty;<br>
-— имеется знание и опыт работы с CMS (привязка верстки).
+— адаптивная верстка, микроформаты;<br> 
+— JavaScript.<br>
 </dd>
 
 <dt class="about-list_dt">Интересуюсь:</dt>
@@ -34,14 +30,14 @@ permalink: /about/
 
 <dt class="about-list_dt">Рабочее окружение:</dt>
 <dd class="about-list_dd">
-— умею работать под Ubuntu(Linux);<br>
+— Ubuntu(Linux);<br>
 — Sublime/gVim/IDEA;<br>
 — VirtualBox для тестирования сайтов под Windows;<br>
 — git.
 </dd>
 
 <dt class="about-list_dt">Работа:</dt>
-<dd class="about-list_dd"><a href="http://odnoklassniki.ru">odnoklassniki.ru</a></dd>
+<dd class="about-list_dd"><a href="http://odnoklassniki.ru">ok.ru</a></dd>
 
 <dt class="about-list_dt">Хобби:</dt>
 <dd class="about-list_dd">очень люблю кошек, выращиваю цветы и завариваю пуэр</dd>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-10T22:41:22+03:00</updated><id>http://localhost:4000/</id><title type="html">Заметки frontend-разработчика</title><subtitle>Привет. Меня зовут Алла Селиванова и я уже более 8 лет занимаюсь frontend-разработкой.
-</subtitle><entry><title type="html">Добро пожаловать</title><link href="http://localhost:4000/life/2017/05/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Добро пожаловать" /><published>2017-05-08T21:43:55+03:00</published><updated>2017-05-08T21:43:55+03:00</updated><id>http://localhost:4000/life/2017/05/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/life/2017/05/08/welcome-to-jekyll.html">&lt;p&gt;Добро пожаловать в мой блог.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2018-11-07T23:27:32-06:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Заметки frontend-разработчика</title><subtitle>Привет. Меня зовут Алла Селиванова и я уже более 8 лет занимаюсь frontend-разработкой.
+</subtitle><entry><title type="html">Добро пожаловать</title><link href="http://0.0.0.0:4000/life/2017/05/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Добро пожаловать" /><published>2017-05-08T13:43:55-05:00</published><updated>2017-05-08T13:43:55-05:00</updated><id>http://0.0.0.0:4000/life/2017/05/08/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/life/2017/05/08/welcome-to-jekyll.html">&lt;p&gt;Добро пожаловать в мой блог.&lt;/p&gt;
 
 &lt;p&gt;Более 8 лет занимаюсь frontend-разработкой. Закончила Череповецкий государственный университет
 по специальности инженер-программист.&lt;/p&gt;
@@ -8,7 +8,7 @@
 
 &lt;p&gt;С 2015 работаю в социальной сети, где занимаюсь разными большими по охвату пользователей задачами.&lt;/p&gt;
 
-&lt;p&gt;Увлекаюсь дизайном, фотографией. С 2009 года живу в Петербурге, где есть масса возможностей для реализаций моих хобби. Знаю много о Японии и других странах, очень люблю кошек, выращиваю цветы и завариваю пуэр.&lt;/p&gt;</content><author><name></name></author><summary type="html">Добро пожаловать в мой блог.</summary></entry><entry><title type="html">Ubuntu - настройка виртуальных хостов</title><link href="http://localhost:4000/ubuntu/2012/11/23/localhost.html" rel="alternate" type="text/html" title="Ubuntu - настройка виртуальных хостов" /><published>2012-11-23T22:43:55+04:00</published><updated>2012-11-23T22:43:55+04:00</updated><id>http://localhost:4000/ubuntu/2012/11/23/localhost</id><content type="html" xml:base="http://localhost:4000/ubuntu/2012/11/23/localhost.html">&lt;p&gt;Итак, приступим.&lt;/p&gt;
+&lt;p&gt;Увлекаюсь дизайном, фотографией. С 2009 года живу в Петербурге, где есть масса возможностей для реализаций моих хобби. Знаю много о Японии и других странах, очень люблю кошек, выращиваю цветы и завариваю пуэр.&lt;/p&gt;</content><author><name></name></author><summary type="html">Добро пожаловать в мой блог.</summary></entry><entry><title type="html">Ubuntu - настройка виртуальных хостов</title><link href="http://0.0.0.0:4000/ubuntu/2012/11/23/localhost.html" rel="alternate" type="text/html" title="Ubuntu - настройка виртуальных хостов" /><published>2012-11-23T12:43:55-06:00</published><updated>2012-11-23T12:43:55-06:00</updated><id>http://0.0.0.0:4000/ubuntu/2012/11/23/localhost</id><content type="html" xml:base="http://0.0.0.0:4000/ubuntu/2012/11/23/localhost.html">&lt;p&gt;Итак, приступим.&lt;/p&gt;
 
 &lt;p&gt;Для настройки виртуальных хостов необходимо проделать несколько операций. Настраивала я все это счастье под Ubuntu 12.10. Так как сайт на php, пришлось поставить соответствующие инструменты. Откройте терминал.&lt;/p&gt;
 
@@ -49,7 +49,7 @@
 
 &lt;p&gt;Командой &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; посмотрите, что находится в данной директории. Нас интересуют два каталога — &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; и &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-enabled&lt;/code&gt;. В папке &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; хранится информация о существующих хостах, а в папке &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-enabled&lt;/code&gt; о подключенных, причем файлы в ней являются символическими ссылками на файлы из папки &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;Шаг-1&quot;&gt;Шаг 1&lt;/h4&gt;
+&lt;h4 id=&quot;шаг-1&quot;&gt;Шаг 1&lt;/h4&gt;
 &lt;p&gt;Создадим в каталоге &lt;code class=&quot;highlighter-rouge&quot;&gt;sites-available&lt;/code&gt; файл &lt;code class=&quot;highlighter-rouge&quot;&gt;symfony.me&lt;/code&gt; (к слову, назвать его можно как угодно, но так просто легче не запутаться) и откроем его для редактирования.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gedit&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/etc/apache2/sites-available/symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -92,7 +92,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;AllowOverride&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;All&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h4 id=&quot;Шаг-2&quot;&gt;Шаг 2&lt;/h4&gt;
+&lt;h4 id=&quot;шаг-2&quot;&gt;Шаг 2&lt;/h4&gt;
 &lt;p&gt;Теперь отредактируем файл &lt;code class=&quot;highlighter-rouge&quot;&gt;hosts&lt;/code&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gedit&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;/etc/hosts&lt;/span&gt;
@@ -114,7 +114,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;mf&quot;&gt;127.0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h4 id=&quot;Шаг-3&quot;&gt;Шаг 3&lt;/h4&gt;
+&lt;h4 id=&quot;шаг-3&quot;&gt;Шаг 3&lt;/h4&gt;
 &lt;p&gt;Теперь включим наш сайт&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a2ensite&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -123,7 +123,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;a2dissite&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;symfony&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;me&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h4 id=&quot;Шаг-4&quot;&gt;Шаг 4&lt;/h4&gt;
+&lt;h4 id=&quot;шаг-4&quot;&gt;Шаг 4&lt;/h4&gt;
 &lt;p&gt;Перезагружаем Apache&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scheme&quot; data-lang=&quot;scheme&quot;&gt;&lt;span class=&quot;nv&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;apache2&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;restart&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
