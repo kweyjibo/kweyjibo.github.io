@@ -13,21 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Заметки frontend-разработчика
+title: Блог frontend разработчика
 email: kweyjiba12@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Привет. Меня зовут Алла Селиванова и я уже более 8 лет занимаюсь frontend-разработкой.
+description: >- # this means to ignore newlines until "baseurl:"
+  Заметки, статьи, нытье о том о сем
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kweyjiba
-github_username:  kweyjibo
-data: 2017
+github_username:  kweojibo
+data: 2018
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
