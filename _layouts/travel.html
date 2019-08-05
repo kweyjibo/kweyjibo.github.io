@@ -5,7 +5,8 @@ layout: default
 <div class="home">
   {{ content }}
   <div class="post-list">
-    {% for post in site.categories.travel %}
+    {% assign travels = site.travel | sort: 'date' | reverse %}
+    {% for post in travels %}
       <div>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>

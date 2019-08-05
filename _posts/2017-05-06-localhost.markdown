@@ -2,7 +2,6 @@
 layout: post
 title:  "Ubuntu - настройка виртуальных хостов"
 date:   2012-11-23 21:43:55 +0300
-categories: main Ubuntu
 ---
 
 Итак, приступим.
