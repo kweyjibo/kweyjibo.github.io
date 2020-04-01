@@ -7,7 +7,7 @@ permalink: /about/
 <dl class="about-list">
 
 <dt class="about-list_dt">Имя:</dt>
-<dd class="about-list_dd">Алла Селиванова</dd>
+<dd class="about-list_dd"><strong>Алла</strong> Долженко</dd>
 
 <dt class="about-list_dt">Нахожусь:</dt>
 <dd class="about-list_dd">с 2009г. живу и работаю в Санкт-Петербурге.</dd>
@@ -16,7 +16,7 @@ permalink: /about/
 <dd class="about-list_dd"><a href="mailto:kweyjiba12[at]gmail.com">Задать вопросы</a></dd>
 
 <dt class="about-list_dt">Деятельность:</dt>
-<dd class="about-list_dd">2008 - 2019 frontend-разработчик</dd>
+<dd class="about-list_dd">2008 - настоящее время <strong>frontend-разработчик</strong></dd>
 
 <dt class="about-list_dt">Навыки:</dt>
 <dd class="about-list_dd">
