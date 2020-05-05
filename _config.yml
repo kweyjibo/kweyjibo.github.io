@@ -36,6 +36,9 @@ collections:
     output: true
     permalink: /:collection/:title:output_ext
 
+# Google Analytics
+google_analytics: UA-165389195-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
