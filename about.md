@@ -1,38 +1,39 @@
 ---
 layout: page
-title: Автор
+title: About me
 permalink: /about/
 ---
 
+Hi!
+
+I'm Alla. I am a front-end engineer with over 12 years of varied experience.
+
 <dl class="about-list">
 
-<dt class="about-list_dt">Имя:</dt>
-<dd class="about-list_dd"><strong>Алла</strong> Долженко</dd>
-
-<dt class="about-list_dt">Нахожусь:</dt>
-<dd class="about-list_dd">с 2009г. живу и работаю в Санкт-Петербурге.</dd>
+<dt class="about-list_dt">Location</dt>
+<dd class="about-list_dd">Amstelveen, The Netherlands</dd>
 
 <dt class="about-list_dt">E-mail:</dt>
-<dd class="about-list_dd"><a href="mailto:kweyjiba12[at]gmail.com">Задать вопросы</a></dd>
+<dd class="about-list_dd"><a href="mailto:kweyjiba12@gmail.com">Ask me</a></dd>
 
-<dt class="about-list_dt">Деятельность:</dt>
-<dd class="about-list_dd">2008 - настоящее время <strong>frontend-разработчик</strong></dd>
+<dt class="about-list_dt">Position</dt>
+<dd class="about-list_dd">since 2008 <strong>frontend developer</strong></dd>
 
-<dt class="about-list_dt">Навыки:</dt>
+<dt class="about-list_dt">Skills</dt>
 <dd class="about-list_dd">
-— кроссбраузерная, блочная верстка любой сложности;<br>
-— адаптивная верстка, микроформаты;<br> 
-— JavaScript.<br>
+— html/css<br>
+— javascript<br> 
+— React<br>
+— TypeScript<br>
+— Figma<br>
+— git
 </dd>
 
-<dt class="about-list_dt">Интересуюсь:</dt>
-<dd class="about-list_dd">дизайн, фотография</dd>
+<dt class="about-list_dt">Hobbies</dt>
+<dd class="about-list_dd">Illustration, photography. My sketches on <a href="https://www.instagram.com/nyanko.dreamer" rel="nofollow" target=_blank>Instagram</a></dd>
 
-<dt class="about-list_dt">Работа:</dt>
-<dd class="about-list_dd"><a href="http://ok.ru" target="_blank">ok.ru</a></dd>
-
-<dt class="about-list_dt">Хобби:</dt>
-<dd class="about-list_dd">очень люблю кошек, выращиваю цветы и завариваю пуэр</dd>
+<dt class="about-list_dt">Work</dt>
+<dd class="about-list_dd">Free. I'm looking for new position: <a href="https://www.linkedin.com/in/alla-dolzhenko/" rel="nofollow" target=_blank>Linkedin</a></dd>
 
 </dl>
 

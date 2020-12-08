@@ -27,8 +27,8 @@ a:visited { color: #da701d; }
 
 .site-header {
   height: 110px;
-  border-top-color: rgba(#da701d,.6);
-  border-bottom-color: rgba(#da701d,.6);
+  border-top-color: #612b12;
+  border-bottom-color: #612b12;
 
 	& .wrapper {
 		position: relative;
@@ -44,14 +44,14 @@ a:visited { color: #da701d; }
 	&:before {
 		content: '';
 		position: absolute;
-		top: 0;
+		top: -5px;
 		left: 0;
 
-		width: 100px;
-		height: 100px;
+		width: 110px;
+		height: 110px;
 
 		background-image: url('../assets/site/logo.png');
-		background-size: 100px;
+		background-size: 110px;
 	}
 }
 
@@ -65,5 +65,5 @@ a:visited { color: #da701d; }
 .site-footer {
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border-top-color: rgba(#da701d,.6);
+	border-top-color: #612b12;
 }
