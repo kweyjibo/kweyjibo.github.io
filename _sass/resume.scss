@@ -23,6 +23,10 @@ $global-delimiter: 1px solid rgba(#000, .08);
 /* Common
 -------------------------------------------------- */
 
+.bold {
+	font-weight: bold;
+}
+
 .mt-4x {
 	margin-top: $shift*4;
 }
@@ -170,6 +174,10 @@ $global-delimiter: 1px solid rgba(#000, .08);
 
 .item-text {
 	padding-top: $shift*2;
+
+	p {
+		margin-bottom: 12px;
+	}
 }
 
 /* /Item*/

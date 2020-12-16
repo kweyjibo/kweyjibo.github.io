@@ -4,6 +4,15 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <div class="socials">
+        {% if site.github_username %}
+          {% include icon-github.html %}
+        {% endif %}
+        {% if site.twitter_username %}
+          {% include icon-twitter.html %}
+        {% endif %}
+    </div>
   
     {% if page_paths %}
       <nav class="site-nav">

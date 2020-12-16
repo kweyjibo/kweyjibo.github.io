@@ -2,7 +2,6 @@ html {
 	height: 100%;
 	min-height: 100%;
 	color: #333;
-	background-color: #f9f9f9;
 }
 
 body { min-height: 1%; height: 100%; }
@@ -66,4 +65,14 @@ a:visited { color: #da701d; }
 	padding-top: 8px;
 	padding-bottom: 8px;
 	border-top-color: #612b12;
+}
+
+.socials {
+	position: absolute;
+	right: 30px;
+	bottom: 16px;
+
+	a:hover {
+		text-decoration: none;
+	}
 }
