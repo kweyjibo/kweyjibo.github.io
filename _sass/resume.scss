@@ -67,8 +67,8 @@ $global-delimiter: 1px solid rgba(#000, .08);
 
 .resume-header_av {
 	overflow: hidden;
-	width: 204px;
-	height: 200px;
+	width: 190px;
+	height: 190px;
 	border-radius: 50%;
 }
 
@@ -87,7 +87,7 @@ $global-delimiter: 1px solid rgba(#000, .08);
 	margin-top: $shift;
 
 	font-size: 14px;
-	color: #bbb;
+	color: #999;
 
 	&.__sp {
 		margin-top: $shift*2;
