@@ -17,6 +17,8 @@ $resume-width: 960px;
 $global-delimiter-color: rgba(#000, .08);
 $global-delimiter: 1px solid rgba(#000, .08);
 
+$viewport: 765px;
+
 /* /Const*/
 
 
@@ -58,11 +60,19 @@ $global-delimiter: 1px solid rgba(#000, .08);
 	box-sizing: border-box;
 
 	border-bottom: $global-delimiter;
+
+	@media (max-width: $viewport) {
+		padding: $shift*3 $shift*4;
+	}
 }
 
 .resume-header_desc {
 	padding-top: $shift*5;
 	margin-left: $shift*6;
+
+	@media (max-width: $viewport) {
+		margin-left: $shift*3;
+	}
 }
 
 .resume-header_av {
@@ -70,16 +80,32 @@ $global-delimiter: 1px solid rgba(#000, .08);
 	width: 190px;
 	height: 190px;
 	border-radius: 50%;
+
+	img {
+		display: block;
+		max-width: auto;
+		height: 100%;
+	}
 }
 
 .resume-header_name {
 	font-size: 36px;
 	font-weight: bold;
+
+	@media (max-width: $viewport) {
+		font-size: 26px;
+		line-height: 28px;
+	}
 }
 
 .resume-header_position {
 	font-size: 22px;
 	color: #666;
+
+	@media (max-width: $viewport) {
+		font-size: 16px;
+		line-height: 18px;
+	}
 }
 
 .resume-header_contact {
@@ -189,6 +215,10 @@ $global-delimiter: 1px solid rgba(#000, .08);
 .summary {
 	padding: $shift*6 $shift*4;
 	border-bottom: $global-delimiter;
+
+	@media (max-width: $viewport) {
+		padding: $shift*3 $shift*4;
+	}
 }
 
 /* /Summary */
@@ -200,14 +230,28 @@ $global-delimiter: 1px solid rgba(#000, .08);
 .content {
 	display: flex;
 	padding: $shift*6 $shift*4;
+
+	@media (max-width: $viewport) {
+		padding: $shift*3 $shift*4;
+		flex-direction: column;
+	}
 }
 
 .content_left {
 	width: 230px;
+
+	@media (max-width: $viewport) {
+		margin-top: $shift*6;
+		width: auto;
+	}
 }
 
 .content_right {
 	flex: 1;
+
+	@media (max-width: $viewport) {
+		order: -1;
+	}
 }
 
 /* /Content */
