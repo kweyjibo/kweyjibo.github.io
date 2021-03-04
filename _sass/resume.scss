@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: Arial,Helvetica,sans-serif;
-	color: #333;
+	color: #666;
 }
 
 /* Const
@@ -29,6 +29,10 @@ $viewport: 765px;
 	font-weight: bold;
 }
 
+.black {
+	color: #333;
+}
+
 .mt-4x {
 	margin-top: $shift*4;
 }
@@ -45,6 +49,16 @@ $viewport: 765px;
 	max-width: $resume-width;
 	margin-right: auto;
 	margin-left: auto;
+
+	font-size: 16px;
+
+	& p {
+		margin: 0;
+	}
+
+	p + p {
+		margin-top: $shift*2;;
+	}
 }
 
 /* /Common */
@@ -54,43 +68,21 @@ $viewport: 765px;
 -------------------------------------------------- */
 
 .resume-header {
-	display: flex;
-	width: 100%;
-	padding: $shift*6 $shift*4;
+	padding: $shift*6 $shift*4 $shift*2;
 	box-sizing: border-box;
 
 	border-bottom: $global-delimiter;
+	color: #333;
 
 	@media (max-width: $viewport) {
 		padding: $shift*3 $shift*4;
 	}
 }
 
-.resume-header_desc {
-	padding-top: $shift*5;
-	margin-left: $shift*6;
-
-	@media (max-width: $viewport) {
-		margin-left: $shift*3;
-	}
-}
-
-.resume-header_av {
-	overflow: hidden;
-	width: 190px;
-	height: 190px;
-	border-radius: 50%;
-
-	img {
-		display: block;
-		max-width: auto;
-		height: 100%;
-	}
-}
-
 .resume-header_name {
 	font-size: 36px;
 	font-weight: bold;
+	line-height: 36px;;
 
 	@media (max-width: $viewport) {
 		font-size: 26px;
@@ -99,8 +91,11 @@ $viewport: 765px;
 }
 
 .resume-header_position {
-	font-size: 22px;
-	color: #666;
+	padding-top: $shift;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,sans-serif;
+	font-size: 20px;
+	color: #333;
 
 	@media (max-width: $viewport) {
 		font-size: 16px;
@@ -110,10 +105,9 @@ $viewport: 765px;
 
 .resume-header_contact {
 	position: relative;
-	margin-top: $shift;
-
-	font-size: 14px;
+	padding-top: $shift;
 	color: #999;
+	font-family: Helvetica,sans-serif;
 
 	&.__sp {
 		margin-top: $shift*2;
@@ -137,10 +131,12 @@ $viewport: 765px;
 -------------------------------------------------- */
 
 .title {
-	padding-bottom: $shift;
-	font-size: 22px;
+	padding-bottom: $shift*3;
+	font-size: 18px;
 	font-weight: bold;
-	color: #444;
+	color: #333;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,sans-serif;
 }
 
 .title-skills {
@@ -159,7 +155,6 @@ $viewport: 765px;
 -------------------------------------------------- */
 
 .item {
-	padding-top: $shift*2;
 
 	&.__sp {
 		position: relative;
@@ -238,7 +233,7 @@ $viewport: 765px;
 }
 
 .content_left {
-	width: 230px;
+	width: 280px;
 
 	@media (max-width: $viewport) {
 		margin-top: $shift*6;
@@ -251,6 +246,27 @@ $viewport: 765px;
 
 	@media (max-width: $viewport) {
 		order: -1;
+	}
+}
+
+.bullet-list {
+	padding-right: $shift*7;
+	padding-top: $shift;
+}
+
+.bullet-list_i {
+	position: relative;
+	line-height: 22px;
+
+	&:before {
+		content: '•';
+		position: absolute;
+		top: 0;
+		left: -12px;
+	}
+
+	& + & {
+		margin-top: $shift*2;
 	}
 }
 
