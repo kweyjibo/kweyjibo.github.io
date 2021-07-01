@@ -17,7 +17,7 @@ $resume-width: 960px;
 $global-delimiter-color: rgba(#000, .08);
 $global-delimiter: 1px solid rgba(#000, .08);
 
-$viewport: 765px;
+$viewport: 465px;
 
 /* /Const*/
 
@@ -224,7 +224,7 @@ $viewport: 765px;
 
 .content {
 	display: flex;
-	padding: $shift*6 $shift*4;
+	padding: $shift*4 $shift*4;
 
 	@media (max-width: $viewport) {
 		padding: $shift*3 $shift*4;

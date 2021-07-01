@@ -22,7 +22,7 @@ permalink: /:title:output_ext
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kweyjiba
 github_username:  kweyjibo
-date: "2020"
+date: "2021"
 
 # Build settings
 markdown: kramdown
@@ -33,6 +33,9 @@ plugins:
 
 collections:
   travel:
+    output: true
+    permalink: /:collection/:title:output_ext
+  netherlands:
     output: true
     permalink: /:collection/:title:output_ext
 

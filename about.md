@@ -6,12 +6,12 @@ permalink: /about/
 
 Hi!
 
-I'm Alla. I am a front-end engineer with over 12 years of varied experience.
+I'm Alla. I am a Frontend developer with over 12 years of varied experience.
 
 <dl class="about-list">
 
 <dt class="about-list_dt">Location</dt>
-<dd class="about-list_dd">Amstelveen, The Netherlands</dd>
+<dd class="about-list_dd">Amsterdam, The Netherlands</dd>
 
 <dt class="about-list_dt">E-mail:</dt>
 <dd class="about-list_dd"><a href="mailto:kweyjiba12@gmail.com">Ask me</a></dd>

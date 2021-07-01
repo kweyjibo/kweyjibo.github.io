@@ -1,0 +1,63 @@
+/* Common
+-------------------------------------------------- */
+
+.post-bold {
+	color: #000;
+	font-weight: bold;
+}
+
+.post-main {
+	padding-left: 2px;
+	padding-right: 2px;
+
+	border-radius: 2px;
+	color: #fff;
+	background-color: #e89743;
+}
+
+.post-content-center {
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 12px;
+	justify-content: center;
+}
+
+.posts-menu_i {
+	display: block;
+	padding-bottom: 4px;
+}
+
+.posts-menu_lk {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+
+	&:hover {
+		color: #da701d;
+		text-decoration: none;
+	}
+}
+
+.posts-block-right {
+	float: right;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	padding: 16px;
+
+	background-color: #da701d;
+	border-radius: 12px;
+
+	&.__green {
+		background-color: #f2d76b;
+	}
+}
+
+.posts-block-right_i {
+	display: block;
+}
+
+.posts-block-right_lk,
+.posts-block-right_lk:visited {
+	color: #fff;
+}
+
+/* /Common */
