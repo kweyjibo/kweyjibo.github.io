@@ -4,5 +4,6 @@
 
 layout: netherlands
 title: Нидерланды
+comments: true
 permalink: /netherlands/
 ---
