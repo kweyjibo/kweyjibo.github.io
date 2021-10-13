@@ -133,3 +133,32 @@ a:visited { color: #ce6425; }
 		bottom: 12px;
 	}
 }
+
+.post-list_i {
+	position: relative;
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+
+	&::after {
+		content: '';
+		position: absolute;
+
+		bottom: -12px;
+		left: 50%;
+		margin-left: -37px;
+
+		width: 75px;
+		height: 16px;
+
+		background-image: url('../assets/site/sp.png');
+		background-size: 25px 16px;
+	}
+}
+
+.post-meta {
+	padding: 2px 4px;
+	border-radius: 4px;
+
+	color: #999;
+	background-color: #f3eeee;
+}
