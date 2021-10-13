@@ -3,7 +3,9 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}"></a>
+
+    <div class="site-title_tx">{{ site.title | escape }}</div>
 
     <div class="socials">
         {% if site.github_username %}
@@ -13,6 +15,8 @@
           {% include icon-twitter.html %}
         {% endif %}
     </div>
+
+    <div class="site-pic"></div>
   
     {% if page_paths %}
       <nav class="site-nav">

@@ -12,7 +12,11 @@ body { min-height: 1%; height: 100%; }
 	}
 
 a,
-a:visited { color: #da701d; }
+a:visited { color: #ce6425; }
+
+.wrapper {
+	max-width: 100%;
+}
 
 .wrapper-main {
   display: flex;
@@ -22,12 +26,49 @@ a:visited { color: #da701d; }
 .page-content {
   flex: 1;
   flex-shrink: 0;
+	align-self: center;
+	width: 980px;
+
+	@include media-query($on-laptop) {
+		width: 100%;
+	}
+
+	@include media-query($on-palm) {
+		width: 100%;
+	}
 }
 
 .site-header {
+	position: relative;
+	align-self: center;
+
+	width: 980px;
   height: 110px;
-  border-top-color: #612b12;
-  border-bottom-color: #612b12;
+  border-top-color: #cfc8c8;
+  border-bottom-color: transparent;
+
+	@include media-query($on-laptop) {
+		width: 100%;
+	}
+
+	@include media-query($on-palm) {
+		width: 100%;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50px;
+		right: 100px;
+
+		height: 1px;
+		background-color: #f1ece8;
+
+		@include media-query($on-palm) {
+			right: 0;
+		}
+	}
 
 	& .wrapper {
 		position: relative;
@@ -37,42 +78,58 @@ a:visited { color: #da701d; }
 
 .site-title {
 	position: relative;
-	top: 5px;
-	padding-left: 125px;
+	top: 16px;
+	left: 0;
 
-	&:before {
-		content: '';
-		position: absolute;
-		top: -5px;
-		left: 0;
+	width: 110px;
+	height: 110px;
 
-		width: 110px;
-		height: 110px;
+	background-image: url('../assets/site/logo.png');
+	background-size: 110px;
+}
 
-		background-image: url('../assets/site/logo.png');
-		background-size: 110px;
+.site-pic {
+	position: absolute;
+
+	bottom: -146px;
+	right: 0;
+
+	width: 180px;
+	height: 180px;
+
+	background-image: url('../assets/site/bg.png');
+	background-size: 180px;
+
+	@include media-query($on-palm) {
+		display: none;
 	}
 }
 
+.site-title_tx {
+	position: absolute;
+	left: 154px;
+	top: 15px;
+	color: #666;
+}
+
 .site-nav .page-link {
-    color: #666;
+    color: #93B536;
 }
 
 .site-title,
-.site-title:visited { color: #da701d; }
-
-.site-footer {
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-top-color: #612b12;
-}
+.site-title:visited { color: #ce6425; }
 
 .socials {
 	position: absolute;
 	right: 30px;
-	bottom: 16px;
+	top: 46px;
 
 	a:hover {
 		text-decoration: none;
+	}
+
+	@include media-query($on-palm) {
+		top: auto;
+		bottom: 12px;
 	}
 }
