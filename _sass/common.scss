@@ -4,8 +4,6 @@ html {
 	color: #333;
 }
 
-body { min-height: 1%; height: 100%; }
-
 .wrapper-main {
 	min-height: 100%;
 	color: #333;
@@ -153,6 +151,10 @@ a:visited { color: #ce6425; }
 		background-image: url('../assets/site/sp.png');
 		background-size: 25px 16px;
 	}
+}
+
+.post-link {
+	display: inline-block;
 }
 
 .post-meta {

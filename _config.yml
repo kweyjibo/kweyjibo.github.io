@@ -16,7 +16,9 @@
 title: Заметки frontend'ера
 email: kweyjiba12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Web-разработка, путешествия и просто быт
+  Заметки про frontend, жизнь, арт
+robots: index
+keywords: блог, путешествия, разработка, frontend, art, cats
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title:output_ext
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
