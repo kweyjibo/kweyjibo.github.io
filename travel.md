@@ -5,4 +5,5 @@
 layout: travel
 title: Путешествия
 permalink: /travel/
+order: 2
 ---

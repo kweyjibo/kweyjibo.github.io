@@ -2,6 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
+order: 3
 ---
 
 Hi!

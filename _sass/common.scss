@@ -12,6 +12,10 @@ html {
 a,
 a:visited { color: #ce6425; }
 
+h2 {
+	margin-bottom: 0;
+}
+
 .wrapper {
 	max-width: 100%;
 }
@@ -89,8 +93,8 @@ a:visited { color: #ce6425; }
 .site-pic {
 	position: absolute;
 
-	bottom: -146px;
-	right: 0;
+	bottom: -72px;
+	right: 50px;
 
 	width: 180px;
 	height: 180px;
@@ -108,6 +112,13 @@ a:visited { color: #ce6425; }
 	left: 154px;
 	top: 15px;
 	color: #666;
+	cursor: default;
+}
+
+.site-title_o {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	color: #ce6425;
 }
 
 .site-nav .page-link {
@@ -119,48 +130,38 @@ a:visited { color: #ce6425; }
 
 .socials {
 	position: absolute;
-	right: 30px;
+	left: 154px;
 	top: 46px;
 
 	a:hover {
 		text-decoration: none;
 	}
-
-	@include media-query($on-palm) {
-		top: auto;
-		bottom: 12px;
-	}
 }
 
 .post-list_i {
-	position: relative;
-	padding-bottom: 24px;
-	margin-bottom: 24px;
+	margin-bottom: 8px;
+}
 
-	&::after {
-		content: '';
-		position: absolute;
+.post,
+.post-list_i {
+	padding: 16px;
 
-		bottom: -12px;
-		left: 50%;
-		margin-left: -37px;
-
-		width: 75px;
-		height: 16px;
-
-		background-image: url('../assets/site/sp.png');
-		background-size: 25px 16px;
-	}
+	background-color: #f1ece8;
+	border-radius: 16px;
 }
 
 .post-link {
 	display: inline-block;
 }
 
-.post-meta {
-	padding: 2px 4px;
-	border-radius: 4px;
+.post-title {
+	font-size: 36px;
+}
 
-	color: #999;
-	background-color: #f3eeee;
+@media screen and (min-width: $on-laptop) {
+	.trigger {
+		position: absolute;
+			left: 154px;
+			top: 63px;
+	}
 }
