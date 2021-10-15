@@ -64,7 +64,7 @@ h2 {
 		left: 50px;
 		right: 100px;
 
-		height: 1px;
+		height: 2px;
 		background-color: #f1ece8;
 
 		@include media-query($on-palm) {
@@ -110,9 +110,33 @@ h2 {
 .site-title_tx {
 	position: absolute;
 	left: 154px;
-	top: 15px;
-	color: #666;
+	bottom: 8px;
+	padding: 2px 8px;
+
+	color: #999;
 	cursor: default;
+	background-color: #f1ece8;
+	border-radius: 8px;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: 100%;
+
+		width: 2px;
+		height: 8px;
+
+		background-color: #f1ece8;
+	}
+
+	&:before {
+		left: 8px;
+	}
+
+	&:after {
+		right: 8px;
+	}
 }
 
 .site-title_o {
@@ -162,6 +186,6 @@ h2 {
 	.trigger {
 		position: absolute;
 			left: 154px;
-			top: 63px;
+			top: 0;
 	}
 }

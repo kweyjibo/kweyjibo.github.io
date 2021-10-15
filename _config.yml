@@ -37,7 +37,7 @@ collections:
   travel:
     output: true
     permalink: /:collection/:title:output_ext
-  netherlands:
+  etc:
     output: true
     permalink: /:collection/:title:output_ext
 
