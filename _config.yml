@@ -28,9 +28,7 @@ date: "2021"
 
 # Build settings
 markdown: kramdown
-  syntax_highlighter_opts:
-    line_numbers: table
-    horizontal_rules: true
+
 theme: minima
 plugins:
   - jekyll-feed
