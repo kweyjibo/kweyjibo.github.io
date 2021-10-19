@@ -28,7 +28,6 @@ date: "2021"
 
 # Build settings
 markdown: kramdown
-  syntax_highlighter: rouge
   syntax_highlighter_opts:
     line_numbers: table
     horizontal_rules: true
