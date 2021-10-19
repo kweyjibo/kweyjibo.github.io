@@ -145,7 +145,7 @@ h2 {
 	}
 
 	@include media-query($on-palm) {
-		padding: 1px 4px;
+		padding: 2px 4px;
 
 		font-size: 12px;
 		line-height: 14px;
@@ -192,10 +192,18 @@ h2 {
 
 .post-link {
 	display: inline-block;
+
+	@include media-query($on-laptop) {
+		font-size: 20px;
+		line-height: 24px;
+	}
 }
 
 .post-title {
-	font-size: 36px;
+	@include media-query($on-laptop) {
+		font-size: 20px;
+		line-height: 24px;
+	}
 }
 
 .post-meta {
@@ -204,6 +212,10 @@ h2 {
 
 .post-content {
 	margin-bottom: 0;
+}
+
+.post-dsc {
+	line-height: 18px;
 }
 
 pre, code {
