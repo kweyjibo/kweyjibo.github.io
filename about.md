@@ -7,18 +7,15 @@ order: 3
 
 Hi!
 
-I'm Alla. I am a Frontend developer with over 12 years of varied experience.
+I am a frontend developer with over 12 years of varied experience.
 
 <dl class="about-list">
 
 <dt class="about-list_dt">Location</dt>
 <dd class="about-list_dd">Amsterdam, The Netherlands</dd>
 
-<dt class="about-list_dt">E-mail:</dt>
-<dd class="about-list_dd"><a href="mailto:kweyjiba12@gmail.com">Ask me</a></dd>
-
 <dt class="about-list_dt">Position</dt>
-<dd class="about-list_dd">since 2008 <strong>frontend developer</strong></dd>
+<dd class="about-list_dd"><strong>frontend developer</strong> since 2008</dd>
 
 <dt class="about-list_dt">Skills</dt>
 <dd class="about-list_dd">
@@ -29,6 +26,9 @@ I'm Alla. I am a Frontend developer with over 12 years of varied experience.
 — Figma<br>
 — git
 </dd>
+
+<dt class="about-list_dt">E-mail:</dt>
+<dd class="about-list_dd"><a href="mailto:kweyjiba12@gmail.com">Mail me</a></dd>
 
 <dt class="about-list_dt">Hobbies</dt>
 <dd class="about-list_dd">Illustration, photography. My sketches on <a href="https://www.instagram.com/nyanko.dreamer" rel="nofollow" target=_blank>Instagram</a></dd>

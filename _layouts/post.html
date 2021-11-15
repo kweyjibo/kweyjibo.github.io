@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post island" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -25,8 +25,10 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
 </article>
+
+{% if page.comments %}
+  <section class="island">
+    {% include disqus_comments.html %}
+  </section>
+{% endif %}

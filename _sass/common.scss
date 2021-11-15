@@ -1,24 +1,33 @@
+// ------------- common ----------------- //
+
 html {
-	height: 100%;
-	min-height: 100%;
 	color: #333;
 }
 
 body {
+	min-height: 100vh;
+  height: 100%;
+
 	background-image: url('../assets/site/ff.png');
 	background-size: 562px;
 }
 
-.wrapper-main {
-	min-height: 100%;
-	color: #333;
-	}
-
 a,
-a:visited { color: #ce6425; }
+a:visited,
+a:hover,
+a:focus { color: #ce6425; }
 
 h2 {
 	margin-bottom: 0;
+}
+
+// ------------- /common ----------------- //
+
+
+// ------------- site ----------------- //
+
+.wrapper-main {
+	color: #333;
 }
 
 .wrapper {
@@ -30,7 +39,8 @@ h2 {
   flex-direction: column;
 }
 
-.page-content {
+.page-content,
+.site-footer {
   flex: 1;
   flex-shrink: 0;
 	align-self: center;
@@ -45,8 +55,14 @@ h2 {
 	}
 }
 
+.page-content {
+	position: relative;
+	padding-bottom: 0;
+}
+
 .site-header {
 	position: relative;
+	z-index: 1;
 	align-self: center;
 
 	width: 980px;
@@ -115,7 +131,7 @@ h2 {
 .site-title_tx {
 	position: absolute;
 	left: 154px;
-	bottom: 8px;
+	bottom: 12px;
 	padding: 2px 8px;
 
 	font-family: monaco,courier,monospace;
@@ -130,8 +146,8 @@ h2 {
 		position: absolute;
 		top: 100%;
 
-		width: 2px;
-		height: 8px;
+		width: 4px;
+		height: 12px;
 
 		background-color: #f1ece8;
 	}
@@ -169,26 +185,27 @@ h2 {
 .site-title:visited { color: #ce6425; }
 
 .socials {
-	position: absolute;
-	left: 154px;
-	top: 46px;
+	margin-right: 16px;
 
 	a:hover {
 		text-decoration: none;
 	}
 }
 
-.post-list_i {
-	margin-bottom: 8px;
-}
-
-.post,
-.post-list_i {
+.island {
 	padding: 16px;
 
 	background-color: #f1ece8;
 	border-radius: 16px;
+
+	& + & {
+		margin-top: 8px;
+	}
 }
+// ------------- /site ----------------- //
+
+
+// ------------- post' page ----------------- //
 
 .post-link {
 	display: inline-block;
@@ -230,7 +247,6 @@ pre, code {
 	}
 }
 
-
 .post-tegs {
 	padding-top: 4px;
 
@@ -239,8 +255,10 @@ pre, code {
 
 	cursor: default;
 }
+// ------------- /post' page ----------------- //
 
-// ------ 404
+
+// ------------- 404 ----------------- //
 
 .error-page {
 	margin-left: auto;
@@ -260,3 +278,65 @@ pre, code {
 	background-image: url('../assets/site/404.png');
 	background-size: 230px;
 }
+
+// ------------- /404 ----------------- //
+
+
+// ------------- footer ----------------- //
+
+.site-footer {
+	padding: 0;
+	border: 0;
+}
+
+.wrapper.__footer {
+	margin: 8px 30px;
+
+	@include media-query($on-palm) {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+// ------------- /footer ----------------- //
+
+
+// ------------- botton to top ----------------- //
+
+.back-to-top-link_cnt {
+	position: absolute;
+	bottom: 0;
+}
+
+.back-to-top-link {
+  position: fixed;
+	display: none;
+  //position: sticky;
+  pointer-events: all;
+  bottom: 24px;
+
+	padding: 12px;
+	width: 24px;
+  height: 24px;
+
+  font-size: 12px;
+	font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+	outline: none;
+  
+  border-radius: 12%;
+  background-color: #504e4d3a;
+  transition: transform 80ms ease-in;
+}
+.back-to-top-link:hover,
+.back-to-top-link:focus {
+	text-decoration: none;
+  transform: scale(1.1);
+}
+.back-to-top-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #f1ece8;
+}
+
+// ------------- /botton to top ----------------- //
