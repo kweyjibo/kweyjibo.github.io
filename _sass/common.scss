@@ -1,3 +1,5 @@
+$green-color: #93B536;
+
 // ------------- common ----------------- //
 
 html {
@@ -19,6 +21,10 @@ a:focus { color: #ce6425; }
 
 h2 {
 	margin-bottom: 0;
+}
+
+blockquote {
+	border-left-color: #999;
 }
 
 // ------------- /common ----------------- //
@@ -58,6 +64,10 @@ h2 {
 .page-content {
 	position: relative;
 	padding-bottom: 0;
+}
+
+.page-img {
+	padding-bottom: 12px;
 }
 
 .site-header {
@@ -170,7 +180,7 @@ h2 {
 
 .site-title_o {
 	font-size: 18px;
-	color: #ce6425;
+	color: $green-color;
 
 	@include media-query($on-palm) {
 		font-size: 12px;
@@ -178,7 +188,18 @@ h2 {
 }
 
 .site-nav .page-link {
-    color: #93B536;
+	padding: 2px 8px;
+
+	@include media-query($on-palm) {
+		background-color: #f1ece8;
+	}
+  color: #ce6425;
+	border-radius: 12px;
+
+	&:hover {
+		text-decoration: none;
+		background-color: #ece5de;
+	}
 }
 
 .site-title,
@@ -311,7 +332,6 @@ pre, code {
 .back-to-top-link {
   position: fixed;
 	display: none;
-  //position: sticky;
   pointer-events: all;
   bottom: 24px;
 

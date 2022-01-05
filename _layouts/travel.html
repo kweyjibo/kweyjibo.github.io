@@ -19,6 +19,12 @@ layout: default
           {{ post.description | escape }}
         </div>
 
+        {% if post.image %}
+          <div class="post-img">
+            <img src="{{ post.image }}"/>
+          </div>
+        {% endif %}
+
         {% if post.tegs %}
           <div class="post-tegs">
             Теги: {{ post.tegs | escape }}

@@ -22,6 +22,12 @@ layout: default
     </span>
   </header>
 
+  {% if page.image %}
+    <div class="page-img">
+      <img src="{{ page.image }}"/>
+    </div>
+  {% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
