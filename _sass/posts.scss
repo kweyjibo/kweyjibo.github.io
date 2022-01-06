@@ -17,6 +17,12 @@ $green-color: #93B536;
 	background-color: $green-color;
 }
 
+.post-content h2 {
+	@include media-query($on-palm) {
+		line-height: 28px;
+	}
+}
+
 .post-content-center {
 	display: flex;
 	padding-top: 4px;
@@ -44,21 +50,38 @@ $green-color: #93B536;
 	}
 }
 
-.posts-block-right {
+.posts-block-right_cnt {
 	float: right;
-	margin-left: 12px;
+	max-width: 260px;
+
+	@include media-query($on-palm) {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.posts-block-right {
+	display: block;
 	margin-bottom: 12px;
 	padding: 16px;
 	max-width: 260px;
+	box-sizing: border-box;
 
 	background-color: #da701d;
 	border-radius: 12px;
 
 	@include media-query($on-palm) {
-		margin-left: 0;
 		max-width: 100%;
 		width: 100%;
-    box-sizing: border-box;
+	}
+
+	&.__right {
+		float: right;
+		margin-left: 12px;
+
+		@include media-query($on-palm) {
+			margin-left: 0;
+		}
 	}
 
 	&.__yellow {

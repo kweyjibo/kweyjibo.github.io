@@ -10,7 +10,7 @@ comments: true
 
 >Trust, but verify
 
-<span class="posts-block-right __yellow">
+<span class="posts-block-right __right __yellow">
   <span class="posts-menu_i">
     <a href="#site" class="posts-menu_lk">Сайты для поиска</a>
   </span>
@@ -51,7 +51,7 @@ comments: true
 
 ## Сайты для поиска <a name="site"></a>
 
-<span class="posts-block-right">
+<span class="posts-block-right __right">
   <span class="posts-block-right_i">
     <a href="https://www.funda.nl/en/" rel="nofollow" target=_blank class="posts-block-right_lk">funda.nl</a>
   </span>
