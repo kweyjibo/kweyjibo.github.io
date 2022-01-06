@@ -54,6 +54,13 @@ $green-color: #93B536;
 	background-color: #da701d;
 	border-radius: 12px;
 
+	@include media-query($on-palm) {
+		margin-left: 0;
+		max-width: 100%;
+		width: 100%;
+    box-sizing: border-box;
+	}
+
 	&.__yellow {
 		background-color: #f2d76b;
 	}
