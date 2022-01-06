@@ -5,7 +5,6 @@ $green-color: #93B536;
 -------------------------------------------------- */
 
 .post-bold {
-	color: #000;
 	font-weight: bold;
 }
 
@@ -30,6 +29,11 @@ $green-color: #93B536;
 	padding-bottom: 4px;
 }
 
+.posts-menu_bk {
+	display: block;
+	padding-bottom: 8px;
+}
+
 .posts-menu_lk {
 	text-decoration: none;
 	border-bottom: 1px dashed;
@@ -45,12 +49,19 @@ $green-color: #93B536;
 	margin-left: 12px;
 	margin-bottom: 12px;
 	padding: 16px;
+	max-width: 260px;
 
 	background-color: #da701d;
 	border-radius: 12px;
 
-	&.__green {
+	&.__yellow {
 		background-color: #f2d76b;
+	}
+
+	&.__green {
+		line-height: 16px;
+		color: #fff;
+		background-color: #93B536;
 	}
 }
 

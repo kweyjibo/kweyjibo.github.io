@@ -10,7 +10,7 @@ comments: true
 
 >Trust, but verify
 
-<span class="posts-block-right __green">
+<span class="posts-block-right __yellow">
   <span class="posts-menu_i">
     <a href="#site" class="posts-menu_lk">Сайты для поиска</a>
   </span>
