@@ -121,6 +121,29 @@ blockquote {
 	background-size: 110px;
 }
 
+@keyframes site-title-anim {
+	from {background-position: 0 0;}
+	to {background-position: -300px 0;}
+}
+
+.site-title:after {
+	content: '';
+	display: block;
+
+	position: absolute;
+	top: 53px;
+	left: 30px;
+
+	width: 50px;
+	height: 29px;
+
+	background-image: url('../assets/site/logo-a.png');
+	background-size: 300px 100%;
+	background-position: 0 0;
+
+	animation: site-title-anim steps(6) 2s infinite;
+}
+
 .site-pic {
 	position: absolute;
 
@@ -219,7 +242,7 @@ blockquote {
 	padding: 16px;
 
 	background-color: #f1ece8;
-	border-radius: 16px;
+	border-radius: 8px;
 
 	& + & {
 		margin-top: 8px;
@@ -284,22 +307,49 @@ pre, code {
 // ------------- 404 ----------------- //
 
 .error-page {
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
 
-	padding-top: 30px;
-	padding-left: 114px;
+	padding-top: 46px;
+	padding-left: 232px;
 
-	width: 230px;
-	height: 230px;
+	width: 320px;
+	height: 320px;
 
-	color: #999;
+	color: #c5321d;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 21px;
 
 	background-image: url('../assets/site/404.png');
-	background-size: 230px;
+	background-size: 320px;
+}
+
+@keyframes error-page-s-anim {
+	from {background-position: 0 0;}
+	to {background-position: -104px 0;}
+}
+
+.error-page-s {
+	display: block;
+
+	position: absolute;
+	top: 14px;
+	left: 126px;
+
+	width: 52px;
+	height: 39px;
+
+	background-image: url('../assets/site/s.png');
+	background-size: auto 100%;
+	background-position: 0 0;
+
+	animation: error-page-s-anim steps(2) .6s infinite;
+}
+
+.error-page_dsc {
+	text-align: center;
 }
 
 // ------------- /404 ----------------- //

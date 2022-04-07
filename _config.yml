@@ -24,7 +24,7 @@ permalink: /:title:output_ext
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kweyjiba
 github_username:  kweyjibo
-date: "2021"
+date: "2022"
 
 # Build settings
 markdown: kramdown
@@ -43,7 +43,7 @@ collections:
     permalink: /:collection/:title:output_ext
 
 disqus:
-  shortname: ctrl-f5-ru
+  shortname: kweyjibo-ru
     
 # Google Analytics
 google_analytics: UA-165389195-1
