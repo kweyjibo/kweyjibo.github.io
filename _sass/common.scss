@@ -123,7 +123,7 @@ blockquote {
 
 @keyframes site-title-anim {
 	from {background-position: 0 0;}
-	to {background-position: -300px 0;}
+	to {background-position: -450px 0;}
 }
 
 .site-title:after {
@@ -135,13 +135,13 @@ blockquote {
 	left: 30px;
 
 	width: 50px;
-	height: 29px;
+	height: 30px;
 
 	background-image: url('../assets/site/logo-a.png');
-	background-size: 300px 100%;
+	background-size: 450px 100%;
 	background-position: 0 0;
 
-	animation: site-title-anim steps(6) 2s infinite;
+	animation: site-title-anim steps(9) 2.5s infinite;
 }
 
 .site-pic {
