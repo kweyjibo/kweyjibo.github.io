@@ -1,4 +1,5 @@
 $green-color: #93B536;
+$gray-site: #f1ece8;
 
 // ------------- common ----------------- //
 
@@ -96,7 +97,7 @@ blockquote {
 		right: 100px;
 
 		height: 2px;
-		background-color: #f1ece8;
+		background-color: $gray-site;
 
 		@include media-query($on-palm) {
 			right: 0;
@@ -144,6 +145,11 @@ blockquote {
 	animation: site-title-anim steps(9) 2.5s infinite;
 }
 
+@keyframes site-bg-anim {
+	from {background-position: 0 0;}
+	to {background-position: -320px 0;}
+}
+
 .site-pic {
 	position: absolute;
 
@@ -155,6 +161,28 @@ blockquote {
 
 	background-image: url('../assets/site/bg.png');
 	background-size: 180px;
+
+	background-color: $gray-site;
+	border-radius: 50%;
+
+	&:after {
+		content: '';
+		width: 35.5px;
+		height: 59px;
+
+		display: block;
+		position: absolute;
+		top: 10px;
+    left: 75px;
+
+		background-image: url('../assets/site/bg-a.png');
+		background-size: 320px 100%;
+		background-position: 0 0;
+
+		animation-timing-function: ease;
+
+		animation: site-bg-anim steps(9) 1.4s infinite;
+	}
 
 	@include media-query($on-palm) {
 		display: none;
@@ -170,7 +198,7 @@ blockquote {
 	font-family: monaco,courier,monospace;
 	color: #999;
 	cursor: default;
-	background-color: #f1ece8;
+	background-color: $gray-site;
 	border-radius: 8px;
 
 	&:before,
@@ -182,7 +210,7 @@ blockquote {
 		width: 4px;
 		height: 12px;
 
-		background-color: #f1ece8;
+		background-color: $gray-site;
 	}
 
 	&:before {
@@ -212,7 +240,7 @@ blockquote {
 
 .site-nav .page-link {
 	padding: 2px 8px;
-	background-color: #f1ece8;
+	background-color: $gray-site;
 
 	@include media-query($on-palm) {
 		text-align: left;
@@ -241,7 +269,7 @@ blockquote {
 .island {
 	padding: 16px;
 
-	background-color: #f1ece8;
+	background-color: $gray-site;
 	border-radius: 8px;
 
 	& + & {
@@ -408,7 +436,7 @@ pre, code {
 }
 .back-to-top-link:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #f1ece8;
+  box-shadow: 0 0 0 3px $gray-site;
 }
 
 // ------------- /botton to top ----------------- //
