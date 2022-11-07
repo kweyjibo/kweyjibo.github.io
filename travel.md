@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: travel
-title: Путешествия
+title: Travels
 permalink: /travel/
 order: 1
 ---

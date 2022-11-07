@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Заметки frontend-разработчика
+title: Notes of frontend developer
 email: kweyjiba12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Заметки про frontend, жизнь, арт
+  Notes about life, art, cats and frontend
 robots: index
-keywords: блог, путешествия, разработка, frontend, art, cats
+keywords: blog, travels, development, frontend, art, cats
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title:output_ext
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -38,7 +38,7 @@ collections:
   travel:
     output: true
     permalink: /:collection/:title:output_ext
-  etc:
+  life:
     output: true
     permalink: /:collection/:title:output_ext
 
