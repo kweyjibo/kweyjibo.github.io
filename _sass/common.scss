@@ -291,6 +291,8 @@ blockquote {
 }
 
 .post-title {
+	font-size: 32px;
+
 	@include media-query($on-laptop) {
 		font-size: 20px;
 		line-height: 24px;
@@ -306,7 +308,8 @@ blockquote {
 }
 
 .post-dsc {
-	line-height: 18px;
+	color: #666;
+	line-height: 20px;
 }
 
 pre, code {
@@ -424,9 +427,10 @@ pre, code {
   line-height: 24px;
   text-align: center;
 	outline: none;
+	color: #666;
   
   border-radius: 12%;
-  background-color: #504e4d3a;
+  background-color: #b3b2af3b;
   transition: transform 80ms ease-in;
 }
 .back-to-top-link:hover,
