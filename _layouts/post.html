@@ -16,17 +16,11 @@ layout: default
 
       {% if page.tegs %}
         <div class="post-tegs">
-          Теги: {{ page.tegs | escape }}
+          Tegs: {{ page.tegs | escape }}
         </div>
       {% endif %}
     </span>
   </header>
-
-  {% if page.image %}
-    <div class="page-img">
-      <img src="{{ page.image }}"/>
-    </div>
-  {% endif %}
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}

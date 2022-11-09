@@ -18,9 +18,15 @@ layout: default
           {{ post.description | escape }}
         </div>
 
+        {% if post.image %}
+          <div class="post-img">
+            <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}"/></a>
+          </div>
+        {% endif %}
+
         {% if post.tegs %}
           <div class="post-tegs">
-            Теги: {{ post.tegs | escape }}
+            Tegs: {{ post.tegs | escape }}
           </div>
         {% endif %}
       </article>

@@ -11,5 +11,5 @@ tegs: cat
 И это мой кот!
 
 <div class="post-content-center">
-	<img src="/assets/etc/April-24-pix-05.jpg" alt="Pixel" />
+	<img src="/assets/life/April-24-pix-05.jpg" alt="Pixel" />
 </div>

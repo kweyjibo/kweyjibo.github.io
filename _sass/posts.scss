@@ -17,8 +17,25 @@ $green-color: #93B536;
 	background-color: $green-color;
 }
 
+.post-content {
+	margin-bottom: 0;
+
+	& p {
+		margin-bottom: 0;
+	}
+
+	p + p {
+		padding-top: 12px;
+	}
+
+	p + .highlight {
+		margin-top: 12px;
+	}
+}
+
 .post-content h2 {
-	padding-bottom: 4px;
+	padding-top: 12px;
+	padding-bottom: 8px;
 	font-size: 24px;
 
 	@include media-query($on-palm) {
@@ -108,7 +125,7 @@ $green-color: #93B536;
 }
 
 .post-header {
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 }
 
 .post-img {
