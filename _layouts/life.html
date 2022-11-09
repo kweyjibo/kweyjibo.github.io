@@ -5,16 +5,32 @@ layout: default
 <div class="home">
   {{ content }}
   <div class="post-list">
-    {% assign article = site.life | sort: 'date' | reverse %}
-    {% for post in article %}
-      <div class="post-list_i island">
+    {% assign travels = site.life | sort: 'date' | reverse %}
+    {% for post in travels %}
+      <article class="post-list_i island">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-      </div>
+
+        <div class="post-dsc">
+          {{ post.description | escape }}
+        </div>
+
+        {% if post.image %}
+          <div class="post-img">
+            <img src="{{ post.image }}"/>
+          </div>
+        {% endif %}
+
+        {% if post.tegs %}
+          <div class="post-tegs">
+            Теги: {{ post.tegs | escape }}
+          </div>
+        {% endif %}
+      </article>
     {% endfor %}
   </div>
 </div>

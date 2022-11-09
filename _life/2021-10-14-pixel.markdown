@@ -3,6 +3,9 @@ layout: post
 title:  "Мой кот"
 date:   2021-10-14 21:43:55 +0300
 comments: false
+categories: cat
+description: My cat mr. Pixel
+tegs: cat
 ---
 
 И это мой кот!
