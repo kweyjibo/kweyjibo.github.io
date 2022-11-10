@@ -4,7 +4,7 @@ title:  "Update"
 categories: news
 date:   2022-11-09 10:43:55 +0300
 description: Расскажу немного о планах. Хотя, да, время такое. Но помечтать то можно
-image: /assets/posts/update.jpg
+image: /assets/posts/update.svg
 tegs: blog, news
 comments: false
 ---
