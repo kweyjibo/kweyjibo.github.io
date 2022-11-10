@@ -3,7 +3,9 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}"></a>
+    <a class="site-title" href="{{ "/" | relative_url }}">
+      {% include logo.html %}
+    </a>
 
     <div class="site-title_tx">
       Notes of <span class="site-title_o">frontend</span> developer
