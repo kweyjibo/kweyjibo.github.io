@@ -169,14 +169,14 @@ blockquote {
 .site-pic {
 	position: absolute;
 
-	bottom: -72px;
+	bottom: -96px;
 	right: 50px;
 
-	width: 180px;
-	height: 180px;
+	width: 200px;
+	height: 200px;
 
 	background-image: url('../assets/site/bg.png');
-	background-size: 180px;
+	background-size: 190px;
 
 	background-color: $gray-site;
 	border-radius: 50%;
@@ -255,15 +255,15 @@ blockquote {
 }
 
 .site-nav .page-link {
-	padding: 2px 8px;
+	padding: 6px 12px;
 	background-color: $gray-site;
 
 	@include media-query($on-palm) {
 		text-align: left;
 		background-color: transparent;
 	}
-  color: #ce6425;
-	border-radius: 12px;
+  color: #da763a;
+	border-radius: 16px;
 
 	&:hover {
 		text-decoration: none;
