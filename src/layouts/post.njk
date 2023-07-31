@@ -1,0 +1,34 @@
+---
+layout: page.njk
+title: Blog
+---
+
+
+<article class="article">
+
+  <h2 class="article-title">
+    {{ title }}
+  </h2>
+
+  <time class="article-date" datetime="{{ date }}">{{ date | dateShort }}</time>
+
+  <div class="tags __article">
+    <span class="tag_i">
+      {% for tag in tags %}
+        {% if tag != "posts" %}
+          <a href="/tags/{{ tag }}" class="tag_lk">
+            {{ tag }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </span>
+  </div>
+
+  <div class="article-content">
+    {{ content | safe }}
+  </div>
+
+</article>
+
+
+

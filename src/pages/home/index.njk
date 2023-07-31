@@ -1,0 +1,48 @@
+---
+title: Articles
+pagination:
+  data: collections.posts
+  size: 5
+  reverse: true
+permalink: '{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+layout: page.njk
+---
+
+{% for post in pagination.items %}
+
+<article class="article-card">
+
+  <h2 class="article-card_title">
+    <a href="{{ post.url }}" class="article-card_link">
+      {{ post.data.title }}
+    </a>
+  </h2>
+
+  <time class="article-card_date" datetime="{{ post.date }}">{{ post.date | dateShort }}</time>
+  <span class="article-card_read"> &middot; {{ post.content | readTime }} min read</span>
+    
+  <div class="article-card_desc">{{ post.data.dsc }}</div>
+
+  {% if post.data.image %}
+    <div class="article-card_cover">
+      <img src="{{ post.data.image }}" alt="{{ post.data.title }}" width="{{ post.data.imageProp }}" />
+    </div>
+  {% endif %}
+  
+  <div class="tags __top">
+    <span class="tag_i">
+      {% for tag in post.data.tags %}
+        {% if tag != "posts" %}
+          <a href="/tags/{{ tag }}" class="tag_lk">
+            {{ tag }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </span>
+  </div>
+
+</article>
+
+{% endfor %}
+
+{% include "paginator.njk" %}

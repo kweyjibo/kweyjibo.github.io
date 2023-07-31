@@ -1,0 +1,18 @@
+---
+layout: page.njk
+title: Tags
+permalink: tags/index.html
+eleventyNavigation:
+  key: Tags
+  order: 1
+---
+
+<div class="tags-page">
+  {% for tag in collections.tagList %}
+    <span class="tags-page_i">
+      <a href="/tags/{{ tag }}" class="tag_lk">
+          {{ tag }}
+      </a>
+    </span>
+  {% endfor %}
+</div>

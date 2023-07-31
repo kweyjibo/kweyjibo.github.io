@@ -1,0 +1,55 @@
+{% if pagination.hrefs.length > 1 %}
+	<nav class="pagination" aria-label="Articles">
+		{% if pagination.href.previous %}
+			<span>
+				<a
+				class="pagination-link"
+				href="{{ pagination.href.previous }}"
+				aria-label="Previous page"
+				rel="prev"
+			>
+				<
+			</a>
+			</span>
+		{% endif %}
+		<ul class="pagination-list">
+			{% for pageEntry in pagination.pages %}
+				{% set href = pagination.hrefs[loop.index0] %}
+				{% set current = 'aria-current="page"' if page.url == href else '' %}
+				<li class="pagination-number">
+					{% if page.url == pagination.hrefs[ loop.index0 ] %}
+						<span
+							class="pagination-link __active"
+							aria-label="Page {{ loop.index }}"
+							{{ current | safe }}
+						>
+							{{ loop.index }}
+						</span>
+					{% endif %}
+					{% if page.url != pagination.hrefs[ loop.index0 ] %}
+						<a
+							class="pagination-link"
+							href="{{ pagination.hrefs[loop.index0] }}"
+							aria-label="Page {{ loop.index }}"
+							{{ current | safe }}
+						>
+							{{ loop.index }}
+						</a>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+		{% if pagination.href.next %}
+			<span>
+				<a
+				class="pagination-link"
+				href="{{ pagination.href.next }}"
+				aria-label="Next page"
+				rel="next"
+			>
+				>
+			</a>
+		</span>
+		{% endif %}
+	</ul>
+{% endif %}

@@ -1,0 +1,35 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "css": "stylelint \"src/styles/**/*.css\"",
+    "build": "npx @11ty/eleventy",
+    "sass-dev": "sass --watch --update --style=expanded src/assets/styles/scss/style.scss:src/assets/styles/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "eslint": "^8.23.1",
+    "sass": "^1.63.6",
+    "stylelint": "^15.1.0",
+    "js-yaml": "^4.1.0",
+    "remove-markdown": "^0.5.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1"
+  }
+}
