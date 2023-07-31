@@ -11,7 +11,8 @@
     "lint:fix": "eslint . --fix",
     "css": "stylelint \"src/styles/**/*.css\"",
     "build": "npx @11ty/eleventy",
-    "sass-dev": "sass --watch --update --style=expanded src/assets/styles/scss/style.scss:src/assets/styles/style.css"
+    "sass-dev": "sass --watch --update --style=expanded src/assets/styles/scss/style.scss:src/assets/styles/style.css",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -22,10 +23,11 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "eslint": "^8.23.1",
-    "sass": "^1.63.6",
-    "stylelint": "^15.1.0",
+    "gh-pages": "^5.0.0",
     "js-yaml": "^4.1.0",
-    "remove-markdown": "^0.5.0"
+    "remove-markdown": "^0.5.0",
+    "sass": "^1.63.6",
+    "stylelint": "^15.1.0"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
