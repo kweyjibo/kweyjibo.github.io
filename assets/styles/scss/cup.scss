@@ -1,0 +1,45 @@
+@import "vars";
+@import "mixins";
+
+// Cup of coffee
+
+@keyframes cup-anim {
+	from {background-position: 0 0;}
+	to {background-position: -320px 0;}
+}
+
+.cup-pic {
+	position: absolute;
+
+	bottom: -59px;
+	right: 50px;
+
+	width: 200px;
+	height: 200px;
+
+	background-image: url('/assets/img/bg.png');
+	background-size: 190px;
+
+	&:after {
+		content: '';
+		width: 35.5px;
+		height: 59px;
+
+		display: block;
+		position: absolute;
+		top: 10px;
+    left: 75px;
+
+		background-image: url('/assets/img/bg-a.png');
+		background-size: 320px 100%;
+		background-position: 0 0;
+
+		animation-timing-function: ease;
+
+		animation: cup-anim steps(9) 1.4s infinite;
+	}
+
+	@include media-query($on-palm) {
+		display: none;
+	}
+}

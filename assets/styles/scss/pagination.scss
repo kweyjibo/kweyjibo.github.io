@@ -1,0 +1,41 @@
+@import "vars";
+@import "mixins";
+
+.pagination,
+.pagination-list {
+  display: flex;
+  column-gap: $shift*2;
+}
+
+.pagination {
+  padding-top: $shift*5;
+}
+
+.pagination-number {
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-list {
+  list-style: none;
+  align-items: flex-start;
+}
+
+.pagination-link {
+  padding: 6px 12px;
+  background-color: $navigation-gray;
+
+  color: $brown;
+  border-radius: 8px;
+  text-decoration: none;
+
+  &:hover,
+  &.__active {
+    background-color: $green-color;
+    color: #fff;
+  }
+
+  &.__active {
+    cursor: default;
+  }
+}
