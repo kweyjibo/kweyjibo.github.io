@@ -54,6 +54,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/assets')
   eleventyConfig.addPassthroughCopy('src/manifest.json')
+  eleventyConfig.addPassthroughCopy('CNAME')
 
 
   // To create a filter to determine duration of post
