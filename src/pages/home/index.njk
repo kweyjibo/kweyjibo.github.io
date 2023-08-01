@@ -5,6 +5,9 @@ pagination:
   size: 5
   reverse: true
 permalink: '{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+eleventyNavigation:
+  key: Home
+  order: 1
 layout: page.njk
 ---
 
