@@ -33,7 +33,7 @@
   color: $brown;
 
   &:hover {
-    background-color: rgba($green-color, .5);
+    background-color: $green-color;
     border-color: $green-color;
     color: #fff;
   }
