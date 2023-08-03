@@ -35,6 +35,12 @@
   text-align: center;
 
   img, svg { display: inline-block; }
+
+  @include media-query($on-palm) {
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 .article-card_desc {

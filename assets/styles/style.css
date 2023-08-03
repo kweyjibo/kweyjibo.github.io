@@ -416,6 +416,11 @@ body {
 .article-card_cover img, .article-card_cover svg {
   display: inline-block;
 }
+@media screen and (max-width: 600px) {
+  .article-card_cover img {
+    max-width: 100%;
+  }
+}
 
 .article-card_desc {
   padding-top: 12px;
@@ -883,10 +888,10 @@ code[class*=language-] {
 }
 .cup-pic {
   position: absolute;
-  bottom: -59px;
+  bottom: -48px;
   right: 50px;
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   background-image: url("/assets/img/bg.png");
   background-size: 190px;
 }
