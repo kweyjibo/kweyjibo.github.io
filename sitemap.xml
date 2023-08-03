@@ -84,4 +84,10 @@
             <changefreq></changefreq>
         </url>
     
+        <url>
+            <loc>/posts/moved-to-eleventy/</loc>
+            <lastmod>Thu Aug 03 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
 </urlset>

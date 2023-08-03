@@ -410,6 +410,7 @@ body {
 }
 
 .article-card_cover {
+  padding-top: 12px;
   text-align: center;
 }
 .article-card_cover img, .article-card_cover svg {
@@ -438,6 +439,9 @@ body {
 .article-content {
   padding-top: 16px;
 }
+.article-content a {
+  color: #ce6425;
+}
 .article-content p {
   line-height: 1.5;
 }
@@ -461,6 +465,14 @@ body {
 }
 .article-content li:not(:first-child) {
   padding-top: 8px;
+}
+
+.article-img {
+  display: block;
+  text-align: center;
+}
+.article-img.__top {
+  padding-top: 12px;
 }
 
 blockquote {
