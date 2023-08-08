@@ -149,6 +149,7 @@ body {
   .header-title_tx {
     padding: 4px 8px;
     left: 138px;
+    z-index: 2;
     font-size: 12px;
     line-height: 14px;
   }
@@ -237,6 +238,10 @@ body {
   display: block;
 }
 
+.footer-social_link:not(:first-child) {
+  margin-left: 8px;
+}
+
 .social {
   color: #C9C0BB;
   fill: #C9C0BB;
@@ -281,6 +286,7 @@ body {
 .footer-aboutme_ic {
   display: inline-block;
   transform: translate(0, 2px);
+  margin-right: 8px;
 }
 
 .footer-aboutme_svg {
@@ -306,7 +312,7 @@ body {
     border: 1px solid #f1ece8;
     border-radius: 4px;
     text-align: left;
-    z-index: 2;
+    z-index: 4;
   }
   .navigation-cnt label[for=navigation-trigger] {
     display: block;
@@ -565,7 +571,14 @@ blockquote {
 }
 
 .tags-page {
+  flex-flow: wrap;
   padding-top: 20px;
+}
+
+.tags,
+.tags-page {
+  display: flex;
+  column-gap: 8px;
 }
 
 .tags-page_i {
@@ -615,19 +628,41 @@ blockquote {
   align-items: flex-start;
 }
 
-.pagination-link {
-  padding: 6px 12px;
+.pagination-link,
+.pagination-link_btn {
+  display: block;
   background-color: #f1ece8;
   color: #C9C0BB;
   border-radius: 8px;
   text-decoration: none;
 }
-.pagination-link:hover, .pagination-link.__active {
+.pagination-link:hover, .pagination-link.__active,
+.pagination-link_btn:hover,
+.pagination-link_btn.__active {
   background-color: #93b536;
   color: #fff;
 }
-.pagination-link.__active {
+.pagination-link.__active,
+.pagination-link_btn.__active {
   cursor: default;
+}
+
+.pagination-link {
+  padding: 6px 12px;
+}
+
+.pagination-link_btn {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.pagination-link_svg {
+  stroke: #C9C0BB;
+}
+.pagination-link_btn:hover .pagination-link_svg {
+  stroke: #fff;
 }
 
 .about_cnt {

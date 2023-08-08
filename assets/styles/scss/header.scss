@@ -80,6 +80,7 @@
 	@include media-query($on-palm) {
 		padding: 4px 8px;
 		left: 138px;
+		z-index: 2;
 
 		font-size: 12px;
 		line-height: 14px;
