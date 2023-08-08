@@ -21,8 +21,9 @@
   align-items: flex-start;
 }
 
-.pagination-link {
-  padding: 6px 12px;
+.pagination-link,
+.pagination-link_btn {
+  display: block;
   background-color: $navigation-gray;
 
   color: $brown;
@@ -38,4 +39,24 @@
   &.__active {
     cursor: default;
   }
+}
+
+.pagination-link {
+  padding: 6px 12px;
+}
+
+.pagination-link_btn {
+  display: flex;
+  align-items: center;
+
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.pagination-link_svg {
+  stroke: $brown;
+
+  .pagination-link_btn:hover & {
+    stroke: #fff;
+    }
 }

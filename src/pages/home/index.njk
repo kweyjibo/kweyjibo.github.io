@@ -33,15 +33,17 @@ layout: page.njk
   {% endif %}
   
   <div class="tags __top">
-    <span class="tag_i">
+    
       {% for tag in post.data.tags %}
         {% if tag != "posts" %}
-          <a href="/tags/{{ tag }}" class="tag_lk">
-            {{ tag }}
-          </a>
+          <span class="tag_i">
+            <a href="/tags/{{ tag }}" class="tag_lk">
+              {{ tag }}
+            </a>
+          </span>
         {% endif %}
       {% endfor %}
-    </span>
+    
   </div>
 
 </article>

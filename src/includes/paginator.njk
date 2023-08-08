@@ -1,16 +1,17 @@
 {% if pagination.hrefs.length > 1 %}
 	<nav class="pagination" aria-label="Articles">
 		{% if pagination.href.previous %}
-			<span>
+			
 				<a
-				class="pagination-link"
+				class="pagination-link_btn"
 				href="{{ pagination.href.previous }}"
 				aria-label="Previous page"
-				rel="prev"
-			>
-				<
+				rel="prev">
+					<svg class="pagination-link_svg" width="24" height="24" aria-hidden="true">
+						<use href="/assets/img/chevron-left.svg#prev"/>
+					</svg>
 			</a>
-			</span>
+			
 		{% endif %}
 		<ul class="pagination-list">
 			{% for pageEntry in pagination.pages %}
@@ -40,16 +41,18 @@
 			{% endfor %}
 		</ul>
 		{% if pagination.href.next %}
-			<span>
+			
 				<a
-				class="pagination-link"
+				class="pagination-link_btn"
 				href="{{ pagination.href.next }}"
 				aria-label="Next page"
 				rel="next"
 			>
-				>
+				<svg class="pagination-link_svg" width="24" height="24" aria-hidden="true">
+					<use href="/assets/img/chevron-right.svg#next"/>
+				</svg>
 			</a>
-		</span>
+		
 		{% endif %}
 	</ul>
 {% endif %}

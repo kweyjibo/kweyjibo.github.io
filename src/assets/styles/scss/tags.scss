@@ -2,7 +2,14 @@
 @import "mixins";
 
 .tags-page {
+  flex-flow: wrap;
   padding-top: $shift*5;
+}
+
+.tags,
+.tags-page {
+  display: flex;
+  column-gap: 8px;
 }
 
 .tags-page_i {

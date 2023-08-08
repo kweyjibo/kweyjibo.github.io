@@ -71,25 +71,24 @@ sudo gedit /etc/apache2/sites-available/symfony.me
 Откроется пустой файл. Можете скопировать в него полностью содержимое файла `/etc/apache2/sites-available/default` (отрыть для чтения его можно просто двойным кликом, зайдя в эту папку):
 
 ```terminal
-<VirtualHost *:80>
-	ServerAdmin webmaster@symfony.me
-        ServerName symfony.me
-	DocumentRoot /home/user/website/symfony
-        
-	<Directory />
-		Options FollowSymLinks
-		AllowOverride None
-	</Directory>
-	<Directory /home/user/website/symfony>
-		Options Indexes FollowSymLinks MultiViews
-		AllowOverride All
-		Order allow,deny
-		allow from all
-	</Directory>
-	ErrorLog /var/log/apache2/error.log
-	LogLevel debug
-	CustomLog /var/log/apache2/access.log combined
-</VirtualHost>
+	&ltVirtualHost *:80&gt
+		ServerAdmin webmaster@symfony.me
+					ServerName symfony.me
+		DocumentRoot /home/user/website/symfony
+		&ltDirectory&gt
+			Options FollowSymLinks
+			AllowOverride None
+		&lt/Directory&gt
+		&ltDirectory /home/user/website/symfony>
+			Options Indexes FollowSymLinks MultiViews
+			AllowOverride All
+			Order allow,deny
+			allow from all
+		&lt/Directory&gt
+		ErrorLog /var/log/apache2/error.log
+		LogLevel debug
+		CustomLog /var/log/apache2/access.log combined
+	&lt/VirtualHost&gt
 ```
 
 Внесем некоторые изменения: отредактируйте `ServerName`:

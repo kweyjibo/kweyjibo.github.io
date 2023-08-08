@@ -25,24 +25,16 @@
 
     <link href="/assets/styles/prism.css" rel="stylesheet" />
     <link href="/assets/styles/style.css" rel="stylesheet" />
-    <link rel="preload" href="/assets/fonts/FiraCode-Regular.woff2" crossorigin="" as="font" type="font/woff2">
-    <link rel="preload" href="/assets/fonts/FiraCode-SemiBold.woff2" crossorigin="" as="font" type="font/woff2">
+    <link rel="preload" href="/assets/fonts/FiraCode-Regular.woff2" crossorigin as="font" type="font/woff2">
+    <link rel="preload" href="/assets/fonts/FiraCode-SemiBold.woff2" crossorigin as="font" type="font/woff2">
 
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon/favicon.svg">
     <link rel="apple-touch-icon" href="/assets/img/favicon/180.png">
     <link rel="manifest" href="/manifest.json" />
-    
-    <script>
-      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      if (isDarkMode()) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    </script>
   </head>
 
-  <body class="dark:text-white dark:bg-black">
+  <body>
+
     {% include 'header.njk' %}
 
     <main class="main flex">
@@ -52,17 +44,6 @@
     </main>
 
     {% include 'footer.njk' %}
-    
-  <script>
-    document.getElementById("toggleDarkMode").addEventListener("click", function() {
-      if (isDarkMode()) {
-        localStorage.theme = 'light'
-        document.documentElement.classList.remove('dark')
-      } else {
-        localStorage.theme = 'dark'
-        document.documentElement.classList.add('dark')
-      }
-    });
-  </script>
+  
   </body>
 </html>
