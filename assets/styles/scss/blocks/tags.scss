@@ -1,5 +1,5 @@
-@import "vars";
-@import "mixins";
+@import "../vars";
+@import "../mixins";
 
 .tags-page {
   flex-flow: wrap;
@@ -21,10 +21,6 @@
 
   &.__top {
     padding-top: $shift*3;
-  }
-
-  &.__article {
-    padding-top: $shift*2;
   }
 }
 

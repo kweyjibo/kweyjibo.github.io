@@ -4,17 +4,20 @@
 
 
 // Sections
-@import "header";
-@import "footer";
-@import "navigation";
-@import "articles";
-@import "tags";
-@import "pagination";
+@import "sections/header";
+@import "sections/footer";
+
+
+// Blocks
+@import "blocks/navigation";
+@import "blocks/tags";
+@import "blocks/pagination";
 
 
 // Page
-@import "about";
-@import "404";
+@import "pages/articles";
+@import "pages/about";
+@import "pages/404";
 
 
 // syntaxhighlight
@@ -22,6 +25,6 @@
 
 
 // Decorations
-@import "decor";
-@import "cup";
+@import "decor/decor";
+@import "decor/cup";
 

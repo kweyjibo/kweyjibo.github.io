@@ -1,5 +1,5 @@
- @import "vars";
- @import "mixins";
+@import "../vars";
+@import "../mixins";
 
  .error-page {
 	position: relative;
@@ -10,15 +10,15 @@
 	padding-top: 46px;
 	padding-left: 232px;
 
-	width: 320px;
-	height: 320px;
+	width: 360px;
+	height: 360px;
 
 	color: #c5321d;
 	font-weight: bold;
 	font-size: 21px;
 
 	background-image: url('/assets/img/404.png');
-	background-size: 320px;
+	background-size: 360px;
 }
 
 @keyframes error-page-s-anim {
@@ -30,8 +30,8 @@
 	display: block;
 
 	position: absolute;
-	top: 14px;
-	left: 126px;
+	top: 37px;
+	left: 148px;
 
 	width: 52px;
 	height: 39px;
@@ -45,4 +45,9 @@
 
 .error-page_dsc {
 	text-align: center;
+}
+
+.error-page_t {
+	padding-bottom: 12px;
+	font-weight: 700;
 }
