@@ -149,6 +149,7 @@ body {
   .header-title_tx {
     padding: 4px 8px;
     left: 138px;
+    right: 12px;
     z-index: 2;
     font-size: 12px;
     line-height: 14px;
@@ -386,6 +387,98 @@ body {
     cursor: default;
   }
 }
+.tags-page {
+  flex-flow: wrap;
+  padding-top: 20px;
+}
+
+.tags,
+.tags-page {
+  display: flex;
+  column-gap: 8px;
+}
+
+.tags-page_i {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.tags.__top {
+  padding-top: 12px;
+}
+
+.tag_lk {
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid #C9C0BB;
+  border-radius: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #C9C0BB;
+}
+.tag_lk:hover {
+  background-color: #93b536;
+  border-color: #93b536;
+  color: #fff;
+}
+
+.pagination,
+.pagination-list {
+  display: flex;
+  column-gap: 8px;
+}
+
+.pagination {
+  padding-top: 20px;
+}
+
+.pagination-number {
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-list {
+  list-style: none;
+  align-items: flex-start;
+}
+
+.pagination-link,
+.pagination-link_btn {
+  display: block;
+  background-color: #f1ece8;
+  color: #C9C0BB;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.pagination-link:hover, .pagination-link.__active,
+.pagination-link_btn:hover,
+.pagination-link_btn.__active {
+  background-color: #93b536;
+  color: #fff;
+}
+.pagination-link.__active,
+.pagination-link_btn.__active {
+  cursor: default;
+}
+
+.pagination-link {
+  padding: 6px 12px;
+}
+
+.pagination-link_btn {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.pagination-link_svg {
+  stroke: #C9C0BB;
+}
+.pagination-link_btn:hover .pagination-link_svg {
+  stroke: #fff;
+}
+
 .article-card,
 .article {
   padding: 16px;
@@ -444,6 +537,8 @@ body {
 }
 
 .article-date {
+  display: inline-block;
+  margin-bottom: 8px;
   color: #828282;
 }
 
@@ -570,101 +665,6 @@ blockquote {
   font-weight: 600;
 }
 
-.tags-page {
-  flex-flow: wrap;
-  padding-top: 20px;
-}
-
-.tags,
-.tags-page {
-  display: flex;
-  column-gap: 8px;
-}
-
-.tags-page_i {
-  display: inline-block;
-  margin-bottom: 8px;
-}
-
-.tags.__top {
-  padding-top: 12px;
-}
-.tags.__article {
-  padding-top: 8px;
-}
-
-.tag_lk {
-  display: inline-block;
-  padding: 4px;
-  border: 1px solid #C9C0BB;
-  border-radius: 8px;
-  font-size: 12px;
-  text-decoration: none;
-  color: #C9C0BB;
-}
-.tag_lk:hover {
-  background-color: #93b536;
-  border-color: #93b536;
-  color: #fff;
-}
-
-.pagination,
-.pagination-list {
-  display: flex;
-  column-gap: 8px;
-}
-
-.pagination {
-  padding-top: 20px;
-}
-
-.pagination-number {
-  padding: 0;
-  margin: 0;
-}
-
-.pagination-list {
-  list-style: none;
-  align-items: flex-start;
-}
-
-.pagination-link,
-.pagination-link_btn {
-  display: block;
-  background-color: #f1ece8;
-  color: #C9C0BB;
-  border-radius: 8px;
-  text-decoration: none;
-}
-.pagination-link:hover, .pagination-link.__active,
-.pagination-link_btn:hover,
-.pagination-link_btn.__active {
-  background-color: #93b536;
-  color: #fff;
-}
-.pagination-link.__active,
-.pagination-link_btn.__active {
-  cursor: default;
-}
-
-.pagination-link {
-  padding: 6px 12px;
-}
-
-.pagination-link_btn {
-  display: flex;
-  align-items: center;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-.pagination-link_svg {
-  stroke: #C9C0BB;
-}
-.pagination-link_btn:hover .pagination-link_svg {
-  stroke: #fff;
-}
-
 .about_cnt {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -761,13 +761,13 @@ blockquote {
   box-sizing: border-box;
   padding-top: 46px;
   padding-left: 232px;
-  width: 320px;
-  height: 320px;
+  width: 360px;
+  height: 360px;
   color: #c5321d;
   font-weight: bold;
   font-size: 21px;
   background-image: url("/assets/img/404.png");
-  background-size: 320px;
+  background-size: 360px;
 }
 
 @keyframes error-page-s-anim {
@@ -781,8 +781,8 @@ blockquote {
 .error-page-s {
   display: block;
   position: absolute;
-  top: 14px;
-  left: 126px;
+  top: 37px;
+  left: 148px;
   width: 52px;
   height: 39px;
   background-image: url("/assets/img/s.png");
@@ -793,6 +793,11 @@ blockquote {
 
 .error-page_dsc {
   text-align: center;
+}
+
+.error-page_t {
+  padding-bottom: 12px;
+  font-weight: 700;
 }
 
 pre {

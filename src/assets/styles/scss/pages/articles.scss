@@ -1,5 +1,5 @@
-@import "vars";
-@import "mixins";
+@import "../vars";
+@import "../mixins";
 
 .article-card,
 .article {
@@ -62,6 +62,8 @@
 }
 
 .article-date {
+  display: inline-block;
+  margin-bottom: $shift*2;
   color: $article-date;
 }
 
