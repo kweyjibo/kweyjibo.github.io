@@ -1,0 +1,13 @@
+@import "../vars";
+@import "../mixins";
+
+// Tags
+
+.tags-pic_cnt {
+	transform: translate(0, 20px);
+	text-align: right;
+}
+
+.tags-pic {
+	display: inline-block;
+}
