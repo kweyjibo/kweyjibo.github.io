@@ -90,4 +90,10 @@
             <changefreq></changefreq>
         </url>
     
+        <url>
+            <loc>/posts/health-care/</loc>
+            <lastmod>Mon Aug 21 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
 </urlset>
