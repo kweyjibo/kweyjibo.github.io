@@ -18,6 +18,16 @@
   color: $article-date;
 }
 
+.article-card_read {
+  position: relative;
+
+  &:before {
+    content: "\2022";
+
+    margin-right: 8px;
+  }
+}
+
 .article-card_title {
 	padding-bottom: 8px;
 	font-size: 22px;
@@ -45,6 +55,7 @@
 
 .article-card_desc {
   padding-top: $shift*3;
+  line-height: 1.6;
 }
 
 // Article
