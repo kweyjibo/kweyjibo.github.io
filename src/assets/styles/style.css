@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -496,6 +497,14 @@ body {
   color: #828282;
 }
 
+.article-card_read {
+  position: relative;
+}
+.article-card_read:before {
+  content: "•";
+  margin-right: 8px;
+}
+
 .article-card_title {
   padding-bottom: 8px;
   font-size: 22px;
@@ -523,6 +532,7 @@ body {
 
 .article-card_desc {
   padding-top: 12px;
+  line-height: 1.6;
 }
 
 .article {

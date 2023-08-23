@@ -22,7 +22,7 @@ layout: page.njk
   </h2>
 
   <time class="article-card_date" datetime="{{ post.date }}">{{ post.date | dateShort }}</time>
-  <span class="article-card_read"> &middot; {{ post.content | readTime }} min read</span>
+  <span class="article-card_read">{{ post.content | readTime }} min read</span>
     
   <div class="article-card_desc">{{ post.data.dsc }}</div>
 
