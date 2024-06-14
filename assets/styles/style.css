@@ -521,7 +521,8 @@ body {
   padding-top: 12px;
   text-align: center;
 }
-.article-card_cover img, .article-card_cover svg {
+.article-card_cover img,
+.article-card_cover svg {
   display: inline-block;
 }
 @media screen and (max-width: 600px) {
@@ -564,13 +565,14 @@ body {
   color: #ce6425;
 }
 .article-content p {
-  line-height: 1.6;
+  line-height: 1.4;
 }
 .article-content p:not(:first-child) {
   padding-top: 20px;
 }
-.article-content h1, .article-content h2 {
-  padding-top: 28px;
+.article-content h1,
+.article-content h2 {
+  padding-top: 36px;
   font-weight: normal;
   font-family: var(--font-family-medium);
 }
