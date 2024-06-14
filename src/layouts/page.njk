@@ -1,40 +1,49 @@
-{% set title =
-	global.title if
-	page.url == '/' else
-	title + (', page ' + (pagination.pageNumber + 1) if pagination.next or pagination.previous else '') + ' — ' + global.title %}
-
-{% set desc = desc if
-	desc else
-	global.description
-%}
+{% set title = global.title if page.url == '/' else title + (', page ' +
+(pagination.pageNumber + 1) if pagination.next or pagination.previous else '') +
+' — ' + global.title %} {% set desc = desc if desc else global.description %}
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{{ title }}</title>
-    <meta name='description' content={{ global.description }}>
-    <meta name="theme-color" content="#ffffff"/>
+    <meta name="description" content="{{ global.description }}" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <meta property="og:type" content="website">
-	  <meta property="og:title" content="{{ title }}">
-	  <meta property="og:description" content="{{ desc | markdownRemove }}">
-	  <meta property="og:url" content="{{ (global.domain + page.url) }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ desc | markdownRemove }}" />
+    <meta property="og:url" content="{{ global.domain + page.url }}" />
 
     <link href="/assets/styles/prism.css" rel="stylesheet" />
     <link href="/assets/styles/style.css" rel="stylesheet" />
-    <link rel="preload" href="/assets/fonts/FiraCode-Regular.woff2" crossorigin as="font" type="font/woff2">
-    <link rel="preload" href="/assets/fonts/FiraCode-SemiBold.woff2" crossorigin as="font" type="font/woff2">
+    <link
+      rel="preload"
+      href="/assets/fonts/FiraCode-Regular.woff2"
+      crossorigin
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/FiraCode-SemiBold.woff2"
+      crossorigin
+      as="font"
+      type="font/woff2"
+    />
 
-    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon/favicon.svg">
-    <link rel="apple-touch-icon" href="/assets/img/favicon/180.png">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/img/favicon/favicon.svg"
+    />
+    <link rel="apple-touch-icon" href="/assets/img/favicon/180.png" />
     <link rel="manifest" href="/manifest.json" />
   </head>
 
   <body>
-
     {% include 'header.njk' %}
 
     <main class="main flex">
@@ -44,6 +53,5 @@
     </main>
 
     {% include 'footer.njk' %}
-  
   </body>
 </html>
