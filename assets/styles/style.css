@@ -738,7 +738,7 @@ blockquote {
 
 .about-me_img {
   display: block;
-  width: 300px;
+  width: 250px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -920,8 +920,8 @@ code[class*=language-] {
   background-size: 10px;
 }
 .decor-dots.__me:before {
-  left: -50px;
-  bottom: -40px;
+  left: 0;
+  bottom: -12px;
   width: 100px;
   height: 100px;
 }

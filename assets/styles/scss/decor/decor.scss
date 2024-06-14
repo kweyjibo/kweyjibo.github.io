@@ -12,12 +12,12 @@
 
   &:before,
   &:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
 
     border: 4px solid $gray;
-    border-radius: $shift*5;
+    border-radius: $shift * 5;
   }
 
   &:before {
@@ -54,7 +54,7 @@
 
   &:before,
   &:after {
-    content: '';
+    content: "";
     position: absolute;
 
     background-image: url(/assets/img/bg-dot.png);
@@ -62,8 +62,8 @@
   }
 
   &.__me:before {
-    left: -50px;
-    bottom: -40px;
+    left: 0;
+    bottom: -12px;
 
     width: 100px;
     height: 100px;

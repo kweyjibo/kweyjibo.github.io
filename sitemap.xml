@@ -43,44 +43,8 @@
         </url>
     
         <url>
-            <loc>/404.html</loc>
-            <lastmod>Tue Jan 17 2023 10:11:08 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/about/</loc>
-            <lastmod>Tue Jan 17 2023 10:11:08 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/resume/</loc>
-            <lastmod>Tue Jan 17 2023 10:11:08 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/tags/</loc>
-            <lastmod>Tue Jan 17 2023 10:11:08 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/tags/all/</loc>
-            <lastmod>Tue Jan 17 2023 10:11:08 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/netherlands-hausing/</loc>
             <lastmod>Wed Mar 29 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/</loc>
-            <lastmod>Sun Jul 23 2023 13:47:36 GMT+0200 (Central European Summer Time)</lastmod>
             <changefreq></changefreq>
         </url>
     
@@ -99,6 +63,42 @@
         <url>
             <loc>/posts/state-of-css/</loc>
             <lastmod>Sun Nov 26 2023 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/404.html</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/about/</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/resume/</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/tags/</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
+        <url>
+            <loc>/tags/all/</loc>
+            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
             <changefreq></changefreq>
         </url>
     
