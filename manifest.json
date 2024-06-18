@@ -1,16 +1,16 @@
 {
   "name": "{{ global.title }}",
   "description": "{{ global.description }}",
-	"lang": "{{ global.language }}",
+  "lang": "{{ global.language }}",
   "icons": [
     {
-      "src": "/assets/img/favicon/512.png",
-      "sizes": "512x512",
+      "src": "/assets/img/favicon/180.png",
+      "sizes": "180x180",
       "type": "image/png"
     },
     {
       "src": "/assets/img/favicon/favicon.svg",
-      "sizes": "200x200",
+      "sizes": "240x240",
       "type": "image/svg"
     }
   ],
