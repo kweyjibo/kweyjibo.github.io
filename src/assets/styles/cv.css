@@ -42,7 +42,7 @@ body {
   margin-top: 24px;
 }
 
-.resume {
+.cv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,11 +56,11 @@ body {
   background-color: #fff;
 }
 
-.resume p {
+.cv p {
   margin: 0;
 }
 
-.resume p:not(:first-child) {
+.cv p:not(:first-child) {
   margin-top: 8px;
 }
 
@@ -69,7 +69,7 @@ body {
 /* Header
 -------------------------------------------------- */
 
-.resume-header {
+.cv-header {
   padding: 24px 16px 8px;
   box-sizing: border-box;
 
@@ -81,7 +81,7 @@ body {
   }
 }
 
-.resume-header_name {
+.cv-header_name {
   font-size: 32px;
   font-weight: bold;
   line-height: 36px;
@@ -92,7 +92,7 @@ body {
   }
 }
 
-.resume-header_position {
+.cv-header_position {
   padding-top: 4px;
 
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -106,19 +106,19 @@ body {
   }
 }
 
-.resume-header_contact {
+.cv-header_contact {
   position: relative;
   padding-top: 4px;
   color: #999;
   font-family: Helvetica, sans-serif;
 }
 
-.resume-header_contact.__sp {
+.cv-header_contact.__sp {
   margin-top: 8px;
   padding-top: 12px;
 }
 
-.resume-header_contact.__sp:before {
+.cv-header_contact.__sp:before {
   content: "";
   position: absolute;
   top: 0;
