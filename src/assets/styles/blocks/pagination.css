@@ -1,14 +1,13 @@
-@import "../vars";
-@import "../mixins";
-
 .pagination,
 .pagination-list {
   display: flex;
-  column-gap: $shift*2;
+  column-gap: 8px;
+
+  font-family: var(--font-family-text-fira);
 }
 
 .pagination {
-  padding-top: $shift*5;
+  padding-top: 20px;
 }
 
 .pagination-number {
@@ -24,15 +23,15 @@
 .pagination-link,
 .pagination-link_btn {
   display: block;
-  background-color: $navigation-gray;
+  background-color: var(--navigation-gray);
 
-  color: $brown;
+  color: var(--brown);
   border-radius: 8px;
   text-decoration: none;
 
   &:hover,
   &.__active {
-    background-color: $green-color;
+    background-color: var(--green-color);
     color: #fff;
   }
 
@@ -54,9 +53,9 @@
 }
 
 .pagination-link_svg {
-  stroke: $brown;
+  stroke: var(--brow);
 
   .pagination-link_btn:hover & {
     stroke: #fff;
-    }
+  }
 }

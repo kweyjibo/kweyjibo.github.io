@@ -3,7 +3,7 @@ pre {
 }
 code .highlight-line:before {
   -webkit-user-select: none;
-  border-right: 1px solid $gray;
+  border-right: 1px solid var(--gray);
   color: #858585;
   content: counter(lineNumber);
   counter-increment: lineNumber;
@@ -14,22 +14,25 @@ code .highlight-line:before {
   width: 2.4em;
 }
 
-pre[class*=language-] {
+pre[class*="language-"] {
   margin-top: 1em;
 }
 
-pre[class*=language-]:before,
-pre[class*=language-]:after  {
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
   content: none;
 }
 
-pre[class*=language-]>code {
+pre[class*="language-"] > code {
   box-shadow: none;
-  border-left-color: $green-color;
+  border-left-color: var(--green-color);
 
-  background-image: linear-gradient(transparent 50%,rgba(241, 236, 232,.7) 50%);
+  background-image: linear-gradient(
+    transparent 50%,
+    rgba(241, 236, 232, 0.7) 50%
+  );
 }
 
-code[class*=language-] {
+code[class*="language-"] {
   padding: 0;
 }

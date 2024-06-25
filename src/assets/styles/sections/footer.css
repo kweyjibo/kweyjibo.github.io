@@ -1,12 +1,11 @@
-@import "../vars";
-@import "../mixins";
-
 .footer {
-  margin-top: $shift*5;
-  padding-top: $shift*5;
-  padding-bottom: $shift*5;
+  --footer-shift: 20px;
 
-  border-top: 4px solid $header-gray;
+  margin-top: var(--footer-shift);
+  padding-top: var(--footer-shift);
+  padding-bottom: var(--footer-shift);
+
+  border-top: 4px solid var(--header-gray);
 
   & .wrapper {
     display: flex;
@@ -23,29 +22,29 @@
 }
 
 .footer-social_link:not(:first-child) {
-  margin-left: $shift*2;
+  margin-left: 8px;
 }
 
 .social {
-  color: $brown;
-  fill: $brown;
+  color: var(--brown);
+  fill: var(--brown);
 
   .footer-social_link:hover & {
-    color: $orange;
-    fill: $orange;
+    color: var(--orange);
+    fill: var(--orange);
   }
 }
 
 .social-cnt {
   position: relative;
   display: inline-block;
-  padding: $shift*2 $shift*3;
+  padding: 8px 12px;
 
-  background-color: $gray;
+  background-color: var(--gray);
   border-radius: 8px;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     bottom: 100%;
@@ -54,23 +53,23 @@
     width: 4px;
     height: 20px;
 
-    background-color: $gray;
+    background-color: var(--gray);
   }
 }
 
-// About me
+/* About me */
 
 .footer-aboutme,
 .footer-me_dsc {
-  color: $gray-purple;
+  color: var(--gray-purple);
 }
 
 .footer-aboutme {
-  padding-bottom: $shift*3;
+  padding-bottom: 12px;
 }
 
 .footer-aboutme_name {
-  padding-right: $shift*4;
+  padding-right: 16px;
   font-weight: 600;
 }
 
@@ -78,16 +77,16 @@
   display: inline-block;
   transform: translate(0, 2px);
 
-  margin-right: $shift*2;
+  margin-right: 8px;
 }
 
 .footer-aboutme_svg {
   display: inline-block;
   width: 20px;
 
-  fill: $brown;
+  fill: var(--brown);
 }
 
 .footer-aboutme_email {
-  color: $orange;
+  color: var(--orange);
 }

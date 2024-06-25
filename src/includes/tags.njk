@@ -1,11 +1,9 @@
 <div class="tags">
-  {% for tag in tags %}
-    {% if tag != "posts" %}
-      <span class="tag_i">
-        <a href="/tags/{{ tag }}" class="tag_lk">
-          {{ tag }}
-        </a>
-      </span>
-    {% endif %}
-  {% endfor %}
+  {% for tag in tags %} {% if tag != "posts" %}
+  <span class="tag_i">
+    <a href="/tags/{{ tag }}" class="tag_lk">
+      {{ tag }}
+    </a>
+  </span>
+  {% endif %} {% endfor %}
 </div>

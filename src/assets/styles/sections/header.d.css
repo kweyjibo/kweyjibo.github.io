@@ -1,0 +1,13 @@
+@media (width >= 1024px) {
+  .header-title_tx {
+    left: 138px;
+    z-index: 2;
+
+    padding: 8px 12px;
+  }
+
+  .header-title_g,
+  .header-title_o {
+    font-size: 18px;
+  }
+}

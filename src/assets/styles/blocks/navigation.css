@@ -1,0 +1,42 @@
+.navigation-cnt {
+  position: absolute;
+  left: 138px;
+  top: 16px;
+}
+
+.navigation-trigger,
+.menu-icon {
+  display: none;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+/* Desctop version */
+
+.navigation-list {
+  display: flex;
+  column-gap: 12px;
+}
+
+.navigation-link {
+  padding: 6px 12px;
+  background-color: var(--navigation-gray);
+
+  color: var(--orange);
+  border-radius: 8px;
+
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover,
+  &.__active {
+    background-color: var(--green-color);
+    color: #fff;
+  }
+
+  &.__active {
+    cursor: default;
+  }
+}

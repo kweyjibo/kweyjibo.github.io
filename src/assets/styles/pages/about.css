@@ -1,31 +1,28 @@
-@import "../vars";
-@import "../mixins";
-
 .about_cnt {
-  padding-top: $shift * 6;
-  padding-bottom: $shift * 6;
-  color: $gray-purple;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: var(--gray-purple);
 }
 
-// Section About me
+/* Section About me */
 
 .about-me {
   position: relative;
-  padding-bottom: $shift * 6;
+  padding-bottom: 24px;
 }
 
 .about-me_i {
   position: relative;
 }
 
-@media screen and (min-width: $on-palm) {
+@media (width >= 1024px) {
   .about-me,
   .about-section_cnt {
     display: flex;
   }
 
   .about-section_cnt {
-    column-gap: $shift * 4;
+    column-gap: 16px;
   }
 
   .about-me {
@@ -38,24 +35,24 @@
 }
 
 .about-me_text p:not(:first-child) {
-  padding-top: $shift * 3;
+  padding-top: 12px;
 }
 
 .about-me_img {
   display: block;
   width: 250px;
 
-  border-bottom-left-radius: $shift * 3;
-  border-bottom-right-radius: $shift * 3;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-// Skills & work
+/* Skills & work */
 
 .about-section {
   position: relative;
 
   &.__top {
-    padding-top: $shift * 7;
+    padding-top: 28px;
   }
 }
 
@@ -63,13 +60,13 @@
   &.__grid {
     display: grid;
     grid-template-columns: 100px auto;
-    column-gap: $shift * 4;
-    row-gap: $shift * 4;
+    column-gap: 16px;
+    row-gap: 16px;
   }
 }
 
 .about-section_h {
-  padding-bottom: $shift * 4;
+  padding-bottom: 16px;
 
   font-size: 22px;
   font-weight: 600;
@@ -79,23 +76,23 @@
   flex: 1;
   overflow: hidden;
 
-  border: 1px solid $brown;
-  border-radius: $shift * 2;
+  border: 1px solid var(--brown);
+  border-radius: 8px;
 
-  @include media-query($on-palm) {
-    margin-bottom: $shift * 2;
+  @media (width < 1024px) {
+    margin-bottom: 8px;
   }
 }
 
 .about-section_t {
   font-weight: 600;
-  border-bottom: 1px solid $brown;
-  background-color: $gray;
+  border-bottom: 1px solid var(--brown);
+  background-color: var(--gray);
 }
 
 .about-section_dsc,
 .about-section_t {
-  padding: $shift * 3 $shift * 2;
+  padding: 12px 8px;
 }
 
 .about-section_dsc {
