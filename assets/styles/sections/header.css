@@ -1,0 +1,140 @@
+/* Platforms */
+
+@import "header.m.css";
+@import "header.d.css";
+
+/* /platforms */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  align-self: center;
+
+  width: 100%;
+  height: 110px;
+
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: var(--header-gray);
+  border-bottom-color: transparent;
+
+  background-color: var(--background-color);
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 2px;
+    background-color: var(--header-gray);
+  }
+
+  & .wrapper {
+    position: relative;
+    height: inherit;
+  }
+}
+
+.header-title_tx {
+  position: absolute;
+  bottom: 12px;
+
+  font-family: var(--font-family-text-fira);
+  color: #999;
+
+  cursor: default;
+  background-color: var(--header-gray);
+  border-radius: 8px;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+
+    width: 4px;
+    height: 12px;
+
+    background-color: var(--header-gray);
+  }
+
+  &:before {
+    left: 8px;
+  }
+
+  &:after {
+    right: 8px;
+  }
+}
+
+.header-title_g,
+.header-title_o {
+  font-weight: 600;
+}
+
+.header-title_g {
+  color: var(--green-color);
+}
+.header-title_o {
+  color: var(--orange);
+}
+
+/* Logo */
+
+.header-logo {
+  display: block;
+  position: relative;
+  margin-top: 4px;
+
+  width: 109px;
+  height: 109px;
+
+  &:after {
+    --logo-position: 4px;
+    content: "";
+    position: absolute;
+    top: var(--logo-position);
+    bottom: var(--logo-position);
+    left: var(--logo-position);
+    right: var(--logo-position);
+
+    background-color: #f1ece8;
+    border-radius: 50%;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 53px;
+    left: 30px;
+    z-index: 4;
+
+    width: 50px;
+    height: 30px;
+
+    background-image: url("/assets/img/logo-a.png");
+    background-size: 450px 100%;
+    background-position: 0 0;
+
+    animation: header-logo-anim steps(9) 2.3s infinite;
+  }
+}
+
+.header-logo_svg {
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes header-logo-anim {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -450px 0;
+  }
+}

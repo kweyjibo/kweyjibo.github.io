@@ -1,0 +1,67 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-family-text-fira);
+  color: var(--site-color);
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+
+  font-size: 16px;
+  background-color: var(--background-color);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  flex: 1;
+
+  @media (width >= 1024px) {
+    padding-left: 20px;
+    padding-right: 20;
+  }
+
+  @media (width < 1024px) {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  max-width: 980px;
+  min-width: 340px;
+}
+
+.position {
+  position: relative;
+}
+
+.column.__wide {
+  flex: 1;
+}
+
+.main {
+  padding-top: 28px;
+  min-height: 100px;
+}

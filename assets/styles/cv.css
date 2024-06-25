@@ -159,7 +159,7 @@ body {
 .item.__sp {
   position: relative;
   padding-top: 16px;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .item.__sp:before {
@@ -181,15 +181,6 @@ body {
   padding-bottom: 8px;
   font-size: 12px;
   color: #666;
-}
-
-.item-time:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 25%;
-  border-bottom: var(--border-dashed);
 }
 
 .item-text {

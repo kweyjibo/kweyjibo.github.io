@@ -1,0 +1,92 @@
+.footer {
+  --footer-shift: 20px;
+
+  margin-top: var(--footer-shift);
+  padding-top: var(--footer-shift);
+  padding-bottom: var(--footer-shift);
+
+  border-top: 4px solid var(--header-gray);
+
+  & .wrapper {
+    display: flex;
+  }
+}
+
+.footer-social_link {
+  display: inline-block;
+  vertical-align: middle;
+
+  & svg {
+    display: block;
+  }
+}
+
+.footer-social_link:not(:first-child) {
+  margin-left: 8px;
+}
+
+.social {
+  color: var(--brown);
+  fill: var(--brown);
+
+  .footer-social_link:hover & {
+    color: var(--orange);
+    fill: var(--orange);
+  }
+}
+
+.social-cnt {
+  position: relative;
+  display: inline-block;
+  padding: 8px 12px;
+
+  background-color: var(--gray);
+  border-radius: 8px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    margin-left: -1px;
+
+    width: 4px;
+    height: 20px;
+
+    background-color: var(--gray);
+  }
+}
+
+/* About me */
+
+.footer-aboutme,
+.footer-me_dsc {
+  color: var(--gray-purple);
+}
+
+.footer-aboutme {
+  padding-bottom: 12px;
+}
+
+.footer-aboutme_name {
+  padding-right: 16px;
+  font-weight: 600;
+}
+
+.footer-aboutme_ic {
+  display: inline-block;
+  transform: translate(0, 2px);
+
+  margin-right: 8px;
+}
+
+.footer-aboutme_svg {
+  display: inline-block;
+  width: 20px;
+
+  fill: var(--brown);
+}
+
+.footer-aboutme_email {
+  color: var(--orange);
+}

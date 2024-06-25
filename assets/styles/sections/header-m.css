@@ -1,0 +1,20 @@
+body {
+  background-color: red;
+}
+
+@media (width < 1024px) {
+  .header-title_tx {
+    padding: 4px 8px;
+    left: 138px;
+    right: 12px;
+    z-index: 2;
+
+    line-height: 14px;
+  }
+
+  .header-title_g,
+  .header-title_o,
+  .header-title_tx {
+    font-size: 12px;
+  }
+}

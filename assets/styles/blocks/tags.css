@@ -1,0 +1,44 @@
+.tags-page {
+  flex-flow: wrap;
+  padding-top: 20px;
+}
+
+.tags,
+.tags-page {
+  display: flex;
+  column-gap: 12px;
+}
+
+.tags-page_i {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.tags {
+  &.__top {
+    padding-top: 8px;
+  }
+}
+
+.tag_lk {
+  display: inline-block;
+  padding: 4px;
+
+  border: 1px solid var(--brown);
+  border-radius: 4px;
+
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--brown);
+
+  &:hover {
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    color: #fff;
+  }
+
+  .tags-page & {
+    padding: 12px;
+    border-radius: 12px;
+  }
+}

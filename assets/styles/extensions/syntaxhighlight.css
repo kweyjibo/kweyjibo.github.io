@@ -1,0 +1,38 @@
+pre {
+  counter-reset: lineNumber;
+}
+code .highlight-line:before {
+  -webkit-user-select: none;
+  border-right: 1px solid var(--gray);
+  color: #858585;
+  content: counter(lineNumber);
+  counter-increment: lineNumber;
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  padding-right: 1.2em;
+  text-align: right;
+  width: 2.4em;
+}
+
+pre[class*="language-"] {
+  margin-top: 1em;
+}
+
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+  content: none;
+}
+
+pre[class*="language-"] > code {
+  box-shadow: none;
+  border-left-color: var(--green-color);
+
+  background-image: linear-gradient(
+    transparent 50%,
+    rgba(241, 236, 232, 0.7) 50%
+  );
+}
+
+code[class*="language-"] {
+  padding: 0;
+}
