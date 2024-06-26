@@ -9,19 +9,18 @@ eleventyNavigation:
 
 <div class="tags-page">
   {% for tag in collections.tagList %}
-    <span class="tags-page_i">
-      <a href="/tags/{{ tag }}" class="tag_lk">
-          {{ tag }}
-      </a>
-    </span>
+  <span class="tags-page_i">
+    <a href="/tags/{{ tag }}" class="tag_lk __list">
+      {{ tag }}
+    </a>
+  </span>
   {% endfor %}
 </div>
 
 <div class="tags-pic_cnt">
   <div class="tags-pic">
     <svg class="tags-pic_svg" width="210" height="167" aria-hidden="true">
-      <use href="/assets/img/tags.svg#tags-pic"/>
+      <use href="/assets/img/tags.svg#tags-pic" />
     </svg>
   </div>
 </div>
-
