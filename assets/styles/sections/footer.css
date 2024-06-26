@@ -25,13 +25,13 @@
   margin-left: 8px;
 }
 
-.social {
-  color: var(--brown);
+.footer-social_ic {
   fill: var(--brown);
+  color: var(--brown);
 
   .footer-social_link:hover & {
-    color: var(--orange);
-    fill: var(--orange);
+    color: var(--gray-dark);
+    fill: var(--gray-dark);
   }
 }
 

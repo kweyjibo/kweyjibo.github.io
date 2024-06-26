@@ -6,6 +6,13 @@
 .tags,
 .tags-page {
   display: flex;
+}
+
+.tags {
+  column-gap: 4px;
+}
+
+.tags-page {
   column-gap: 12px;
 }
 
@@ -22,7 +29,7 @@
 
 .tag_lk {
   display: inline-block;
-  padding: 4px;
+  padding: 2px 4px;
 
   border: 1px solid var(--brown);
   border-radius: 4px;
@@ -37,8 +44,10 @@
     color: #fff;
   }
 
-  .tags-page & {
-    padding: 12px;
+  &.__list {
+    padding: 8px 12px;
     border-radius: 12px;
+
+    font-size: 16px;
   }
 }
