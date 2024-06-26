@@ -12,7 +12,7 @@
 @import "blocks/pagination.css";
 
 /* Page */
-@import "pages/articles.css";
+@import "pages/article/article.css";
 @import "pages/about.css";
 @import "pages/404.css";
 
