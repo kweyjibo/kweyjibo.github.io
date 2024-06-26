@@ -1,0 +1,67 @@
+.article-card {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--article-bg);
+}
+
+/* Card */
+
+.article-card:not(:first-child) {
+  margin-top: 16px;
+}
+
+.article-card_date,
+.article-card_read {
+  font-size: 14px;
+  color: var(--article-date);
+}
+
+.article-card_read {
+  position: relative;
+
+  &:before {
+    content: "\2022";
+    margin-right: 8px;
+  }
+}
+
+.article-card_title {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: var(--font-family-medium);
+}
+
+.article-card_more {
+  text-decoration: none;
+
+  &.__title {
+    color: var(--orange);
+  }
+
+  &.__desc {
+    color: var(--site-color);
+  }
+}
+
+.article-card_cover {
+  padding-top: 12px;
+  text-align: center;
+
+  img,
+  svg {
+    display: inline-block;
+  }
+
+  @media (width < 1024px) {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.article-card_desc {
+  padding-top: 12px;
+
+  font-family: var(--font-family-text-fira);
+  line-height: 1.6;
+}

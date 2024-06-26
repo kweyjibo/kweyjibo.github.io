@@ -9,6 +9,8 @@
 .about-me {
   position: relative;
   padding-bottom: 24px;
+
+  font-family: var(--font-family-text-fira);
 }
 
 .about-me_i {
@@ -69,7 +71,7 @@
   padding-bottom: 16px;
 
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .about-section_i {
@@ -85,7 +87,7 @@
 }
 
 .about-section_t {
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: 1px solid var(--brown);
   background-color: var(--gray);
 }
@@ -96,5 +98,6 @@
 }
 
 .about-section_dsc {
+  font-family: var(--font-family-text-fira);
   font-size: 14px;
 }

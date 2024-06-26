@@ -19,7 +19,7 @@ figure {
 }
 
 html {
-  font-family: var(--font-family-text-fira);
+  font-family: var(--font-family-text-roboto);
   color: var(--site-color);
 }
 
