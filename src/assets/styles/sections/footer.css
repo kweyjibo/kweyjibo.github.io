@@ -65,7 +65,7 @@
 }
 
 .footer-aboutme {
-  padding-bottom: 12px;
+  padding-bottom: 4px;
 }
 
 .footer-aboutme_name {
@@ -76,17 +76,4 @@
 .footer-aboutme_ic {
   display: inline-block;
   transform: translate(0, 2px);
-
-  margin-right: 8px;
-}
-
-.footer-aboutme_svg {
-  display: inline-block;
-  width: 20px;
-
-  fill: var(--brown);
-}
-
-.footer-aboutme_email {
-  color: var(--orange);
 }
