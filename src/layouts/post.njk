@@ -3,22 +3,20 @@ layout: page.njk
 title: Blog
 ---
 
-
 <article class="article">
+  <header class="article-header">
+    <h2 class="article-title">
+      {{ title }}
+    </h2>
 
-  <h2 class="article-title">
-    {{ title }}
-  </h2>
+    <time class="article-date" datetime="{{ date }}">{{
+      date | dateShort
+    }}</time>
 
-  <time class="article-date" datetime="{{ date }}">{{ date | dateShort }}</time>
+    {% include 'tags.njk' %}
+  </header>
 
-  {% include 'tags.njk' %}
-
-  <div class="article-content">
+  <section class="article-content">
     {{ content | safe }}
-  </div>
-
+  </section>
 </article>
-
-
-

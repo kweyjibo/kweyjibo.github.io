@@ -101,3 +101,7 @@
   font-family: var(--font-family-text-fira);
   font-size: 14px;
 }
+
+.about-tx-color_light {
+  color: var(--gray-dark);
+}
