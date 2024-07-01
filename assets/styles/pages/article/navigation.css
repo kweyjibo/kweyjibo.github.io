@@ -1,6 +1,12 @@
 .article-navigation_cnt {
-  float: right;
-  margin-left: 12px;
+  @media (width > 840px) {
+    float: right;
+    margin-left: 12px;
+  }
+
+  @media (width < 840px) {
+    margin-top: 16px;
+  }
 }
 
 .article-navigation {
@@ -12,17 +18,15 @@
 
   border-radius: 12px;
 
-  @media (width < 1024px) {
+  @media (width < 840px) {
     max-width: 100%;
-    width: 100%;
+    margin-top: 16px;
   }
 
-  &.__right {
-    float: right;
-    margin-left: 12px;
-
-    @media (width < 1024px) {
-      margin-left: 0;
+  @media (width > 840px) {
+    &.__right {
+      float: right;
+      margin-left: 12px;
     }
   }
 

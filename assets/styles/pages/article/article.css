@@ -5,6 +5,9 @@
 
 .article {
   margin-top: 16px;
+}
+
+.article-header {
   padding: 16px;
   border-radius: 8px;
   background-color: var(--article-bg);
@@ -14,6 +17,11 @@
   font-weight: normal;
   font-family: var(--font-family-medium);
   font-size: 30px;
+
+  @media (width < 840px) {
+    font-size: 22px;
+    line-height: 1.2;
+  }
 }
 
 .article-date {
@@ -25,9 +33,12 @@
 }
 
 .article-content {
-  padding-top: 16px;
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--article-bg);
 
-  a {
+  p a {
     color: var(--site-color);
     text-decoration: none;
     box-shadow: inset 0 -1px var(--orange);
