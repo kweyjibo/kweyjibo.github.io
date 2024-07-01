@@ -3,7 +3,7 @@
 @import "global/base.css";
 
 /* Sections */
-@import "sections/header.css";
+@import "sections/header/index.css";
 @import "sections/footer.css";
 
 /* Blocks */
