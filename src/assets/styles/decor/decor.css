@@ -95,7 +95,7 @@
   }
 
   &.__header:after {
-    right: 30%;
+    left: 30%;
     top: 60px;
 
     width: 30px;
