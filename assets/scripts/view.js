@@ -4,7 +4,7 @@
   if (el) {
     const grabedurl = window.location.pathname;
 
-    const url = `https://counter.dolzhenko.dev/hit?url=https://kweyjibo.com/${grabedurl}`;
+    const url = `https://counter.dolzhenko.dev/hit?url=https://kweyjibo.com${grabedurl}`;
 
     try {
       const response = await fetch(url, {
