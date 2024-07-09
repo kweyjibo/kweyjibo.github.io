@@ -1,5 +1,6 @@
 @import "card.css";
 @import "navigation.css";
+@import "view-count.css";
 
 /* Article */
 
@@ -8,6 +9,7 @@
 }
 
 .article-header {
+  position: relative;
   padding: 16px;
   border-radius: 8px;
   background-color: var(--article-bg);
