@@ -102,4 +102,10 @@
             <changefreq></changefreq>
         </url>
     
+        <url>
+            <loc>/posts/update2024/</loc>
+            <lastmod>Mon Jul 08 2024 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
+            <changefreq></changefreq>
+        </url>
+    
 </urlset>
