@@ -40,16 +40,6 @@
   border-radius: 8px;
   background-color: var(--article-bg);
 
-  p a {
-    color: var(--site-color);
-    text-decoration: none;
-    box-shadow: inset 0 -1px var(--orange);
-
-    &:hover {
-      color: var(--orange);
-    }
-  }
-
   p {
     font-family: var(--font-family-text-fira);
     line-height: 1.6;
@@ -84,6 +74,16 @@
 
   li:not(:first-child) {
     padding-top: 8px;
+  }
+}
+
+.article-link {
+  color: var(--site-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--orange);
+    box-shadow: inset 0 -1px var(--orange);
   }
 }
 
