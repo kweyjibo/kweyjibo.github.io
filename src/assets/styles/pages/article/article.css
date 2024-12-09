@@ -28,9 +28,10 @@
 
 .article-date {
   display: inline-block;
-  margin-bottom: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
 
-  font-size: 12px;
+  font-size: 14px;
   color: var(--article-date);
 }
 
