@@ -1,6 +1,6 @@
 {% set title = global.title if page.url == '/' else title + (', page ' +
-(pagination.pageNumber + 1) if pagination.next or pagination.previous else '') +
-' — ' + global.title %} {% set desc = desc if desc else global.description %}
+(pagination.pageNumber + 1) if pagination.next or pagination.previous else '')%}
+{% set desc = desc if desc else global.description %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,16 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title }}" />
-    <meta property="og:description" content="{{ desc | markdownRemove }}" />
+
+    {% if dsc.length > 0 %}
+    <meta property="og:description" content="{{ dsc | markdownRemove }}" />
+    {% endif %}
+
     <meta property="og:url" content="{{ global.domain + page.url }}" />
+
+    {% if keywords.length > 0 %}
+    <meta name="keywords" content="{{ keywords }}" />
+    {% endif %}
 
     <link href="/assets/styles/extensions/prism.css" rel="stylesheet" />
     <link href="/assets/styles/style.css" rel="stylesheet" />
