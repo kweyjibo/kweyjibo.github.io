@@ -11,7 +11,6 @@
     "lint:fix": "eslint . --fix",
     "css": "stylelint \"src/styles/**/*.css\"",
     "build": "npx @11ty/eleventy",
-    "sass-dev": "sass --watch --update --style=expanded src/assets/styles/scss/style.scss:src/assets/styles/style.css",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -27,7 +26,6 @@
     "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "remove-markdown": "^0.5.0",
-    "sass": "^1.63.6",
     "stylelint": "^15.1.0"
   },
   "dependencies": {
