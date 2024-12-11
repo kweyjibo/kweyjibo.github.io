@@ -1,5 +1,8 @@
 .article-card {
-  padding: 16px;
+  display: flex;
+  overflow: hidden;
+
+  gap: 16px;
   border-radius: 8px;
   background-color: var(--article-bg);
 }
@@ -25,10 +28,28 @@
   }
 }
 
+.article-card_content {
+  --shift: 16px;
+
+  padding: var(--shift) var(--shift) var(--shift) 0;
+
+  &.__shift {
+    padding: var(--shift);
+  }
+
+  @media (width < 1024px) {
+    --shift: 8px;
+  }
+}
+
 .article-card_title {
   font-size: 22px;
   font-weight: normal;
   font-family: var(--font-family-medium);
+
+  @media (width < 1024px) {
+    font-size: 16px;
+  }
 }
 
 .article-card_more {
@@ -44,17 +65,15 @@
 }
 
 .article-card_cover {
-  padding-top: 12px;
-  text-align: center;
-
   img,
   svg {
-    display: inline-block;
+    width: 220px;
+    display: block;
   }
 
   @media (width < 1024px) {
     img {
-      max-width: 100%;
+      width: 160px;
     }
   }
 }
