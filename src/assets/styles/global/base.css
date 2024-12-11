@@ -27,7 +27,7 @@ body {
   min-height: 100vh;
   height: 100%;
 
-  font-size: 16px;
+  font-size: var(--site-font-size);
   background-color: var(--background-color);
 }
 

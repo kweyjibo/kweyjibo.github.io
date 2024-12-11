@@ -1,22 +1,22 @@
 :root {
-  --site-color: #333;
+  --site-color: #6b543e;
   --background-color: #fdfdfd;
 
   --gray: #f1ece8;
   --gray-dark: #c1bbbb;
   --gray-purple: #88706b;
 
-  --green-color: #93b536;
-  --orange: #ce6425;
+  --green-color: #bfaf4c;
+  --orange: #e4892e;
   --brown: #c9c0bb;
 
   --header-gray: #f1ece8;
 
-  --navigation-gray: #f1ece8;
+  --navigation-gray: #f3efec;
   --navigation-gray-dark: #c1bbbb;
 
-  --article-bg: #f1ece8;
-  --article-date: #828282;
+  --article-bg: #f3efec;
+  --article-date: #b29e8b;
   --article-blockquote: #c1bbbb;
   --article-blockquote-text: #6d6552;
 

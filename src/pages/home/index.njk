@@ -14,40 +14,47 @@ layout: page.njk
 {% for post in pagination.items %}
 
 <article class="article-card">
-  <h2 class="article-card_title">
-    <a href="{{ post.url }}" class="article-card_more __title">
-      {{ post.data.title }}
-    </a>
-  </h2>
-
-  <time class="article-card_date" datetime="{{ post.date }}">{{
-    post.date | dateShort
-  }}</time>
-  <span class="article-card_read">{{ post.content | readTime }} min read</span>
-
-  <a href="{{ post.url }}" class="article-card_more __desc">
-    <div class="article-card_desc">{{ post.data.dsc }}</div>
-
-    {% if post.data.image %}
-    <div class="article-card_cover">
+  {% if post.data.image %}
+  <div class="article-card_cover">
+    <figure>
       <img
         src="{{ post.data.image }}"
         alt="{{ post.data.title }}"
         width="{{ post.data.imageProp }}"
       />
-    </div>
-    {% endif %}
-  </a>
-
-  <div class="tags __top">
-    {% for tag in post.data.tags %} {% if tag != "posts" %}
-    <span class="tag_i">
-      <a href="/tags/{{ tag }}" class="tag_lk">
-        {{ tag }}
-      </a>
-    </span>
-    {% endif %} {% endfor %}
+    </figure>
   </div>
+  {% endif %}
+  <section
+    class="article-card_content {% if not(post.data.image) %}__shift{% endif %}"
+  >
+    <h2 class="article-card_title">
+      <a href="{{ post.url }}" class="article-card_more __title">
+        {{ post.data.title }}
+      </a>
+    </h2>
+
+    <time class="article-card_date" datetime="{{ post.date }}">{{
+      post.date | dateShort
+    }}</time>
+    <span class="article-card_read"
+      >{{ post.content | readTime }} min read</span
+    >
+
+    <a href="{{ post.url }}" class="article-card_more __desc">
+      <div class="article-card_desc">{{ post.data.dsc }}</div>
+    </a>
+
+    <div class="tags __top">
+      {% for tag in post.data.tags %} {% if tag != "posts" %}
+      <span class="tag_i">
+        <a href="/tags/{{ tag }}" class="tag_lk">
+          {{ tag }}
+        </a>
+      </span>
+      {% endif %} {% endfor %}
+    </div>
+  </section>
 </article>
 
 {% endfor %} {% include "paginator.njk" %}

@@ -6,10 +6,11 @@
 .tags,
 .tags-page {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tags {
-  column-gap: 4px;
+  gap: 4px;
 }
 
 .tags-page {

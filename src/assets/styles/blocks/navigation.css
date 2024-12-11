@@ -32,7 +32,7 @@
 
   &:hover,
   &.__active {
-    background-color: var(--green-color);
+    background-color: var(--orange);
     color: #fff;
   }
 

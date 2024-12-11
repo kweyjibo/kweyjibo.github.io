@@ -1,0 +1,5 @@
+@media (width < 1024px) {
+  :root {
+    --site-font-size: 14px;
+  }
+}
