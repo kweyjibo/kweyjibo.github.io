@@ -1,0 +1,183 @@
+/* Logo */
+
+.header-logo {
+  display: block;
+  position: relative;
+  margin-top: 14px;
+
+  width: 110px;
+  height: 110px;
+
+  & img {
+    position: relative;
+    z-index: 3;
+  }
+
+  &:after {
+    --logo-position: -8px;
+
+    content: "";
+    position: absolute;
+
+    z-index: 0;
+    top: var(--logo-position);
+    bottom: var(--logo-position);
+    left: var(--logo-position);
+    right: var(--logo-position);
+
+    background-color: #fff;
+    border: 4px solid #f1ece8;
+    border-radius: 50%;
+  }
+}
+
+.header-logo_svg {
+  position: relative;
+  z-index: 3;
+}
+
+@keyframes header-logo-anim {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -630px 0;
+  }
+}
+
+.logo-eye {
+  position: absolute;
+
+  &.__left {
+    left: 26px;
+    top: 60px;
+  }
+
+  &.__right {
+    left: 60px;
+    top: 60px;
+  }
+}
+
+.logo-mouth {
+  position: absolute;
+  left: 42px;
+  top: 78px;
+}
+
+.logo__i {
+  position: absolute;
+  z-index: 3;
+
+  width: 4px;
+  height: 4px;
+
+  background-color: #9aae50;
+
+  &.__1 {
+    left: 0;
+    top: 0;
+
+    animation: logo-anim-i 3s 0.25s ease infinite;
+  }
+
+  &.__2 {
+    left: 5px;
+    top: -6px;
+
+    animation: logo-anim-i 3s 0.35s ease infinite;
+  }
+
+  &.__3 {
+    left: 11px;
+    top: -6px;
+
+    animation: logo-anim-i 3s 0.45s ease infinite;
+  }
+
+  &.__4 {
+    left: 17px;
+    top: -6px;
+
+    animation: logo-anim-i 3s 0.55s ease infinite;
+  }
+
+  &.__5 {
+    left: 22px;
+    top: 0;
+
+    animation: logo-anim-i 3s 0.55s ease infinite;
+  }
+
+  &.__6 {
+    left: 17px;
+    top: 6px;
+
+    animation: logo-anim 3s ease infinite;
+  }
+
+  &.__7 {
+    left: 11px;
+    top: 6px;
+
+    animation: logo-anim 3s 0.25s ease infinite;
+  }
+
+  &.__8 {
+    left: 5px;
+    top: 6px;
+
+    animation: logo-anim 3s 0.35s ease infinite;
+  }
+
+  &.__m1 {
+    left: 0;
+    top: 0;
+  }
+
+  &.__m2 {
+    left: 22px;
+    top: 0;
+  }
+
+  &.__m3 {
+    left: 17px;
+    top: 6px;
+  }
+
+  &.__m4 {
+    left: 11px;
+    top: 6px;
+  }
+
+  &.__m5 {
+    left: 5px;
+    top: 6px;
+  }
+}
+
+@keyframes logo-anim {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes logo-anim-i {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
