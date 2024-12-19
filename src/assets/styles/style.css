@@ -5,6 +5,7 @@
 /* Sections */
 @import "sections/header/index.css";
 @import "sections/footer.css";
+@import "sections/logo/index.css";
 
 /* Blocks */
 @import "blocks/navigation.css";
