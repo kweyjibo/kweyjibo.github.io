@@ -3,7 +3,7 @@ layout: post.njk
 title: "Update 2024"
 dsc: "Now I have been workin on my project. It is about my plans"
 date: 2024-07-08
-image: "../posts/update2024/images/lake_2024.jpg"
+image: "../posts/update2024/images/lake_preview.jpg"
 imageProp: "500px"
 tags:
   - blog

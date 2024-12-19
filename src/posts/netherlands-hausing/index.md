@@ -5,10 +5,10 @@ date: 2023-03-29
 layout: post.njk
 image: "../posts/netherlands-hausing/images/housing.png"
 imageProp: "248px"
+keywords: "Netherlands, покупка жилья в Нидерландах, экспат в Нидерландах"
 tags:
-  - Netherlands
-  - hausing
-  - life
+  - жизнь в Нидерландах
+  - жилье в Нидерландах
 ---
 
 > This is the house that Jack built
