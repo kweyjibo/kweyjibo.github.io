@@ -1,123 +1,95 @@
+
+<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   
+  <url>
+    <loc>https://kweyjibo.com/posts/localhost/</loc>
+    <lastmod>2012-11-23</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/localhost/</loc>
-            <lastmod>Fri Nov 23 2012 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/welcome/</loc>
+    <lastmod>2017-05-08</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/welcome/</loc>
-            <lastmod>Mon May 08 2017 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/china/</loc>
+    <lastmod>2019-05-04</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/china/</loc>
-            <lastmod>Sat May 04 2019 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/groups-style/</loc>
+    <lastmod>2020-10-17</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/groups-style/</loc>
-            <lastmod>Sat Oct 17 2020 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/netherlands-rent/</loc>
+    <lastmod>2021-06-28</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/netherlands-rent/</loc>
-            <lastmod>Mon Jun 28 2021 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/netherlands-baby/</loc>
+    <lastmod>2022-01-04</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/netherlands-baby/</loc>
-            <lastmod>Tue Jan 04 2022 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/update/</loc>
+    <lastmod>2022-11-09</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/update/</loc>
-            <lastmod>Wed Nov 09 2022 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/netherlands-hausing/</loc>
+    <lastmod>2023-03-29</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/netherlands-hausing/</loc>
-            <lastmod>Wed Mar 29 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/moved-to-eleventy/</loc>
+    <lastmod>2023-08-03</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/moved-to-eleventy/</loc>
-            <lastmod>Thu Aug 03 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/health-care/</loc>
+    <lastmod>2023-08-21</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/health-care/</loc>
-            <lastmod>Mon Aug 21 2023 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/state-of-css/</loc>
+    <lastmod>2023-11-26</lastmod>
+  </url>
     
-        <url>
-            <loc>/posts/state-of-css/</loc>
-            <lastmod>Sun Nov 26 2023 01:00:00 GMT+0100 (Central European Standard Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/about/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
     
-        <url>
-            <loc>/404.html</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/cv/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
     
-        <url>
-            <loc>/about/</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
     
-        <url>
-            <loc>/cv/</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/tags/</loc>
+    <lastmod>2024-06-14</lastmod>
+  </url>
     
-        <url>
-            <loc>/</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/update2024/</loc>
+    <lastmod>2024-07-08</lastmod>
+  </url>
     
-        <url>
-            <loc>/tags/</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
+  <url>
+    <loc>https://kweyjibo.com/posts/spain-2024/</loc>
+    <lastmod>2024-09-09</lastmod>
+  </url>
     
-        <url>
-            <loc>/tags/all/</loc>
-            <lastmod>Fri Jun 14 2024 13:53:44 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/update2024/</loc>
-            <lastmod>Mon Jul 08 2024 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/spain-2024/</loc>
-            <lastmod>Mon Sep 09 2024 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/haarlem/</loc>
-            <lastmod>Fri Sep 13 2024 02:00:00 GMT+0200 (Central European Summer Time)</lastmod>
-            <changefreq></changefreq>
-        </url>
-    
+  <url>
+    <loc>https://kweyjibo.com/posts/haarlem/</loc>
+    <lastmod>2024-09-13</lastmod>
+  </url>
+   
 </urlset>
