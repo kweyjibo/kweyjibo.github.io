@@ -1,14 +1,18 @@
-const fs = require("fs");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const markdownIt = require("markdown-it")({ html: true });
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const yaml = require("js-yaml");
-const removeMarkdown = require("remove-markdown");
-const htmlMin = require("html-minifier");
+import { readFileSync } from "node:fs";
 
-const global = yaml.load(fs.readFileSync("src/data/global.yml", "utf8"));
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import markdownIt from "markdown-it";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import { load as yamlLoad } from "js-yaml";
+import removeMarkdown from "remove-markdown";
+import { minify as htmlMinify } from "html-minifier-terser";
+import rss from "@11ty/eleventy-plugin-rss";
 
-module.exports = function (eleventyConfig) {
+const globalData = yamlLoad(readFileSync("src/data/global.yml", "utf8"));
+
+const markdown = new markdownIt({ html: true });
+
+export default (eleventyConfig) => {
   // Collections
 
   const collections = {
@@ -27,11 +31,15 @@ module.exports = function (eleventyConfig) {
     ]);
   });
 
-  // Yaml
+  // YAML
 
-  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yml", (contents) => {
+    return yamlLoad(contents);
+  });
 
   // Plugins
+
+  eleventyConfig.addPlugin(rss);
 
   eleventyConfig.addPlugin(syntaxHighlight, {
     alwaysWrapLineHighlights: true,
@@ -40,9 +48,9 @@ module.exports = function (eleventyConfig) {
 
   // HTML
 
-  eleventyConfig.addTransform("html-minify", (content, path) => {
+  eleventyConfig.addTransform("html-minify", async (content, path) => {
     if (path && path.endsWith(".html")) {
-      return htmlMin.minify(content, {
+      return await htmlMinify(content, {
         collapseBooleanAttributes: true,
         collapseWhitespace: true,
         decodeEntities: true,
@@ -116,7 +124,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("absolute", (content, post) => {
     const reg =
       /(src="[^(https://)])|(src="\/)|(href="[^(https://)])|(href="\/)/g;
-    const prefix = global.domain + post.url;
+    const prefix = globalData.domain + post.url;
     return content.replace(reg, (match) => {
       if (match === 'src="/' || match === 'href="/') {
         match = match.slice(0, -1);
@@ -130,14 +138,14 @@ module.exports = function (eleventyConfig) {
   // Markdown
 
   eleventyConfig.addFilter("markdownIt", (value) => {
-    return markdownIt.render(value);
+    return markdown.render(value);
   });
 
   eleventyConfig.addFilter("markdownRemove", (value) => {
     return removeMarkdown(value);
   });
 
-  eleventyConfig.setLibrary("md", markdownIt);
+  eleventyConfig.setLibrary("md", markdown);
 
   // Passthrough copy
 
