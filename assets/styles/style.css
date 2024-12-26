@@ -11,6 +11,7 @@
 @import "blocks/navigation.css";
 @import "blocks/tags.css";
 @import "blocks/pagination.css";
+@import "blocks/rss/index.css";
 
 /* Page */
 @import "pages/article/article.css";

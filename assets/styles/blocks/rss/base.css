@@ -1,0 +1,10 @@
+.rss-feed {
+  display: block;
+
+  width: 32px;
+  height: 32px;
+
+  &:hover {
+    background-color: var(--orange);
+  }
+}
