@@ -1,0 +1,34 @@
+---
+permalink: /index.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ global.domain }}">
+  <title>{{ global.title }}</title>
+  <subtitle>{{ global.description }}</subtitle>
+  <link href="{{ global.domain }}" />
+  <link href="{{ global.domain + '/feed/' }}" rel="self" />
+  <updated>{{
+    collections.posts | getNewestCollectionItemDate | dateToRfc3339
+  }}</updated>
+  <id>{{ global.domain }}/</id>
+  {%- for post in collections.posts | reverse %} {% if post.data.source %} {%
+  set url = post.data.source.url %} {% set title = post.data.source.title %} {%
+  set content %}
+  <p>{{ post.data.desc | markdownInline | safe }}</p>
+  <p>
+    <a href="{{ url }}">Read on {{ title }}</a>
+  </p>
+  {% endset %} {% else %} {% set url = global.domain + post.url %} {% set
+  content = post.templateContent | absolute(post) %} {% endif %}
+
+  <entry>
+    <title>{{ post.data.title | trim }}</title>
+    <link href="{{ url }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ url }}</id>
+    <content type="html" xml:lang="{{ global.language }}">
+      {{- content | trim -}}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>
