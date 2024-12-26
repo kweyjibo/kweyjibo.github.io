@@ -4,23 +4,45 @@ pagination:
   data: collections
   size: 1
   alias: tag
-permalink: /tags/{{ tag }}/
+permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
   title: "{{ tag }}"
 ---
 
+<h1>Tagged “{{ tag }}”</h1>
+
 {% for post in collections[tag] %}
 <article class="article-card">
-  <h2 class="article-card_title">
-    <a href="{{ post.url }}" class="article-card_more __title">
-      {{ post.data.title }}
-    </a>
-  </h2>
-
-  <div class="article-card_desc">
-    <a href="{{ post.url }}" class="article-card_more __desc">{{
-      post.data.dsc
-    }}</a>
+  {% if post.data.image %}
+  <div class="article-card_cover">
+    <figure>
+      <img
+        src="../{{ post.data.image }}"
+        alt="{{ post.data.title }}"
+        width="{{ post.data.imageProp }}"
+      />
+    </figure>
   </div>
+  {% endif %}
+
+  <section
+    class="article-card_content {% if not(post.data.image) %}__shift{% endif %}"
+  >
+    <h2 class="article-card_title">
+      <a href="{{ post.url }}" class="article-card_more __title">
+        {{ post.data.title }}
+      </a>
+    </h2>
+
+    <div class="article-card_desc">
+      <a href="{{ post.url }}" class="article-card_more __desc">{{
+        post.data.dsc
+      }}</a>
+    </div>
+
+    <span class="tag_i"
+      ><span class="tag_lk"> {{ tag }} </span></span
+    >
+  </section>
 </article>
 {% endfor %}

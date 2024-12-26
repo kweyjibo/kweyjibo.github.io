@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="tags-page">
   {% for tag in collections.tagList %}
   <span class="tags-page_i">
-    <a href="/tags/{{ tag }}" class="tag_lk __list">
+    <a href="/tags/{{ tag | slugify }}" class="tag_lk __list">
       {{ tag }}
     </a>
   </span>

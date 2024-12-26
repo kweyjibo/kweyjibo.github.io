@@ -9,7 +9,6 @@ description: "test"
 keywords: "travel, life, Netherlands, Haarlem"
 tags:
   - travel
-  - life
   - the Netherlands
 ---
 
