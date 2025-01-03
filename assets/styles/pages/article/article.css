@@ -76,6 +76,10 @@
   li:not(:first-child) {
     padding-top: 8px;
   }
+
+  a {
+    color: var(--green-color);
+  }
 }
 
 .article-link {
@@ -94,6 +98,16 @@
 
   &.__top {
     padding-top: 12px;
+  }
+}
+
+.article-lk__img {
+  display: inline-block;
+  text-decoration: none;
+
+  a,
+  figcaption {
+    color: var(--green-color);
   }
 }
 
