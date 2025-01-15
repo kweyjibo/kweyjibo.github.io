@@ -11,13 +11,15 @@
 .article-header {
   position: relative;
   padding: 16px;
-  border-radius: 8px;
+
   background-color: var(--article-bg);
+  border-radius: 8px;
+  border: 1px solid var(--article-bg-border);
 }
 
 .article-title {
+  font-family: var(--font-family-text-fira);
   font-weight: normal;
-  font-family: var(--font-family-medium);
   font-size: 30px;
 
   @media (width < 840px) {
@@ -38,12 +40,15 @@
 .article-content {
   margin-top: 16px;
   padding: 16px;
+
+  font-size: var(--article-content-font-size);
+
   border-radius: 8px;
+  border: 1px solid var(--article-bg-border);
   background-color: var(--article-bg);
 
   p {
-    font-family: var(--font-family-text-fira);
-    line-height: 1.6;
+    line-height: 1.8;
   }
 
   p:not(:first-child) {
@@ -52,10 +57,12 @@
 
   h1,
   h2 {
-    padding-top: 36px;
+    padding-top: 42px;
 
-    font-family: var(--font-family-text-roboto);
-    font-weight: 500;
+    font-family: var(--font-family-text-fira);
+    font-size: 28px;
+    font-weight: normal;
+    /* font-weight: 700; */
   }
 
   img {
@@ -69,7 +76,6 @@
     padding-bottom: 12px;
     padding-left: 20px;
 
-    font-family: var(--font-family-text-fira);
     line-height: 1.6;
   }
 

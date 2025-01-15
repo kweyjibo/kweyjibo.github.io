@@ -15,7 +15,8 @@
   --navigation-gray: #f3efec;
   --navigation-gray-dark: #c1bbbb;
 
-  --article-bg: #f3efec;
+  --article-bg-border: #f3efec;
+  --article-bg: #faf9f8;
   --article-date: #b29e8b;
   --article-blockquote: #c1bbbb;
   --article-blockquote-text: #6d6552;
