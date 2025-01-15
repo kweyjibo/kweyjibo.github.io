@@ -15,7 +15,7 @@
 
 /* Page */
 @import "pages/article/article.css";
-@import "pages/about.css";
+@import "pages/about/index.css";
 @import "pages/404.css";
 
 /* extensions */

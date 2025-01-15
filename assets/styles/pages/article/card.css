@@ -1,10 +1,11 @@
 .article-card {
   display: flex;
   overflow: hidden;
-
   gap: 16px;
-  border-radius: 8px;
+
   background-color: var(--article-bg);
+  border-radius: 8px;
+  border: 1px solid var(--article-bg-border);
 }
 
 /* Card */
@@ -43,12 +44,12 @@
 }
 
 .article-card_title {
+  font-family: var(--font-family-text-fira);
   font-size: 22px;
   font-weight: normal;
-  font-family: var(--font-family-medium);
 
   @media (width < 1024px) {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -81,6 +82,6 @@
 .article-card_desc {
   padding-top: 12px;
 
-  font-family: var(--font-family-text-fira);
+  font-size: var(--article-content-font-size);
   line-height: 1.6;
 }
