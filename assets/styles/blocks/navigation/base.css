@@ -8,8 +8,6 @@
   align-items: flex-start;
 
   position: absolute;
-  left: 148px;
-  top: 16px;
 }
 
 .navigation-trigger,
@@ -25,7 +23,6 @@
 
 .navigation-list {
   display: flex;
-  column-gap: 12px;
 }
 
 .navigation-link {
