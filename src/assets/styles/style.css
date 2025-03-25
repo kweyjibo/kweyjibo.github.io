@@ -8,7 +8,7 @@
 @import "sections/logo/index.css";
 
 /* Blocks */
-@import "blocks/navigation.css";
+@import "blocks/navigation/index.css";
 @import "blocks/tags.css";
 @import "blocks/pagination.css";
 @import "blocks/rss/index.css";

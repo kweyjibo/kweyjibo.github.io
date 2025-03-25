@@ -1,0 +1,11 @@
+@media (width < 1024px) {
+  .navigation-cnt {
+    left: 132px;
+
+    top: 8px;
+  }
+
+  .navigation-list {
+    column-gap: 4px;
+  }
+}
