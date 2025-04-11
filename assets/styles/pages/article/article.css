@@ -121,6 +121,7 @@
 
 .article-at {
   padding: 0 4px;
+  line-height: 1.8;
 
   &.__shift {
     display: inline-block;
