@@ -2,6 +2,10 @@
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--gray-purple);
+
+  a {
+    color: var(--orange);
+  }
 }
 
 /* Section About me */
