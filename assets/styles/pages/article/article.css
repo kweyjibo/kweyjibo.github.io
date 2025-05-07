@@ -99,12 +99,13 @@
 }
 
 .article-img {
-  display: block;
-  text-align: center;
+  display: inline-block;
+  padding: 8px;
 
-  &.__top {
-    padding-top: 12px;
-  }
+  border-radius: var(--border-radius);
+  border: 1px solid var(--article-bg-border);
+  text-align: center;
+  background-color: #fff;
 }
 
 .article-lk__img {
@@ -165,7 +166,7 @@ blockquote {
 }
 
 .article-center {
-  padding-top: 12px;
+  padding-top: 16px;
   text-align: center;
 }
 
