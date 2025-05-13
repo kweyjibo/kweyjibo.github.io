@@ -7,6 +7,7 @@ image: "../posts/amsterdam-light-festival/img/img.jpg"
 imageProp: "400px"
 keywords: "Amsterdam Light Festival, Netherlands, Амстердам"
 tags:
+  - города Нидерландов
   - Amsterdam Light Festival
   - the Netherlands
 ---

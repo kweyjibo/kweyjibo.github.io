@@ -9,8 +9,8 @@ description: "test"
 keywords: "travel, life, Netherlands, Haarlem"
 tags:
   - Haarlem
-  - travel
-  - the Netherlands
+  - города Нидерландов
+  - жизнь в Нидерландах
 ---
 
 Наверное, я напишу не одну статью об этом прекрасном городе. Но, не расходитесь, будут и другие города, позже.
