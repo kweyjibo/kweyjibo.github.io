@@ -1,14 +1,3 @@
-.article-navigation_cnt {
-  @media (width > 840px) {
-    float: right;
-    margin-left: 12px;
-  }
-
-  @media (width < 840px) {
-    margin-top: 16px;
-  }
-}
-
 .article-navigation {
   display: block;
   margin-bottom: 12px;
@@ -17,18 +6,6 @@
   box-sizing: border-box;
 
   border-radius: 12px;
-
-  @media (width < 840px) {
-    max-width: 100%;
-    margin-top: 16px;
-  }
-
-  @media (width > 840px) {
-    &.__right {
-      float: right;
-      margin-left: 12px;
-    }
-  }
 
   &.__yellow {
     background-color: #f2d76b;

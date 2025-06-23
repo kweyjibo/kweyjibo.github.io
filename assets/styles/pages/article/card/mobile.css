@@ -1,0 +1,6 @@
+@media (width < 1024px) {
+  .article-title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+}
