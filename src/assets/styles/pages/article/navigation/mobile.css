@@ -1,0 +1,10 @@
+@media (width < 1024px) {
+  .article-navigation_cnt {
+    margin-top: 16px;
+  }
+
+  .article-navigation {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+@media (width >= 1024px) {
+  .article-navigation_cnt {
+    float: right;
+    margin-left: 12px;
+  }
+
+  .article-navigation {
+    &.__right {
+      float: right;
+      margin-left: 12px;
+    }
+  }
+}

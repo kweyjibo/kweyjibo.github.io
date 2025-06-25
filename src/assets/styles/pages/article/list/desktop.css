@@ -1,0 +1,19 @@
+@media (width >= 1024px) {
+  .article-card_content {
+    --shift: 16px;
+
+    padding: var(--shift) var(--shift) var(--shift) 0;
+  }
+
+  .article-card_title {
+    font-size: 22px;
+  }
+
+  .article-card_cover {
+    img,
+    svg {
+      width: 220px;
+      display: block;
+    }
+  }
+}

@@ -14,7 +14,7 @@
 @import "blocks/rss/index.css";
 
 /* Page */
-@import "pages/article/article.css";
+@import "pages/article/index.css";
 @import "pages/about/index.css";
 @import "pages/404.css";
 

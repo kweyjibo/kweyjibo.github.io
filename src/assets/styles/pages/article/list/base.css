@@ -30,27 +30,14 @@
 }
 
 .article-card_content {
-  --shift: 16px;
-
-  padding: var(--shift) var(--shift) var(--shift) 0;
-
   &.__shift {
     padding: var(--shift);
-  }
-
-  @media (width < 1024px) {
-    --shift: 8px;
   }
 }
 
 .article-card_title {
   font-family: var(--font-family-text-fira);
-  font-size: 22px;
   font-weight: normal;
-
-  @media (width < 1024px) {
-    font-size: 20px;
-  }
 }
 
 .article-card_more {
@@ -62,20 +49,6 @@
 
   &.__desc {
     color: var(--site-color);
-  }
-}
-
-.article-card_cover {
-  img,
-  svg {
-    width: 220px;
-    display: block;
-  }
-
-  @media (width < 1024px) {
-    img {
-      width: 160px;
-    }
   }
 }
 

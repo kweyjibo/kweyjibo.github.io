@@ -1,0 +1,14 @@
+@media (width < 1024px) {
+  .article-card {
+    flex-direction: column;
+  }
+
+  .article-card_content {
+    --shift: 8px;
+    padding: var(--shift);
+  }
+
+  .article-card_title {
+    font-size: 20px;
+  }
+}
