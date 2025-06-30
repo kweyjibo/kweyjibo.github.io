@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666;
+  color: #534a41;
 }
 
 html,
@@ -17,8 +17,8 @@ body {
 -------------------------------------------------- */
 
 :root {
-  --border: 1px solid rgba(0, 0, 0, 0.08);
-  --border-dashed: 1px dashed rgba(0, 0, 0, 0.08);
+  --border: 2px solid #eee8e1;
+  --border-dashed: 1px dashed #eee8e1;
 }
 
 /* /Const*/
@@ -30,8 +30,8 @@ body {
   font-weight: bold;
 }
 
-.black {
-  color: #333;
+.mt-2x {
+  margin-top: 8px;
 }
 
 .mt-4x {
@@ -42,16 +42,14 @@ body {
   margin-top: 24px;
 }
 
+.mt-8x {
+  margin-top: 32px;
+}
+
 .cv {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  max-width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-
-  font-size: 16px;
 
   background-color: #fff;
 }
@@ -70,62 +68,52 @@ body {
 -------------------------------------------------- */
 
 .cv-header {
-  padding: 24px 16px 8px;
   box-sizing: border-box;
-
   border-bottom: var(--border);
-  color: #333;
-
-  @media (max-width: 465px) {
-    padding: 12px 16px;
-  }
 }
 
 .cv-header_name {
-  font-size: 32px;
   font-weight: bold;
-  line-height: 36px;
-
-  @media (max-width: 465px) {
-    font-size: 26px;
-    line-height: 28px;
-  }
 }
 
 .cv-header_position {
-  padding-top: 4px;
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans";
-  font-size: 20px;
-  color: #333;
 
-  @media (max-width: 465px) {
-    font-size: 16px;
-    line-height: 18px;
-  }
+  color: #71675c;
 }
 
 .cv-header_contact {
   position: relative;
   padding-top: 4px;
-  color: #999;
   font-family: Helvetica, sans-serif;
 }
 
-.cv-header_contact.__sp {
-  margin-top: 8px;
-  padding-top: 12px;
+/* /Header
+-------------------------------------------------- */
+
+/* Icon
+-------------------------------------------------- */
+.cv-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  background-color: #9b8e80;
+  border-radius: 50%;
 }
 
-.cv-header_contact.__sp:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+.cv-icon__svg {
+  display: block;
+  fill: #fff;
+  color: #fff;
 }
+
+/* /icon
+-------------------------------------------------- */
 
 /* /Header */
 
@@ -136,18 +124,12 @@ body {
   padding-bottom: 12px;
   font-size: 18px;
   font-weight: bold;
-  color: #333;
   text-transform: uppercase;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans";
 }
 
-.title-skills {
-  color: #999;
-}
-
-.title-skills-bold {
-  color: #666;
+.education-title {
   font-weight: bold;
 }
 
@@ -168,7 +150,7 @@ body {
   top: 0;
   left: 24px;
   right: 24px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid #eee8e1;
 }
 
 .item-title_bold {
@@ -179,8 +161,8 @@ body {
 .item-time {
   position: relative;
   padding-bottom: 8px;
-  font-size: 12px;
-  color: #666;
+  font-size: 14px;
+  color: #a2917d;
 }
 
 .item-text {
@@ -189,25 +171,29 @@ body {
 
 .item-text p {
   margin-bottom: 12px;
-  line-height: 24px;
+  line-height: 1.4;
+}
+
+.contact-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 /* /Item*/
+
+/* Education
+-------------------------------------------------- */
+
+.education {
+  line-height: 1.5;
+}
 
 /* Summary
 -------------------------------------------------- */
 
 .summary {
-  padding: 24px 16px;
   border-bottom: var(--border);
-
-  @media (max-width: 465px) {
-    padding: 12px 16px;
-  }
-}
-
-.summary_tx p {
-  line-height: 24px;
 }
 
 /* /Summary */
@@ -215,41 +201,25 @@ body {
 /* Content
 -------------------------------------------------- */
 
-.content {
-  display: flex;
-  padding: 16px;
-
-  @media (max-width: 465px) {
-    padding: 12px 16px;
-    flex-direction: column;
-  }
+.content_left,
+.content_right {
+  padding: 16px 20px;
+  box-sizing: border-box;
 }
 
 .content_left {
-  width: 280px;
-
-  @media (max-width: 465px) {
-    margin-top: 24px;
-    width: auto;
-  }
-}
-
-.content_right {
-  flex: 1;
-
-  @media (max-width: 465px) {
-    order: -1;
-  }
+  background-color: #eee8e1;
+  color: #71675c;
 }
 
 .bullet-list {
-  padding-right: 28px;
+  padding-left: 12px;
   padding-top: 4px;
 }
 
 .bullet-list_i {
   position: relative;
-  line-height: 22px;
+  line-height: 1.4;
 }
 
 .bullet-list_i:before {

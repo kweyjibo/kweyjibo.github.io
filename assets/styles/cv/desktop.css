@@ -1,0 +1,76 @@
+@media (width >= 640px) {
+  .cv {
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-size: 16px;
+  }
+  /* Header
+-------------------------------------------------- */
+  .cv-header {
+    padding: 16px 16px 8px;
+  }
+
+  .cv-header_name {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .cv-header_position {
+    font-size: 20px;
+  }
+
+  /* /Header
+-------------------------------------------------- */
+
+  /* Summary
+-------------------------------------------------- */
+
+  .summary {
+    padding: 20px 16px;
+  }
+
+  .summary_tx p {
+    line-height: 24px;
+  }
+
+  /* /Summary */
+
+  /* Title
+-------------------------------------------------- */
+
+  .title {
+    padding-bottom: 16px;
+    font-size: 18px;
+  }
+
+  /* /Title */
+
+  /* Content
+-------------------------------------------------- */
+
+  .content {
+    display: flex;
+  }
+
+  .content_left,
+  .content_right {
+    padding: 16px 20px;
+  }
+
+  .content_left {
+    width: 290px;
+  }
+
+  .content_right {
+    flex: 1;
+  }
+  /* /Content */
+
+  .item-time {
+    padding-top: 4px;
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+}
