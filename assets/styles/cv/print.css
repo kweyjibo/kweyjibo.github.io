@@ -5,7 +5,7 @@
   }
 
   .cv-header {
-    padding: 12px 12px 4px;
+    padding: 0 12px 4px;
   }
 
   .cv-header_name {
@@ -27,7 +27,7 @@
   /* /Summary */
 
   .title {
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     font-size: 16px;
   }
 
@@ -54,6 +54,10 @@
 
   .item-title {
     line-height: 1;
+  }
+
+  .item-text p {
+    font-size: 14px;
   }
 
   .item-time {
