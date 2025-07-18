@@ -224,6 +224,7 @@ a {
 .bullet-list {
   margin-top: 4px;
   padding-left: 12px;
+  list-style: none;
 }
 
 .bullet-list_i {

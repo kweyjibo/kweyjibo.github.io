@@ -9,8 +9,8 @@
   }
 
   .cv-header_name {
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 22px;
+    line-height: 22px;
   }
 
   /* Summary
@@ -44,11 +44,15 @@
   }
 
   .content_left {
-    width: 280px;
+    width: 230px;
   }
 
   .content_right {
     flex: 1;
+  }
+
+  .bullet-list_i {
+    line-height: 1.3;
   }
   /* /Content */
 
