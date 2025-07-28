@@ -163,7 +163,6 @@ a {
 }
 
 .item-title_bold {
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -172,10 +171,6 @@ a {
   padding-bottom: 8px;
   font-size: 14px;
   color: #a2917d;
-}
-
-.item-text {
-  padding-top: 8px;
 }
 
 .item-text p {

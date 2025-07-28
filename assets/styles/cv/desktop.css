@@ -68,6 +68,14 @@
   }
   /* /Content */
 
+  .item-title_bold {
+    font-size: 18px;
+  }
+
+  .item-text {
+    padding-top: 8px;
+  }
+
   .item-time {
     padding-top: 4px;
     padding-bottom: 8px;

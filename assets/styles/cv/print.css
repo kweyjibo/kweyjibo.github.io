@@ -21,7 +21,7 @@
   }
 
   .summary_tx p {
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   /* /Summary */
@@ -64,13 +64,22 @@
     line-height: 1;
   }
 
+  .item-title_bold {
+    font-size: 16px;
+  }
+
   .item-text p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.2;
   }
 
   .item-time {
     padding-bottom: 4px;
     font-size: 12px;
     line-height: 1;
+  }
+
+  .item-res {
+    padding-bottom: 0;
   }
 }

@@ -50,6 +50,14 @@
   }
   /* /Content */
 
+  .item-title_bold {
+    font-size: 16px;
+  }
+
+  .item-text {
+    padding-top: 4px;
+  }
+
   .item-time {
     padding-bottom: 4px;
     font-size: 12px;
