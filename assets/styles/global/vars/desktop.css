@@ -1,6 +1,6 @@
 @media (width >= 1024px) {
   :root {
-    --site-font-size: 18px;
-    --article-content-font-size: 20px;
+    --site-font-size: 16px;
+    --article-content-font-size: 18px;
   }
 }
