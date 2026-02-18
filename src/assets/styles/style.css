@@ -2,12 +2,10 @@
 @import "global/fonts.css";
 @import "global/base.css";
 
-/* Sections */
-@import "sections/header/index.css";
-@import "sections/footer.css";
-@import "sections/logo/index.css";
-
 /* Blocks */
+@import "blocks/header/index.css";
+@import "blocks/footer.css";
+@import "blocks/logo/index.css";
 @import "blocks/navigation/index.css";
 @import "blocks/tags.css";
 @import "blocks/pagination.css";

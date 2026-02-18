@@ -1,25 +1,38 @@
 :root {
-  --site-color: #6b543e;
-  --background-color: #fdfdfd;
+  --site-text-color: #2f2a26;
+  --background-color: #f8f4f0;
 
-  --gray: #f1ece8;
-  --gray-dark: #c1bbbb;
-  --gray-purple: #88706b;
+  --header-green: #bfaf4c;
+  --header-orenge: #e67e00;
 
-  --green-color: #bfaf4c;
-  --orange: #e4892e;
-  --brown: #c9c0bb;
+  --social-network-bg: #fff;
+  --social-network-bg-hover: #e88600;
 
-  --header-gray: #f1ece8;
+  --site-decor-color: #efe5db;
 
-  --navigation-gray: #f3efec;
-  --navigation-gray-dark: #c1bbbb;
+  --navigation-bg: #ffa31a;
+  --navigation-bg-hover: #f08a00;
 
-  --article-bg-border: #f3efec;
-  --article-bg: #faf9f8;
-  --article-date: #b29e8b;
+  --pagination-bg: #efe5db;
+  --pagination-bg-hover: #c0b87a;
+
+  --article-bg: #fff;
+  --article-date: #8c8278;
   --article-blockquote: #c1bbbb;
   --article-blockquote-text: #6d6552;
+  --article-link-color: #2f2a26;
+  --article-link-color-hover: #e67e00;
+  --article-link-border-color: #e67e00;
+
+  --tags-bg: #fdeedc;
+  --tags-color: #ff971d;
+  --tags-hover-bg: #c0b87a;
+
+  --about-title-bg: #e6e2dc;
+  --about-link-color: #1f2937;
+  --about-link-color-hover: #e58b2f;
+
+  --footer-secondary-txt-color: #555;
 
   --border-radius: 8px;
 

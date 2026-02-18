@@ -15,38 +15,30 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "PTSans";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2");
+  src: url("/assets/fonts/PTSans/PTSans-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  src: url("/assets/fonts/roboto-medium-webfont.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("/assets/fonts/roboto-bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Roboto";
+  font-family: "PTSans";
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-  src: url("/assets/fonts/roboto-italic-webfont.woff2") format("woff2");
+  src: url("/assets/fonts/PTSans/Rubik-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/assets/fonts/PTSans/PTSans-Bold.woff2") format("woff2");
 }
 
 :root {
   --font-family-text-fira: "Fira Code", sans-serif;
-  --font-family-text-roboto: "Roboto", sans-serif;
+  --font-family-text-PTSans: "PTSans", sans-serif;
 }

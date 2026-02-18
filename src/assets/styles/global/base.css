@@ -18,15 +18,12 @@ figure {
   padding: 0;
 }
 
-html {
-  font-family: var(--font-family-text-roboto);
-  color: var(--site-color);
-}
-
 body {
   min-height: 100vh;
   height: 100%;
 
+  font-family: var(--font-family-text-PTSans);
+  color: var(--site-text-color);
   font-size: var(--site-font-size);
   background-color: var(--background-color);
 }

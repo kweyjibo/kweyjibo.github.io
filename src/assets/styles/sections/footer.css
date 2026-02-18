@@ -5,7 +5,7 @@
   padding-top: var(--footer-shift);
   padding-bottom: var(--footer-shift);
 
-  border-top: 4px solid var(--header-gray);
+  border-top: 4px solid var(--site-decor-color);
 
   & .wrapper {
     display: flex;
@@ -26,12 +26,12 @@
 }
 
 .footer-social_ic {
-  fill: var(--brown);
-  color: var(--brown);
+  fill: var(--social-network-bg);
+  color: var(--social-network-bg);
 
   .footer-social_link:hover & {
-    color: var(--gray-dark);
-    fill: var(--gray-dark);
+    color: var(--social-network-bg-hover);
+    fill: var(--social-network-bg-hover);
   }
 }
 
@@ -40,7 +40,7 @@
   display: inline-block;
   padding: 8px 12px;
 
-  background-color: var(--gray);
+  background-color: var(--site-decor-color);
   border-radius: 8px;
 
   &:before {
@@ -53,15 +53,14 @@
     width: 4px;
     height: 20px;
 
-    background-color: var(--gray);
+    background-color: var(--site-decor-color);
   }
 }
 
 /* About me */
 
-.footer-aboutme,
 .footer-me_dsc {
-  color: var(--gray-purple);
+  color: var(--footer-secondary-txt-color);
 }
 
 .footer-aboutme {

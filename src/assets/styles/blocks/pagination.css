@@ -23,16 +23,15 @@
 .pagination-link,
 .pagination-link_btn {
   display: block;
-  background-color: var(--navigation-gray);
+  background-color: var(--pagination-bg);
 
-  color: var(--brown);
+  color: #fff;
   border-radius: 8px;
   text-decoration: none;
 
   &:hover,
   &.__active {
-    background-color: var(--green-color);
-    color: #fff;
+    background-color: var(--pagination-bg-hover);
   }
 
   &.__active {
@@ -53,8 +52,6 @@
 }
 
 .pagination-link_svg {
-  stroke: var(--brow);
-
   .pagination-link_btn:hover & {
     stroke: #fff;
   }
