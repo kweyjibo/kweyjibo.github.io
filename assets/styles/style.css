@@ -1,6 +1,6 @@
-@import "__global/vars/index.css";
-@import "__global/fonts.css";
-@import "__global/base.css";
+@import "!global/vars/index.css";
+@import "!global/fonts.css";
+@import "!global/base.css";
 
 /* Blocks */
 @import "blocks/header/index.css";
