@@ -9,7 +9,7 @@
   border-radius: 8px;
 
   &:hover {
-    background-color: var(--orange);
+    background-color: var(--navigation-bg-hover);
 
     & svg {
       color: #fff;
@@ -18,7 +18,7 @@
   }
 
   & svg {
-    fill: var(--orange);
-    color: var(--orange);
+    fill: var(--navigation-bg-hover);
+    color: var(--navigation-bg-hover);
   }
 }

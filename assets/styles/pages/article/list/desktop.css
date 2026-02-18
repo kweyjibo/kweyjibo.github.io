@@ -1,19 +1,26 @@
 @media (width >= 1024px) {
-  .article-card_content {
+  .article-item_content {
     --shift: 16px;
 
     padding: var(--shift) var(--shift) var(--shift) 0;
   }
 
-  .article-card_title {
-    font-size: 22px;
+  .article-item_title {
+    font-size: 24px;
   }
 
-  .article-card_cover {
+  .article-item_cover {
     img,
     svg {
       width: 220px;
       display: block;
     }
+  }
+
+  .article-item__desc {
+    padding-top: 24px;
+    padding-bottom: 12px;
+
+    font-size: 21px;
   }
 }

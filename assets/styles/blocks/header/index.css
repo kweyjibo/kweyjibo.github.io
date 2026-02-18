@@ -16,7 +16,7 @@
 
   border-top-style: solid;
   border-top-width: 4px;
-  border-top-color: var(--header-gray);
+  border-top-color: var(--site-decor-color);
   border-bottom-color: transparent;
 
   background-color: var(--background-color);
@@ -29,7 +29,7 @@
     right: 0;
 
     height: 3px;
-    background-color: var(--header-gray);
+    background-color: var(--site-decor-color);
   }
 
   & .wrapper {
@@ -43,10 +43,10 @@
   bottom: 12px;
 
   font-family: var(--font-family-text-fira);
-  color: #999;
+  color: #5e554e;
 
   cursor: default;
-  background-color: var(--header-gray);
+  background-color: var(--site-decor-color);
   border-radius: 8px;
 
   &:before,
@@ -58,7 +58,7 @@
     width: 4px;
     height: 12px;
 
-    background-color: var(--header-gray);
+    background-color: var(--site-decor-color);
   }
 
   &:before {
@@ -76,8 +76,8 @@
 }
 
 .header-title_g {
-  color: var(--green-color);
+  color: var(--header-green);
 }
 .header-title_o {
-  color: var(--orange);
+  color: var(--header-orenge);
 }
