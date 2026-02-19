@@ -12,32 +12,30 @@ eleventyComputed:
 <h1>Tagged “{{ tag }}”</h1>
 
 {% for post in collections[tag] %}
-<article class="article-card">
+<article class="article-item">
   {% if post.data.image %}
-  <div class="article-card_cover">
+  <div class="article-item_cover">
     <figure>
-      <img
+      <a href="{{ post.url }}"><img
         src="../{{ post.data.image }}"
         alt="{{ post.data.title }}"
         width="{{ post.data.imageProp }}"
-      />
+      /></a>
     </figure>
   </div>
   {% endif %}
 
   <section
-    class="article-card_content {% if not(post.data.image) %}__shift{% endif %}"
+    class="article-item_content {% if not(post.data.image) %}__shift{% endif %}"
   >
-    <h2 class="article-card_title">
-      <a href="{{ post.url }}" class="article-card_more __title">
+    <h2 class="article-item_title">
+      <a href="{{ post.url }}" class="article-item_lk">
         {{ post.data.title }}
       </a>
     </h2>
 
-    <div class="article-card_desc">
-      <a href="{{ post.url }}" class="article-card_more __desc">{{
-        post.data.dsc
-      }}</a>
+    <div class="article-item__desc">
+      {{ post.data.dsc }}
     </div>
 
     <span class="tag_i"

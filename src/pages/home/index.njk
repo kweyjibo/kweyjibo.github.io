@@ -13,38 +13,25 @@ layout: page.njk
 
 {% for post in pagination.items %}
 
-<article class="article-card">
+<article class="article-item">
   {% if post.data.image %}
-  <div class="article-card_cover">
-    <figure>
-      <img
+  <div class="article-item_cover">
+    <figure class="article-item_img">
+      <a href="{{ post.url }}"><img
         src="{{ post.data.image }}"
         alt="{{ post.data.title }}"
         width="{{ post.data.imageProp }}"
-      />
+      /></a>
     </figure>
   </div>
   {% endif %}
   <section
-    class="article-card_content {% if not(post.data.image) %}__shift{% endif %}"
+    class="article-item_content {% if not(post.data.image) %}__shift{% endif %}"
   >
-    <h1 class="article-card_title">
-      <a href="{{ post.url }}" class="article-card_more __title">
-        {{ post.data.title }}
-      </a>
+  
+    <h1 class="article-item_title">
+      <a class="article-item_lk" href="{{ post.url }}">{{ post.data.title }}</a>
     </h1>
-
-    <time class="article-card_date" datetime="{{ post.date }}">{{
-      post.date | dateShort
-    }}</time>
-    <span class="article-card_read"
-      >{{ post.content | readTime }} min read</span
-    >
-
-    <a href="{{ post.url }}" class="article-card_more __desc">
-      <div class="article-card_desc">{{ post.data.dsc }}</div>
-    </a>
-
     <div class="tags __top">
       {% for tag in post.data.tags %} {% if tag != "posts" %}
       <span class="tag_i">
@@ -54,6 +41,14 @@ layout: page.njk
       </span>
       {% endif %} {% endfor %}
     </div>
+    
+    <div class="article-item__desc">{{ post.data.dsc }}</div>
+
+
+    <footer class="article-item__footer">
+      <time class="article-item_date" datetime="{{ post.date }}">{{ post.date | dateShort }}</time>
+      <span class="article-item_read">{{ post.content | readTime }} min read</span>
+    </footer>
   </section>
 </article>
 
