@@ -4,11 +4,21 @@
   }
 
   .article-item_content {
-    --shift: 8px;
+    --shift: 16px;
     padding: var(--shift);
   }
 
   .article-item_title {
     font-size: 20px;
+  }
+
+  .article-item__desc {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .article-item_img {
+    padding-top: 16px;
+    text-align: center;
   }
 }

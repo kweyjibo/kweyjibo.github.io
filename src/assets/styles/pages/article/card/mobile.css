@@ -3,4 +3,10 @@
     font-size: 22px;
     line-height: 1.2;
   }
+
+  .article-content {
+    p {
+      line-height: 1.6;
+    }
+  }
 }
