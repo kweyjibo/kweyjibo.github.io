@@ -1,2 +1,11 @@
 @media (width >= 1024px) {
+  .arctical-title {
+    font-size: 30px;
+  }
+
+  .article-content {
+    p {
+      line-height: 1.6;
+    }
+  }
 }

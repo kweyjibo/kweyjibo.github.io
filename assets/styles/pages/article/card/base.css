@@ -17,7 +17,6 @@
 .article-title {
   font-family: var(--font-family-text-fira);
   font-weight: normal;
-  font-size: 30px;
 }
 
 .article-date {
@@ -37,10 +36,6 @@
 
   border-radius: 8px;
   background-color: var(--article-bg);
-
-  p {
-    line-height: 1.8;
-  }
 
   p:not(:first-child) {
     padding-top: 20px;
