@@ -1,0 +1,90 @@
+html {
+  height: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #534a41;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Common
+-------------------------------------------------- */
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mt-2x {
+  margin-top: 8px;
+}
+
+.mt-4x {
+  margin-top: 16px;
+}
+
+.mt-6x {
+  margin-top: 24px;
+}
+
+.mt-8x {
+  margin-top: 32px;
+}
+
+.cv {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cv p {
+  margin: 0;
+}
+
+.cv p:not(:first-child) {
+  margin-top: 8px;
+}
+
+.block + .block {
+  padding-top: 20px;
+}
+
+/* /Common */
+
+/* Title
+-------------------------------------------------- */
+
+.title {
+  font-size: 18px;
+}
+
+.sub-title {
+  padding: 0;
+  font-size: 16px;
+}
+
+.education-title {
+  font-weight: bold;
+}
+
+/* /Title */
+
+.bullet-list {
+  padding: 0 0 0 8px;
+  margin: 0 0 0 8px;
+}
