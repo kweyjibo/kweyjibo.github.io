@@ -50,19 +50,19 @@
 
   &.__left {
     left: 26px;
-    top: 60px;
+    top: 56px;
   }
 
   &.__right {
     left: 60px;
-    top: 60px;
+    top: 56px;
   }
 }
 
 .logo-mouth {
   position: absolute;
   left: 42px;
-  top: 78px;
+  top: 73px;
 }
 
 .logo__i {
