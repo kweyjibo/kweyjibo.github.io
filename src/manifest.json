@@ -4,8 +4,8 @@
   "lang": "{{ global.language }}",
   "icons": [
     {
-      "src": "/assets/img/favicon/180.png",
-      "sizes": "180x180",
+      "src": "/assets/img/favicon/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
