@@ -1,12 +1,28 @@
 @media (width >= 1024px) {
+  .article-item {
+    position: relative;
+
+    &:before {
+      content: "";
+      width: 180px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+
+      background-image: url(../../../../img/dot.png);
+    }
+  }
+
   .article-item_content {
     --shift: 16px;
 
     padding: var(--shift) var(--shift) var(--shift) 0;
+    position: relative;
   }
 
   .article-item_title {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .article-item_cover {
@@ -18,9 +34,10 @@
   }
 
   .article-item__desc {
-    padding-top: 24px;
+    padding-top: 12px;
     padding-bottom: 12px;
 
     font-size: 21px;
+    line-height: 1.5;
   }
 }

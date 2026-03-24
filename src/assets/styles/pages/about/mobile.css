@@ -1,4 +1,8 @@
 @media (width < 1024px) {
+  .about_cnt {
+    padding: 8px;
+  }
+
   .about-section_i {
     margin-bottom: 16px;
   }

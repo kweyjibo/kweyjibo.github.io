@@ -1,7 +1,15 @@
 @media (width >= 1024px) {
   .navigation-cnt {
-    left: 148px;
+    right: 16px;
     top: 16px;
+  }
+
+  .navigation-link {
+    padding: 8px 20px;
+
+    font-size: 20px;
+
+    border-radius: 20px;
   }
 
   .navigation-list {

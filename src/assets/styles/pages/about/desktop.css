@@ -1,4 +1,8 @@
 @media (width >= 1024px) {
+  .about_cnt {
+    padding: 16px;
+  }
+
   .about-me,
   .about-section_cnt {
     display: flex;

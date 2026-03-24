@@ -1,6 +1,7 @@
 :root {
   --site-text-color: #2f2a26;
-  --background-color: #f8f4f0;
+  --site-text-color-secondary: #555;
+  --background-color: #fff8f1;
 
   --header-green: #bfaf4c;
   --header-orenge: #e67e00;
@@ -8,13 +9,13 @@
   --social-network-bg: #fff;
   --social-network-bg-hover: #e88600;
 
-  --site-decor-color: #efe5db;
+  --site-decor-color: #ffd460;
 
-  --navigation-bg: #ffa31a;
-  --navigation-bg-hover: #f08a00;
+  --navigation-bg: #f07b3f;
+  --navigation-bg-hover: #ea5455;
 
-  --pagination-bg: #efe5db;
-  --pagination-bg-hover: #c0b87a;
+  --pagination-bg: #f07b3f;
+  --pagination-bg-hover: #ea5455;
 
   --article-bg: #fff;
   --article-date: #8c8278;
@@ -28,13 +29,15 @@
   --tags-color: #ff971d;
   --tags-hover-bg: #c0b87a;
 
-  --about-title-bg: #e6e2dc;
+  --about-title-bg: #ffd460;
   --about-link-color: #1f2937;
   --about-link-color-hover: #e58b2f;
 
   --footer-secondary-txt-color: #555;
+  --footer-social-link: #555;
+  --footer-social-link-hover: #ea5455;
 
-  --border-radius: 8px;
+  --border-radius: 12px;
 
   --content-width: 800px;
 

@@ -1,8 +1,7 @@
 @media (width >= 1024px) {
   .header-title_tx {
-    right: 0;
+    left: 148px;
     z-index: 2;
-
     padding: 8px 12px;
   }
 

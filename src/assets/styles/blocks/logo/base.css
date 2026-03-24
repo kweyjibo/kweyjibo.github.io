@@ -12,23 +12,6 @@
     position: relative;
     z-index: 3;
   }
-
-  &:after {
-    --logo-position: -8px;
-
-    content: "";
-    position: absolute;
-
-    z-index: 0;
-    top: var(--logo-position);
-    bottom: var(--logo-position);
-    left: var(--logo-position);
-    right: var(--logo-position);
-
-    background-color: #fff;
-    border: 4px solid #f1ece8;
-    border-radius: 50%;
-  }
 }
 
 .header-logo_svg {
@@ -50,19 +33,19 @@
 
   &.__left {
     left: 26px;
-    top: 60px;
+    top: 56px;
   }
 
   &.__right {
     left: 60px;
-    top: 60px;
+    top: 56px;
   }
 }
 
 .logo-mouth {
   position: absolute;
   left: 42px;
-  top: 78px;
+  top: 73px;
 }
 
 .logo__i {

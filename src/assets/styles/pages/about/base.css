@@ -1,6 +1,6 @@
 .about_cnt {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-radius: var(--border-radius);
+  background-color: #fff;
 
   a {
     color: var(--about-link-color);
@@ -58,9 +58,8 @@
 .about-section_h {
   padding-bottom: 16px;
 
-  font-family: var(--font-family-text-fira);
-  font-size: 22px;
-  font-weight: 700;
+  font-family: var(--font-family-text-manrope);
+  font-size: 26px;
 }
 
 .about-section_i {
@@ -71,8 +70,7 @@
 }
 
 .about-section_t {
-  font-family: var(--font-family-text-fira);
-  font-weight: 700;
+  font-family: var(--font-family-text-manrope);
   background-color: var(--about-title-bg);
 }
 
@@ -82,7 +80,7 @@
 }
 
 .about-section_dsc {
-  background-color: #fff;
+  background-color: #fff8f1;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
