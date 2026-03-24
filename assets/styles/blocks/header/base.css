@@ -1,0 +1,40 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  align-self: center;
+
+  width: 100%;
+  height: 110px;
+
+  background-color: var(--background-color);
+
+  & .wrapper {
+    position: relative;
+    height: inherit;
+  }
+}
+
+.header-title_tx {
+  position: absolute;
+  bottom: 12px;
+
+  font-family: var(--font-family-text-geistmono);
+  color: #5e554e;
+
+  cursor: default;
+  background-color: var(--site-decor-color);
+  border-radius: 16px;
+}
+
+.header-title_g,
+.header-title_o {
+  font-weight: 600;
+}
+
+.header-title_g {
+  color: #2d4059;
+}
+.header-title_o {
+  color: #ea5455;
+}

@@ -11,11 +11,11 @@
   padding: 16px;
 
   background-color: var(--article-bg);
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
 .article-title {
-  font-family: var(--font-family-text-fira);
+  font-family: var(--font-family-text-manrope);
   font-weight: normal;
 }
 
@@ -30,11 +30,12 @@
 
 .article-content {
   margin-top: 16px;
+  margin-bottom: 16px;
   padding: 16px;
 
   font-size: var(--article-content-font-size);
 
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   background-color: var(--article-bg);
 
   p:not(:first-child) {
@@ -55,10 +56,9 @@
   h2 {
     padding-top: 42px;
 
-    font-family: var(--font-family-text-fira);
+    font-family: var(--font-family-text-manrope);
     font-size: 28px;
-    font-weight: normal;
-    /* font-weight: 700; */
+    font-weight: 500;
   }
 
   img {

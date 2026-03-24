@@ -4,7 +4,7 @@
 
 /* Blocks */
 @import "blocks/header/index.css";
-@import "blocks/footer.css";
+@import "blocks/footer/index.css";
 @import "blocks/logo/index.css";
 @import "blocks/navigation/index.css";
 @import "blocks/tags.css";
@@ -20,6 +20,5 @@
 @import "extensions/syntaxhighlight.css";
 
 /* Decorations */
-@import "decor/decor.css";
 @import "decor/cup.css";
 @import "decor/tags.css";

@@ -1,0 +1,58 @@
+.footer {
+  --footer-shift: 20px;
+  --family-font: var(--font-family-text-manrope);
+
+  margin-top: var(--footer-shift);
+  padding-top: var(--footer-shift);
+  padding-bottom: var(--footer-shift);
+
+  & .wrapper {
+    display: flex;
+  }
+}
+
+.footer-social_link {
+  display: inline-block;
+  vertical-align: middle;
+
+  color: var(--footer-social-link);
+
+  &:hover {
+    color: var(--footer-social-link-hover);
+  }
+}
+
+.social-cnt {
+  position: relative;
+  display: inline-block;
+  padding: 0 12px;
+
+  text-align: right;
+}
+
+.footer-title {
+  font-family: var(--family-font);
+  font-weight: 500;
+}
+
+.social-list {
+  padding: 4px 0 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5;
+}
+
+/* About me */
+
+.footer-me_dsc {
+  color: var(--footer-secondary-txt-color);
+}
+
+.footer-aboutme {
+  padding-bottom: 4px;
+}
+
+.footer-aboutme_ic {
+  display: inline-block;
+  transform: translate(0, 2px);
+}

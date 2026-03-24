@@ -1,44 +1,36 @@
 @font-face {
-  font-family: "Fira Code";
+  font-family: "Manrope";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("/assets/fonts/FiraCode-Regular.woff2") format("woff2");
+  src: url("/assets/fonts/Manrope-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Fira Code";
-  font-weight: 700;
+  font-family: "Manrope";
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("/assets/fonts/FiraCode-SemiBold.woff2") format("woff2");
+  src: url("/assets/fonts/Manrope-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "PTSans";
+  font-family: "GeistMono";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("/assets/fonts/PTSans/PTSans-Regular.woff2") format("woff2");
+  src: url("/assets/fonts/GeistMono-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "PTSans";
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src: url("/assets/fonts/PTSans/Rubik-Italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "PTSans";
-  font-weight: 700;
+  font-family: "GeistMono";
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("/assets/fonts/PTSans/PTSans-Bold.woff2") format("woff2");
+  src: url("/assets/fonts/GeistMono-Bold.woff2") format("woff2");
 }
 
 :root {
-  --font-family-text-fira: "Fira Code", sans-serif;
-  --font-family-text-PTSans: "PTSans", sans-serif;
+  --font-family-text-manrope: "Manrope", sans-serif;
+  --font-family-text-geistmono: "GeistMono", sans-serif;
 }
