@@ -1,6 +1,6 @@
 @media (width >= 1024px) {
-  .arctical-title {
-    font-size: 30px;
+  .article-title {
+    padding-top: 16px;
   }
 
   .article-content {

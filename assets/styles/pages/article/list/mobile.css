@@ -9,7 +9,7 @@
   }
 
   .article-item_title {
-    padding-top: 4px;
+    padding-top: 12px;
     font-size: 22px;
     line-height: 1.2;
   }
@@ -17,11 +17,13 @@
   .article-item__desc {
     padding-top: 12px;
     padding-bottom: 12px;
+
+    line-height: 1.4;
   }
 
   .article-item_img {
-    padding-top: 16px;
-    text-align: center;
+    display: block;
+    width: 100%;
   }
 
   .article-item__footer {

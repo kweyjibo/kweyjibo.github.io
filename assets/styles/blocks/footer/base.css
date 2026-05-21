@@ -2,9 +2,10 @@
   --footer-shift: 20px;
   --family-font: var(--font-family-text-manrope);
 
-  margin-top: var(--footer-shift);
+  display: flex;
   padding-top: var(--footer-shift);
   padding-bottom: var(--footer-shift);
+  box-sizing: border-box;
 
   & .wrapper {
     display: flex;
@@ -32,6 +33,7 @@
 
 .footer-title {
   font-family: var(--family-font);
+  font-size: var(--footer-h2-size);
   font-weight: 500;
 }
 

@@ -3,9 +3,12 @@
     padding: 16px;
   }
 
-  .about-me,
   .about-section_cnt {
     display: flex;
+  }
+
+  .about-me {
+    gap: 20px;
   }
 
   .about-section_cnt {

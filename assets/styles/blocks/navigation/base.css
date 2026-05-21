@@ -1,29 +1,8 @@
-.navigation {
-  display: block;
-}
-
-.navigation-cnt {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-
-  position: absolute;
-}
-
-.navigation-trigger,
-.menu-icon {
-  display: none;
-}
-
 .navigation-list {
   list-style: none;
 }
 
 /* Desctop version */
-
-.navigation-list {
-  display: flex;
-}
 
 .navigation-link {
   display: block;
@@ -32,11 +11,12 @@
   font-family: var(--font-family-text-geistmono);
   font-weight: 500;
   text-decoration: none;
-  background-color: var(--navigation-bg);
+  text-transform: uppercase;
+  color: var(--navigation-bg);
 
   &:hover,
   &.__active {
-    background-color: var(--navigation-bg-hover);
+    color: var(--navigation-bg-hover);
   }
 
   &.__active {

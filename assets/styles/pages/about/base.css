@@ -17,6 +17,7 @@
 
 .about-me {
   position: relative;
+  display: flex;
   padding-bottom: 24px;
 }
 
