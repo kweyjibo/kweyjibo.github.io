@@ -18,7 +18,8 @@
 
   &:hover,
   &.__active {
-    color: var(--navigation-bg-hover);
+    background-color: var(--navigation-bg-hover);
+    color: #fff;
   }
 
   &.__active {
