@@ -1,6 +1,5 @@
 @media (width < 1024px) {
   .navigation-list {
-    display: flex;
     flex-direction: row;
   }
 

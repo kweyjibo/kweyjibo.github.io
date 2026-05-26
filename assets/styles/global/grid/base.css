@@ -1,3 +1,4 @@
 .grid {
   display: grid;
+  min-width: 380px;
 }
