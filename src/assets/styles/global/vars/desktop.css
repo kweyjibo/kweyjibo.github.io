@@ -1,6 +1,16 @@
 @media (width >= 1024px) {
   :root {
+    /* Global variables for Sizes */
+
     --site-font-size: 16px;
     --article-content-font-size: 20px;
+
+    --header-height: 150px;
+
+    /* Footer variables */
+
+    --footer-h2-size: 22px;
+
+    /* /Global variables for Sizes */
   }
 }

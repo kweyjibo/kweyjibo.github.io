@@ -1,0 +1,16 @@
+@media (width < 1024px) {
+  .grid {
+    --grid-shift: 12px;
+
+    padding-left: var(--grid-shift);
+    padding-right: var(--grid-shift);
+    gap: 12px;
+  }
+
+  .cell__2 {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    z-index: 1;
+  }
+}

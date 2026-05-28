@@ -1,7 +1,6 @@
 @media (width < 1024px) {
-  .navigation-cnt {
-    right: 8px;
-    top: 8px;
+  .navigation-list {
+    flex-direction: row;
   }
 
   .navigation-link {
@@ -11,5 +10,10 @@
 
   .navigation-list {
     column-gap: 4px;
+  }
+
+  .navigation-i {
+    flex: 1;
+    text-align: center;
   }
 }

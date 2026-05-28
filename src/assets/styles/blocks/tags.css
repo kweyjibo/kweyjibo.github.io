@@ -1,6 +1,5 @@
 .tags-page {
   flex-flow: wrap;
-  padding-top: 20px;
 }
 
 .tags,
@@ -35,6 +34,7 @@
   background-color: var(--tags-bg);
   border-radius: 12px;
 
+  font-family: var(--font-family-text-geistmono);
   font-size: 14px;
   text-decoration: none;
   color: var(--tags-color);

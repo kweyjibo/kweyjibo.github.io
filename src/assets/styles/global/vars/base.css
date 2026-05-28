@@ -1,4 +1,6 @@
 :root {
+  /* Global variables for COLORS */
+
   --site-text-color: #2f2a26;
   --site-text-color-secondary: #555;
   --background-color: #fff8f1;
@@ -33,14 +35,15 @@
   --about-link-color: #1f2937;
   --about-link-color-hover: #e58b2f;
 
-  --footer-secondary-txt-color: #555;
+  --footer-secondary-txt-color: #55555591;
   --footer-social-link: #555;
   --footer-social-link-hover: #ea5455;
 
+  /* /Global variables for COLORS */
+
+  /* Global variables for Sizes */
+
   --border-radius: 12px;
 
-  --content-width: 800px;
-
-  --on-palm: 600px;
-  --on-laptop: 800px;
+  /* /Global variables for Sizes */
 }

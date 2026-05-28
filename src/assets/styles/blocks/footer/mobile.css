@@ -1,2 +1,5 @@
 @media (width < 1024px) {
+  .footer {
+    gap: var(--footer-shift);
+  }
 }

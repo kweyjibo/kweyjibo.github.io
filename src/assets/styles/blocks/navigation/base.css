@@ -1,42 +1,25 @@
-.navigation {
-  display: block;
-}
-
-.navigation-cnt {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-
-  position: absolute;
-}
-
-.navigation-trigger,
-.menu-icon {
-  display: none;
-}
-
 .navigation-list {
+  display: flex;
   list-style: none;
 }
 
 /* Desctop version */
 
-.navigation-list {
-  display: flex;
-}
-
 .navigation-link {
   display: block;
 
-  color: #fff;
   font-family: var(--font-family-text-geistmono);
   font-weight: 500;
   text-decoration: none;
-  background-color: var(--navigation-bg);
+  text-transform: uppercase;
+  color: var(--navigation-bg);
+
+  background-color: #fff;
 
   &:hover,
   &.__active {
     background-color: var(--navigation-bg-hover);
+    color: #fff;
   }
 
   &.__active {

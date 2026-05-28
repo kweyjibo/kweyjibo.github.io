@@ -1,0 +1,10 @@
+@media (width < 1024px) {
+  .video-wrapper {
+    padding-top: 16px;
+    max-width: 100%;
+
+    & video {
+      width: 100%;
+    }
+  }
+}
