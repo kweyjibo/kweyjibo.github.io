@@ -1,48 +1,28 @@
-<header class="header flex" id="header">
-  <div class="wrapper position">
-    <a class="header-logo" href="/" aria-label="Home">
-      <img src="/assets/img/logo.svg" width="110" height="110" alt="Logo" />
+<header class="header cell__1" id="header">
+  <div class="header__left">
+    <div class="logo-cnt">
+      <a class="logo" href="/" aria-label="Home">
+        <ul class="waves-container">
+          <li class="wave"></li>
+          <li class="wave"></li>
+          <li class="wave"></li>
+          <li class="wave"></li>
+          <li class="wave"></li>
+          <li class="wave"></li>
+        </ul>
 
-      <div class="logo-eye __left">
-        <span class="logo__i __1"></span>
-        <span class="logo__i __2"></span>
-        <span class="logo__i __3"></span>
-        <span class="logo__i __4"></span>
-        <span class="logo__i __5"></span>
-        <span class="logo__i __6"></span>
-        <span class="logo__i __7"></span>
-        <span class="logo__i __8"></span>
-      </div>
-
-      <div class="logo-eye __right">
-        <span class="logo__i __1"></span>
-        <span class="logo__i __2"></span>
-        <span class="logo__i __3"></span>
-        <span class="logo__i __4"></span>
-        <span class="logo__i __5"></span>
-        <span class="logo__i __6"></span>
-        <span class="logo__i __7"></span>
-        <span class="logo__i __8"></span>
-      </div>
-
-      <div class="logo-mouth">
-        <span class="logo__i __m1"></span>
-        <span class="logo__i __m2"></span>
-        <span class="logo__i __m3"></span>
-        <span class="logo__i __m4"></span>
-        <span class="logo__i __m5"></span>
-      </div>
-    </a>
+        <img
+          src="/assets/img/header/logo.svg"
+          width="110"
+          height="110"
+          alt="Logo"
+        />
+      </a>
+    </div>
 
     <div class="header-title_tx">
       With <span class="header-title_o">love</span> to all citizens of
       <span class="header-title_g">Earth</span>
     </div>
-
-    {% include 'nav.njk' %}
-
-    <span id="toggleDarkMode"></span>
-
-    <div class="decor-dots __header"></div>
   </div>
 </header>

@@ -1,0 +1,29 @@
+@media (width >= 1024px) {
+  .header {
+    height: var(--header-height);
+
+    display: flex;
+    padding: 20px 0;
+    box-sizing: border-box;
+
+    background-image: url("/assets/img/decor/bg-top-right.svg");
+    background-repeat: no-repeat;
+    background-position: 106px 0;
+    background-size: 889px 157px;
+  }
+
+  .header__left {
+    flex: 1;
+  }
+
+  .header-title_tx {
+    left: 128px;
+    z-index: 2;
+    padding: 8px 12px;
+  }
+
+  .header-title_g,
+  .header-title_o {
+    font-size: 18px;
+  }
+}
