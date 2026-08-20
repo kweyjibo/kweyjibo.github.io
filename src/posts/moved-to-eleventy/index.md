@@ -1,14 +1,13 @@
 ---
 layout: post.njk
-title:  'Blog переехал на 11ty'
-dsc:    'Решила быть модной и перевезла свой блог на 11ty'
-date:   2023-08-03
-image: '../posts/moved-to-eleventy/images/img.jpg'
-imageProp: '400px'
+title: "Blog переехал на 11ty"
+dsc: "Решила быть модной и перевезла свой блог на 11ty"
+date: 2023-08-03
+image: "../posts/moved-to-eleventy/images/img.jpg"
+imageProp: "400px"
+section: work
 tags:
-- blog
-- news
-- 11ty
+  - news
 ---
 
 Перевезла свой блог на [Eleventy](https://www.11ty.dev/) - простой генератор статических сайтов. Достаточно удобный и практичный. Есть много плагинов для различных нужд.
