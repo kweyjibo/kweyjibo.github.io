@@ -29,6 +29,7 @@
 
 .post-item_title {
   font-family: var(--font-family-text-manrope);
+  font-size: var(--post-item-title-font-size);
 }
 
 .post-item_lk {
@@ -42,6 +43,8 @@
 
 .post-item__desc {
   flex: 1;
+
+  font-size: var(--post-content-font-size);
   text-decoration: none;
 
   &.__title {

@@ -5,7 +5,6 @@
 
   .post-item_title {
     padding-top: 12px;
-    font-size: var(--post-item-title-font-size);
     line-height: 1.2;
   }
 

@@ -9,7 +9,6 @@
 @import "components/navigation/index.css";
 @import "components/tags.css";
 @import "components/pagination.css";
-@import "components/rss/index.css";
 @import "components/posts/index.css";
 @import "components/article/index.css";
 @import "components/sections-tags/index.css";
@@ -25,6 +24,5 @@
 @import "extensions/syntaxhighlight.css";
 
 /* Decorations */
-@import "decor/site-bg/index.css";
 @import "decor/cup.css";
 @import "decor/tags.css";
