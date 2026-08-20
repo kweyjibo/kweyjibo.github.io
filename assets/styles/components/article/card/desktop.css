@@ -1,0 +1,12 @@
+@media (width >= 1024px) {
+  .article-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .article-content {
+    p {
+      line-height: 1.6;
+    }
+  }
+}

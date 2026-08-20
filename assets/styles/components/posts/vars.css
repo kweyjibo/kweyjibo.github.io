@@ -1,0 +1,21 @@
+/* Local vars for article item */
+:root {
+  --post-item-bg: #fff;
+  --post-item-date: #8c8278;
+}
+
+@media (width >= 1024px) {
+  :root {
+    --post-item-shift: 16px;
+    --post-item-title-font-size: 28px;
+    --post-content-font-size: 18px;
+  }
+}
+
+@media (width < 1024px) {
+  :root {
+    --post-item-shift: 12px;
+    --post-item-title-font-size: 22px;
+    --post-content-font-size: 18px;
+  }
+}

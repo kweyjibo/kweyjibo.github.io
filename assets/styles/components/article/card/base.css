@@ -1,0 +1,156 @@
+:root {
+  --green-color: #b5c18e;
+}
+
+.article-header {
+  position: relative;
+  padding: 16px;
+
+  background-color: var(--article-bg);
+  border-radius: var(--border-radius);
+}
+
+.article-title {
+  font-family: var(--font-family-text-manrope);
+}
+
+.article-date {
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 8px;
+
+  font-size: 14px;
+  color: var(--article-date);
+}
+
+.article-content {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+
+  font-size: var(--article-content-font-size);
+
+  border-radius: var(--border-radius);
+  background-color: var(--article-bg);
+
+  p:not(:first-child) {
+    padding-top: 20px;
+  }
+
+  p a {
+    color: var(--article-link-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--article-link-border-color);
+
+    &:hover {
+      color: var(--article-link-color-hover);
+    }
+  }
+
+  h1,
+  h2 {
+    padding-top: 42px;
+
+    font-family: var(--font-family-text-manrope);
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  ul {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+    line-height: 1.6;
+  }
+
+  li:not(:first-child) {
+    padding-top: 8px;
+  }
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.article-img {
+  display: inline-block;
+  overflow: hidden;
+
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.article-lk__img {
+  display: inline-block;
+  text-decoration: none;
+
+  a,
+  figcaption {
+    color: var(--green-color);
+  }
+}
+
+/* /Text elements */
+
+.article-at {
+  padding: 0 4px;
+  line-height: 1.8;
+
+  &.__shift {
+    display: inline-block;
+    padding: 12px 16px;
+    margin-top: 20px;
+
+    color: #5e554e;
+    line-height: 1.4;
+    border-radius: 8px;
+  }
+
+  &.__pink {
+    background-color: #e7c8be;
+  }
+
+  &.__yellow {
+    background-color: #fffadd;
+  }
+
+  &.__green {
+    background-color: #f7f7e8;
+  }
+}
+
+blockquote {
+  padding-left: 15px;
+
+  color: var(--article-blockquote-text);
+  border-left: 4px solid var(--article-blockquote);
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+}
+
+/* Article additional navigation */
+
+.article-mark {
+  padding: 2px 4px;
+
+  border-radius: 2px;
+  color: #fff;
+  background-color: var(--green-color);
+}
+
+.article-center {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.article-bold {
+  font-weight: 600;
+}

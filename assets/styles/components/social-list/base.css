@@ -1,0 +1,13 @@
+.social-cnt {
+  position: relative;
+  display: inline-block;
+}
+
+.social-list {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5;
+}
+
+

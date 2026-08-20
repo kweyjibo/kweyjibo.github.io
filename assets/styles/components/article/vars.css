@@ -1,0 +1,24 @@
+/* Local vars for article item */
+:root {
+  --article-bg: #fff;
+  --article-date: #8c8278;
+  --article-blockquote: #c1bbbb;
+  --article-blockquote-text: #6d6552;
+  --article-link-color: #2f2a26;
+  --article-link-color-hover: #e67e00;
+  --article-link-border-color: #e67e00;
+}
+
+@media (width >= 1024px) {
+  :root {
+    --article-item-title-font-size: 28px;
+    --article-content-font-size: 18px;
+  }
+}
+
+@media (width < 1024px) {
+  :root {
+    --article-item-title-font-size: 22px;
+    --article-content-font-size: 18px;
+  }
+}

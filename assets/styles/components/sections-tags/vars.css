@@ -1,0 +1,13 @@
+/* Local vars for sections tag */
+
+@media (width >= 1024px) {
+  :root {
+    --sections-tag--title-font-size: 28px;
+  }
+}
+
+@media (width < 1024px) {
+  :root {
+    --sections-tag--title-font-size: 22px;
+  }
+}

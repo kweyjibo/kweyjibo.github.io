@@ -12,7 +12,7 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/china/</loc>
+    <loc>https://kweyjibo.com/blog/china/</loc>
     <lastmod>2019-05-04</lastmod>
   </url>
     
@@ -22,12 +22,12 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/netherlands-rent/</loc>
+    <loc>https://kweyjibo.com/blog/netherlands-rent/</loc>
     <lastmod>2021-06-28</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/netherlands-baby/</loc>
+    <loc>https://kweyjibo.com/blog/netherlands-baby/</loc>
     <lastmod>2022-01-04</lastmod>
   </url>
     
@@ -37,7 +37,7 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/netherlands-hausing/</loc>
+    <loc>https://kweyjibo.com/blog/netherlands-hausing/</loc>
     <lastmod>2023-03-29</lastmod>
   </url>
     
@@ -47,7 +47,7 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/health-care/</loc>
+    <loc>https://kweyjibo.com/blog/health-care/</loc>
     <lastmod>2023-08-21</lastmod>
   </url>
     
@@ -72,7 +72,7 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/tags/</loc>
+    <loc>https://kweyjibo.com/work/css/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
     
@@ -82,62 +82,62 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/spain-2024/</loc>
+    <loc>https://kweyjibo.com/blog/spain-2024/</loc>
     <lastmod>2024-09-09</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/haarlem/</loc>
+    <loc>https://kweyjibo.com/blog/haarlem/</loc>
     <lastmod>2024-09-13</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/amsterdam-light-festival/</loc>
+    <loc>https://kweyjibo.com/blog/amsterdam-light-festival/</loc>
     <lastmod>2025-01-03</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/cicling-jan-2025/</loc>
+    <loc>https://kweyjibo.com/blog/cicling-jan-2025/</loc>
     <lastmod>2025-01-26</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/about-run/</loc>
+    <loc>https://kweyjibo.com/blog/about-run/</loc>
     <lastmod>2025-03-16</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/haarlem-spring/</loc>
+    <loc>https://kweyjibo.com/blog/haarlem-spring/</loc>
     <lastmod>2025-03-22</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/zaanse-schans/</loc>
+    <loc>https://kweyjibo.com/blog/zaanse-schans/</loc>
     <lastmod>2025-03-29</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/geluidsoverlast-van-buren/</loc>
+    <loc>https://kweyjibo.com/blog/geluidsoverlast-van-buren/</loc>
     <lastmod>2025-04-10</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/flower-parade/</loc>
+    <loc>https://kweyjibo.com/blog/flower-parade/</loc>
     <lastmod>2025-04-12</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/de-hoge-veluwe/</loc>
+    <loc>https://kweyjibo.com/blog/de-hoge-veluwe/</loc>
     <lastmod>2025-04-24</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/leiden/</loc>
+    <loc>https://kweyjibo.com/blog/leiden/</loc>
     <lastmod>2025-05-06</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/tvseries-june-2025/</loc>
+    <loc>https://kweyjibo.com/blog/tvseries-june-2025/</loc>
     <lastmod>2025-06-22</lastmod>
   </url>
     
@@ -147,18 +147,28 @@
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/dubrovnik-2025/</loc>
+    <loc>https://kweyjibo.com/blog/dubrovnik-2025/</loc>
     <lastmod>2025-09-02</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/rotterdam-2026/</loc>
+    <loc>https://kweyjibo.com/blog/rotterdam-2026/</loc>
     <lastmod>2026-02-24</lastmod>
   </url>
     
   <url>
-    <loc>https://kweyjibo.com/posts/koningsdag-2026/</loc>
+    <loc>https://kweyjibo.com/blog/koningsdag-2026/</loc>
     <lastmod>2026-04-27</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/blog/</loc>
+    <lastmod>2026-05-21</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/posts/update2026/</loc>
+    <lastmod>2026-07-29</lastmod>
   </url>
    
 </urlset>
