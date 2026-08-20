@@ -1,0 +1,21 @@
+<ul class="social-list">
+  {% if global.github != "" %}
+  <li class="social-list__i">
+    <a href="{{ global.github }}" class="footer-social_link">
+      GitHub
+    </a>
+  </li>
+  {% endif %} {% if global.linkedin != "" %}
+    <li class="social-list__i">
+      <a href="{{ global.linkedin }}" class="footer-social_link">
+        LinkedIn
+      </a>
+    </li>
+  {% endif %} {% if global.email != "" %}
+    <li class="social-list__i">
+      <a href="{{ global.emailme }}" class="footer-social_link">
+        E-mail
+      </a>
+    </li>
+  {% endif %}
+</ul>

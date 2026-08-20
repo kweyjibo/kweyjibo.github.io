@@ -8,7 +8,12 @@
           <a{% if entry.url == page.url %} class="navigation-link __active"{% endif %} class="navigation-link" {% if entry.url != page.url %}href="{{ entry.url }}"{% endif %}>{{ entry.title }}</a>
         </li>
       {%- endfor %}
+
+      <li class="navigation-i">
+        <a href="/index.xml" class="navigation-link">
+          RSS
+        </a>
+      </li>
     </ul>
   </nav>
-  {% include 'rss.njk' %}
 </div>

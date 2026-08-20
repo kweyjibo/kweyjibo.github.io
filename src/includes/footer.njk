@@ -1,61 +1,26 @@
-<footer class="footer flex">
-  <div class="wrapper">
-    <div class="column __wide">
-      <div class="footer-aboutme">
-        <span class="footer-aboutme_name">
-          <img
-            src="/assets/img/ic-me.svg"
-            alt="User icon"
-            width="24"
-            height="24"
-            class="footer-aboutme_ic"
-          />
+<footer class="footer cell__4">
+  <div class="column __wide">
+    <div class="footer-aboutme">
+      <h2 class="footer-title">
+        <img
+          src="/assets/img/icons/ic-me.svg"
+          alt="User icon"
+          width="24"
+          height="24"
+          class="footer-aboutme_ic"
+        />
 
-          {{ global.name }}
-        </span>
-      </div>
-      <div class="footer-me_dsc">
-        {{ global.aboutme }}
-      </div>
+        {{ global.name }}
+      </h2>
     </div>
-
-    <div class="column">
-      <div class="social-cnt">
-        {% if global.github != "" %}
-        <a href="{{ global.github }}" class="footer-social_link">
-          <svg
-            width="21"
-            height="20"
-            aria-hidden="true"
-            class="footer-social_ic"
-          >
-            <use href="/assets/img/social/icons.svg#github" />
-          </svg>
-        </a>
-        {% endif %} {% if global.linkedin != "" %}
-        <a href="{{ global.linkedin }}" class="footer-social_link">
-          <svg
-            width="24"
-            height="24"
-            aria-hidden="true"
-            class="footer-social_ic"
-          >
-            <use href="/assets/img/social/icons.svg#iconin" />
-          </svg>
-        </a>
-        {% endif %} {% if global.email != "" %}
-        <a href="{{ global.emailme }}" class="footer-social_link">
-          <svg
-            width="23"
-            height="17"
-            aria-hidden="true"
-            class="footer-social_ic"
-          >
-            <use href="/assets/img/social/icons.svg#email" />
-          </svg>
-        </a>
-        {% endif %}
-      </div>
+    <div class="footer-me_dsc">
+      {{ global.aboutme }}
+    </div>
+  </div>
+  <div class="column">
+    <div class="social-cnt">
+      <h2 class="footer-title">Contacts</h2>
+       {% include 'components/social-list.njk' %}
     </div>
   </div>
 </footer>

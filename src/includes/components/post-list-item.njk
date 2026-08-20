@@ -1,0 +1,41 @@
+{% macro postList(posts, showTags = true) %}
+  {% for post in posts %}
+    <article class="post-item">
+        {% if showTags %}
+          <div class="tags">
+            {% for tag in post.data.tags %}
+              {% if tag != "work" and tag != "blog" %}
+                <span class="tag_i">
+                  <a href="/work/{{ tag | slugify }}/" class="tag_lk">
+                    {{ tag }}
+                  </a>
+                </span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <h2 class="post-item_title">
+          <a class="post-item_lk" href="{{ post.url }}">
+            {{ post.data.title }}
+          </a>
+        </h2>
+
+        <div class="post-item__desc">
+          {{ post.data.dsc }}
+        </div>
+
+        <footer class="post-item__footer">
+          <time
+            class="post-item_date"
+            datetime="{{ post.date | htmlDateString }}">
+            {{ post.date | dateShort }}
+          </time>
+
+          <span class="post-item_read">
+            {{ post.content | readTime }} min read
+          </span>
+        </footer>
+    </article>
+  {% endfor %}
+{% endmacro %}

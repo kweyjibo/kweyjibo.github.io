@@ -9,8 +9,6 @@ eleventyNavigation:
 
 <div class="about_cnt">
   <div class="about-me">
-    <div class="decor __about-me"></div>
-
     <div class="about-me_i">
       <div class="about-me_text">
         <p>I'm Alla, a frontend developer based in the Netherlands.</p>
@@ -27,8 +25,17 @@ eleventyNavigation:
     </div>
 
     <div class="about-me_i">
-      <div class="decor-dots __me"></div>
-      <img src="/assets/img/about.png" class="about-me_img" alt="Me" />
+      <img
+        src="/assets/img/about/me-250.webp"
+        srcset="
+          /assets/img/about/me-250.webp 250w,
+          /assets/img/about/me-500.webp 500w
+        "
+        sizes="250px"
+        class="about-me_img"
+        alt="Me"
+        loading="lazy"
+      />
     </div>
   </div>
 
@@ -68,10 +75,10 @@ eleventyNavigation:
     <div class="cup-pic"></div>
 
     <main class="about-section_cnt __grid">
-      <div>2023&mdash;&mldr;</div>
+      <div>2022&mdash;&mldr;</div>
       <div>
-        <p>Freelance</p>
-        <p class="about-tx-color_light">Frontend developer</p>
+        <p>Personal Projects/Freelance</p>
+        <p class="about-tx-color_light">Independent Frontend Developer</p>
       </div>
 
       <div>2015&mdash;2020</div>

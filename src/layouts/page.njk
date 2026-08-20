@@ -10,8 +10,10 @@
 
     <title>{{ title }}</title>
     <meta name="description" content="{{ global.description }}" />
+    <meta name="author" content="Alla Dolzhenko">
     <meta name="theme-color" content="#ffffff" />
 
+    <meta property="og:site_name" content="Alla's Blog">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title }}" />
 
@@ -66,16 +68,14 @@
   </head>
 
   <body>
-    {% include 'header.njk' %}
-
-    <main class="main flex">
-      <div class="wrapper">
+    <div class="grid">
+      {% include 'header.njk' %}
+      {% include 'aside.njk' %}
+      <main class="main cell__3">
         {{ content | safe }}
-      </div>
-    </main>
-
-    {% include 'footer.njk' %}
-
+      </main>
+      {% include 'footer.njk' %}
+    </div>
     <script src="/assets/scripts/view.js"></script>
   </body>
 </html>

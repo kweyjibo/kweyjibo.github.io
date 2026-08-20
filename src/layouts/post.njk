@@ -5,6 +5,7 @@ title: Blog
 
 <article class="article">
   <header class="article-header">
+    {% include 'tags.njk' %}
     <h1 class="article-title">
       {{ title }}
     </h1>
@@ -13,10 +14,8 @@ title: Blog
       date | dateShort
     }}</time>
 
-    {% include 'tags.njk' %}
-
     <div class="view-count" id="view-count">
-      <img src="/assets/img/view.svg" width="24" height="24" />
+      <img src="/assets/img/icons/view.svg" width="24" height="24" />
     </div>
   </header>
 
@@ -25,5 +24,5 @@ title: Blog
   </section>
 
   {% include 'remark42.njk' %}
-  <div id="remark42"></div>
+  <div class="island"><div id="remark42"></div></div>
 </article>
