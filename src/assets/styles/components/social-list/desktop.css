@@ -1,0 +1,14 @@
+@media (width >= 1024px) {
+  .social-cnt {
+    padding: 0 12px;
+    text-align: right;
+  }
+
+  .social-list {
+    padding: 4px 0 0;
+  }
+
+  .social-list__i:not(:first-child) {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.sections-tag {
+  display: inline-block;
+  padding: 6px 8px;
+
+  background-color: var(--tags-bg);
+  border-radius: var(--border-radius);
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.sections-tag__lk {
+  font-family: var(--font-family-text-geistmono);
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--tags-color);
+}
+
+.sections-tag__title {
+  font-family: var(--font-family-text-geistmono);
+  font-size: var(--sections-tag--title-font-size);
+  text-transform: capitalize;
+}

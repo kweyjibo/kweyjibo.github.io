@@ -3,9 +3,10 @@
     /* Global variables for Sizes */
 
     --site-font-size: 16px;
-    --article-content-font-size: 20px;
 
-    --header-height: 150px;
+    --header-height: 158px;
+
+    --footer-height: 120px;
 
     /* Footer variables */
 

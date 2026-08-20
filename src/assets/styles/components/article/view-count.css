@@ -1,0 +1,15 @@
+.view-count {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--brown);
+
+  img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+  }
+}

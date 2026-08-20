@@ -1,0 +1,57 @@
+.post-item {
+  overflow: hidden;
+  padding: var(--post-item-shift);
+
+  background-color: var(--post-item-bg);
+  border-radius: var(--border-radius);
+}
+
+/* Card */
+
+.post-item:not(:first-child) {
+  margin-top: 24px;
+}
+
+.post-item_date,
+.post-item_read {
+  font-size: 14px;
+  color: var(--post-item-date);
+}
+
+.post-item_read {
+  position: relative;
+
+  &:before {
+    content: "\2022";
+    margin-right: 8px;
+  }
+}
+
+.post-item_title {
+  font-family: var(--font-family-text-manrope);
+}
+
+.post-item_lk {
+  color: var(--post-item-link-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--post-item-link-color-hover);
+  }
+}
+
+.post-item__desc {
+  flex: 1;
+  text-decoration: none;
+
+  &.__title {
+    color: var(--orange);
+  }
+}
+
+.post-item_desc {
+  padding-top: 12px;
+
+  font-size: var(--post-content-font-size);
+  line-height: 1.6;
+}

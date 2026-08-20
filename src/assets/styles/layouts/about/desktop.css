@@ -1,0 +1,26 @@
+@media (width >= 1024px) {
+  .about_cnt {
+    padding: 16px;
+  }
+
+  .about-section_cnt {
+    display: flex;
+  }
+
+  .about-me {
+    gap: 20px;
+  }
+
+  .about-section_cnt {
+    column-gap: 16px;
+  }
+
+  .about-me {
+    position: relative;
+  }
+
+  .about-me_text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}

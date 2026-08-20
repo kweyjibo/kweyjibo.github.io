@@ -1,0 +1,27 @@
+@media (width < 1024px) {
+  .post-item {
+    padding: var(--post-item-shift);
+  }
+
+  .post-item_title {
+    padding-top: 12px;
+    font-size: var(--post-item-title-font-size);
+    line-height: 1.2;
+  }
+
+  .post-item__desc {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    line-height: 1.4;
+  }
+
+  .post-item_img {
+    display: block;
+    width: 100%;
+  }
+
+  .post-item__footer {
+    padding-top: 8px;
+  }
+}

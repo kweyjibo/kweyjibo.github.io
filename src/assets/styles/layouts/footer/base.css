@@ -2,7 +2,6 @@
   --footer-shift: 20px;
   --family-font: var(--font-family-text-manrope);
 
-  display: flex;
   padding-top: var(--footer-shift);
   padding-bottom: var(--footer-shift);
   box-sizing: border-box;
@@ -23,44 +22,17 @@
   }
 }
 
-.social-cnt {
-  position: relative;
-  display: inline-block;
-  padding: 0 12px;
-
-  text-align: right;
-}
-
 .footer-title {
   font-family: var(--family-font);
   font-size: var(--footer-h2-size);
   font-weight: 500;
 }
 
-.social-list {
-  padding: 4px 0 0;
-  margin: 0;
-  list-style: none;
-  line-height: 1.5;
-}
-
 /* About me */
 
 .footer-me_dsc {
   position: relative;
-  padding-left: 6px;
   color: var(--footer-secondary-txt-color);
-
-  &:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-
-    width: 2px;
-    background-color: var(--footer-secondary-txt-color);
-  }
 }
 
 .footer-aboutme {
