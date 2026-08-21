@@ -9,10 +9,6 @@
 
 /* Card */
 
-.article-item:not(:first-child) {
-  margin-top: 24px;
-}
-
 .article-item_date,
 .article-item_read {
   font-size: 14px;

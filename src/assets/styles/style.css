@@ -15,6 +15,7 @@
 @import "components/social-list/index.css";
 
 /* Layouts */
+@import "layouts/main/index.css";
 @import "layouts/header/index.css";
 @import "layouts/footer/index.css";
 @import "layouts/about/index.css";

@@ -2,10 +2,10 @@
   :root {
     /* Global variables for Sizes */
 
+    --site-gap: 20px;
     --site-font-size: 16px;
 
     --header-height: 158px;
-
     --footer-height: 120px;
 
     /* Footer variables */

@@ -1,5 +1,6 @@
 .grid {
   display: grid;
   position: relative;
+  gap: var(--site-gap);
   min-width: 360px;
 }

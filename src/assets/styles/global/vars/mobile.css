@@ -1,5 +1,6 @@
 @media (width < 1024px) {
   :root {
+    --site-gap: 12px;
     --site-font-size: 16px;
 
     /* Footer variables */

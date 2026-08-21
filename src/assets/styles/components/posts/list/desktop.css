@@ -10,13 +10,12 @@
       bottom: 0;
       right: 0;
 
-      background-image: url(../../../../img/dot.png);
+      background-image: url(../../img/dot.png);
     }
   }
 
   .post-item_title {
     padding-top: 16px;
-    
   }
 
   .post-item_cover {

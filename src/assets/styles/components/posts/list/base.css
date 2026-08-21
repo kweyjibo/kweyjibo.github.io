@@ -8,10 +8,6 @@
 
 /* Card */
 
-.post-item:not(:first-child) {
-  margin-top: 24px;
-}
-
 .post-item_date,
 .post-item_read {
   font-size: 14px;
