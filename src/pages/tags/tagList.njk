@@ -9,7 +9,9 @@ eleventyComputed:
   title: "{{ tag }}"
 ---
 
-<h1>Tagged “{{ tag }}”</h1>
+<div class="island">
+  <h1 class="sections-tag__title">Tagged “{{ tag }}”</h1>
+</div>
 
 {% for post in collections[tag] %}
 <article class="article-item">
@@ -17,7 +19,7 @@ eleventyComputed:
   <div class="article-item_cover">
     <figure>
       <a href="{{ post.url }}"><img
-        src="../{{ post.data.image }}"
+        src="{{ post.url }}/{{ post.data.image }}"
         alt="{{ post.data.title }}"
         width="{{ post.data.imageProp }}"
       /></a>

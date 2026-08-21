@@ -9,7 +9,9 @@ layout: page.njk
 
 {% from "components/post-list-item.njk" import postList %}
 
-<h1 class="sections-tag__title">{{ current.tag }}</h1>
+<div class="island">
+  <h1 class="sections-tag__title">{{ current.tag }}</h1>
+</div>
 
 {{ postList(
   collections.all
