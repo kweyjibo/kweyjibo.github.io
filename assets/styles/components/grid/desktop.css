@@ -1,14 +1,12 @@
 @media (width >= 1024px) {
   .grid {
-    --grid-shift: 20px;
-    gap: 20px;
     grid-template-columns: 200px 1fr;
     grid-template-rows: var(--header-height) 1fr var(--footer-height);
 
     max-width: 1100px;
     margin: 0 auto;
-    padding-left: var(--grid-shift);
-    padding-right: var(--grid-shift);
+    padding-left: var(--site-gap);
+    padding-right: var(--site-gap);
 
     min-height: 100vh;
   }

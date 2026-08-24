@@ -9,13 +9,13 @@
 @import "components/navigation/index.css";
 @import "components/tags.css";
 @import "components/pagination.css";
-@import "components/rss/index.css";
 @import "components/posts/index.css";
 @import "components/article/index.css";
 @import "components/sections-tags/index.css";
 @import "components/social-list/index.css";
 
 /* Layouts */
+@import "layouts/main/index.css";
 @import "layouts/header/index.css";
 @import "layouts/footer/index.css";
 @import "layouts/about/index.css";
@@ -25,6 +25,5 @@
 @import "extensions/syntaxhighlight.css";
 
 /* Decorations */
-@import "decor/site-bg/index.css";
 @import "decor/cup.css";
 @import "decor/tags.css";

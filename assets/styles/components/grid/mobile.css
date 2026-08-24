@@ -1,10 +1,8 @@
 @media (width < 1024px) {
   .grid {
-    --grid-shift: 12px;
-
-    padding-left: var(--grid-shift);
-    padding-right: var(--grid-shift);
-    gap: 12px;
+    padding-left: var(--site-gap);
+    padding-right: var(--site-gap);
+    gap: var(--site-gap);
   }
 
   .cell__2 {
