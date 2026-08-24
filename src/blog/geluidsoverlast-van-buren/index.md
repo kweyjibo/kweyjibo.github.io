@@ -9,7 +9,7 @@ tags:
   - жизнь в Нидерландах
 ---
 
-<div class="article-center">
+<div class="article-content__center">
 <img src="i/i-01.jpg" alt="Picture" width="600" />
 
 </div>
@@ -34,7 +34,7 @@ tags:
 
 Наше терпение окончательно лопнуло в январе 2025-ого. Мы очень сильно устали за два года. А декабрь 2024-ого мы практически не спали.
 
-<div class="article-center">
+<div class="article-content__center">
 <img src="i/i-02.jpg" alt="Picture" width="442" />
 </div>
 
@@ -78,7 +78,7 @@ tags:
 
 Мы пытались записывать звуки, но выходило очень плохо. Потом я догадалась записывать звук на фотокамеру: на ней нет сглаживания шумов. И музыка, и крики - хорошо были слышны на записи. Но никаких видео, пожалуйста. Можно писать только звук.
 
-<div class="article-center">
+<div class="article-content__center">
 <img src="i/i-03.jpg" alt="Picture" width="600" />
 </div>
 
@@ -134,7 +134,7 @@ tags:
 
 Я пока не знаю того, кто заходил так далеко. Но что в таком случае нужно дак это юридическая страховка. Она не распространяется ни открытые конфликты. Поэтому ее лучше оформлять заранее, а не когда "петух клюнул."
 
-<div class="article-center">
+<div class="article-content__center">
 <img src="i/i-04.jpg" alt="Picture" width="300" />
 </div>
 

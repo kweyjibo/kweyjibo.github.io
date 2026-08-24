@@ -17,7 +17,7 @@ tags:
 
 ## Severance
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt11280740/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/severance.jpg" alt="Severance" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt11280740/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/severance.jpg" alt="Severance" width="400"/></a></span>
 
 Первый сезон достаточно хорош: вначале все выглядит любопытно и даже идея, заложенная в шоу, веет новизной. Второй сезон не так увлекателен, как первый: авторы решили сконцентрироваться на основных персонажах и рассказать их истории. Все как обычно. Но первый точно стоит глянуть, если любишь головоломки с небольшим (а может и достаточно большим) количеством драмы. Но в этом сериале на данный момент больше недосказанностей, чем ответов на все, что происходит с героями. Я не знаю, как создатели будут выпутываться в третьем сезоне из всего этого. Но начало и идея очень хороши. Тем более, что под капотом вся эта история про большие корпорации: как они "высушивают" людей, подчиняют всех себе. Возможно, авторы сериала пытаются сейчас съехать с этой темы из-за давления.
 
@@ -25,7 +25,7 @@ tags:
 
 ## Silo
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt14688458/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/silo.jpg" alt="Silo" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt14688458/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/silo.jpg" alt="Silo" width="400"/></a></span>
 
 Не уступает по захватываемости сюжета Severance: тоже сериал - головоломка. Но есть одно но: снято все по трилогии "Укрытие" («Иллюзия», «Смена», «Пыль») писателя Hugh Howey. Поэтому, вместо просмотра можно прочитать. Правда, как признались авторы сериала, некоторые герои и события адаптированы под шоу, т.е. изменены. И концовка может быть совсем не такой, как в книге. Местами серии растянуты: обычно создатели тянут время перед важными событиями. Особенно это заметно во втором сезоне. Но зато хорошо раскрыты основные персонажи, их переживания и демоны.
 
@@ -33,7 +33,7 @@ tags:
 
 ## The Sandman
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt1751634/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/thesandman.jpg" alt="The Sandman" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt1751634/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/thesandman.jpg" alt="The Sandman" width="400"/></a></span>
 
 Очень классный и атмосферный сериал по комиксам. Я хочу перед вторым сезоном пересмотреть первый. Первый сезон вышел в 2022. Мы знаем, что в комиксах заложено мало смысла в историях. Но этот сериал вышел очень хорошим в плане повествования и проработки персонажей. Актерский состав мне мало знаком, но актеры очень хорошо вписались в своих героев. В общем, хорошее шоу. Скорее для тех, кто любит мрачненькое, с не очень глубоким сюжетом, но с красивой картинкой и колоритными персонажами.
 
@@ -41,7 +41,7 @@ tags:
 
 ## Peacemaker
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt13146488/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/Peacemaker.jpg" alt="Peacemaker" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt13146488/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/Peacemaker.jpg" alt="Peacemaker" width="400"/></a></span>
 
 Вот тут бы я хотела написать "смотрите такие сериалы только с оригинальной дорожкой". Ну да ладно, какие времена сейчас. В обще, чтобы понять юмор или сарказм, лучше смотреть все в оригинале. Миротворец (англ. Peacemaker) как раз один из таких сериалов. Сам по себе он смешной и легкий. Юмор порой токсичен.
 
@@ -49,7 +49,7 @@ tags:
 
 ## 3 Body Problem
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt13016388/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/3-body-problem.jpg" alt="3 Body Problem" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt13016388/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/3-body-problem.jpg" alt="3 Body Problem" width="400"/></a></span>
 
 Сериал основан на трилогии «Воспоминания о прошлом Земли» китайского писателя Лю Цысиня. Я не читала, но знаю того, кто читал: шоу достаточно отличается от книги. Т.е. его снова адаптировали под современные нужды. Может, поэтому он вызывает двойственные ощущения. Начало достаточно хорошее, а вот конец оказался скомканным и заделанным еще под много сезонов. Идея и развитие сюжета в начале очень даже неплохо, но потом у меня почему-то начался отключаться мозг. Жду второй сезон. Может с ним будет легче понять концовку первого.
 
@@ -59,7 +59,7 @@ tags:
 
 Йе-е-е-е-е-е, ликуйте анимешники: для нас наконец-то сделали достойную адаптацию. Это реально хорошо. Если Cowboy Bebop у Netflix не получился. То тут все хорошо: атмосферность, фан, герои.
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt11737520/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/one-piece.jpg" alt="One Piece" width="400"/></a></span>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt11737520/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/one-piece.jpg" alt="One Piece" width="400"/></a></span>
 
 Актерский состав, сюжет - это все под строгим наблюдением мангаки (художник и автор, который создает мангу). Сама манга выходит с 22 июля 1997 года. Это мега-мега большая вселенная с кучей историй и приключений. Я, често, смотрела само аниме, но не выдержала на 600-ой серии. Недавно пыталась вернуться к просмотру. Но решила, что лучше подожду еще продолжение сериала: в нем события происходят намного быстрее и нет такой дикой растянутости. Очень круто сделаны визуальные эффекты и костюмы. Нет ужасного грима или неестественности.
 
@@ -69,7 +69,7 @@ tags:
 
 Об Олененке много где писали. Мини-сериал достаточно хорош и свеж. Там немного инверсия событий. Но к концу все склеится. В целом, рассказывает про сталкерство в современном обществе.
 
-<span class="article-content-center"><a href="https://www.imdb.com/title/tt13649112/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/baby-reindeer.jpg" alt="Baby Reindeer" width="400"/></a>
+<span class="article-content__center"><a href="https://www.imdb.com/title/tt13649112/" target="_blank" rel="noopener noreferrer" class="article-img"><img src="i/baby-reindeer.jpg" alt="Baby Reindeer" width="400"/></a>
 </span>
 
 Мне дико жалко главного героя: это ужасно через что ему пришлось пройти. До последнего не понимаешь, выйдет ли герой из ситуации и чем закончится вся история. Я бы сказала, что это психологическая драма, которая оставляет достаточно мощный отпечаток.

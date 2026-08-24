@@ -10,7 +10,7 @@ tags:
   - news
 ---
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="images/lake_2024.jpg" alt="Picture" width="500" />
 </div>
 
@@ -18,7 +18,7 @@ Since childhood it has been my passion to draw. I have used different media, but
 
 Now I am working on a website for my art with the domain <a href="https://paraplu.art/">paraplu.art</a>. <span class="article-at __yellow">Paraplu</span> means ‘umbrella’ in Dutch. This word makes me smile. The website is a place for all my work and visitors are welcome to save pictures and print them. The site is being developed and, for the moment, you can easily see more of my images on Instagram – <a href="https://www.instagram.com/paraplu.art/">&commat;paraplu.art</a>
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="images/lu-wallpaper.jpg" alt="Lu" width="424" />
 </div>
 

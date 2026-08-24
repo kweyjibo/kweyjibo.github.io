@@ -10,7 +10,7 @@ tags:
   - жизнь в Нидерландах
 ---
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/start.jpg" class="article-img" alt="Picture" width="300" />
 </div>
 
@@ -30,7 +30,7 @@ tags:
 
 И мы с Димой записываемся на первые соревнования на середину марта 2024-ого. Т.е. декабрь 2023-его - я могу пробежать с трудом только километр, пройти немного и еще чутка пробежать. Вы сейчас можете себе представить уровень моей самоуверенности.
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/start-march.jpg" class="article-img" alt="Picture" width="300" />
 </div>
 
@@ -92,30 +92,30 @@ tags:
 
 Второй год открываю сезон забега с местного эвента KPMG Lentemarathon. В этом году он оказался очень масштабным. Я не сразу нашла старт. Бегунов было в разы больше, чем в предыдущие годы.
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/16-oldcity.jpg" class="article-img" alt="Old city" width="450" />
 </div>
 
 Тут я бегу по старому городу. В этом месте стоят волонтеры с водой и фруктами. Но на забеге в 5 км вам этого не нужно. Проверено временем. Они стоят для бегунов на большие дистанции.
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/16-oldcity-2.jpg" class="article-img" alt="Old city" width="450" />
 </div>
 
 Бегуны берут стаканчики, пьют и кидают. Я чутка не подскользнулась на мокрой плитке.
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/16-finish.jpg" class="article-img" alt="Finish" width="450" />
 </div>
 
 Это финишная прямая. Я никогда не ускоряюсь, чтобы потом не лежать пластом. Спокойно добегаю. Самое главное, быть внимательным и не споткнуться о других.
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/16-finish-2.jpg" class="article-img" alt="Finish" width="450" />
 </div>
 
 Goed gedaan. Tot volgende keer!
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/16-finish-3.jpg" class="article-img" alt="Finish" width="450" />
 </div>

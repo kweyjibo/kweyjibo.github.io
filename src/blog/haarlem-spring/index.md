@@ -16,15 +16,15 @@ tags:
 
 Так как у нас теплые деньки и мы чутка усталые, то решили далеко не ездить. Утром рано мы отправились в наш любимый город, в котором не были несколько месяцев. И тут как всегда уютно и чудесно.
 
-<span class="article-content-center"><img src="i/Haarlem-center.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
+<span class="article-content__center"><img src="i/Haarlem-center.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
 
 ## Кофе и булочки
 
-<span class="article-content-center"><img src="i/Haarlem-koffee.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
+<span class="article-content__center"><img src="i/Haarlem-koffee.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
 
 Мягкий вкусный кофе можно захватить в 'Darras Coffee Roasters'. Такое вкусное кофе вне дома я давно не пила.
 
-<span class="article-content-center"><img src="i/Haarlem-Oscar.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
+<span class="article-content__center"><img src="i/Haarlem-Oscar.jpg" class="article-img" alt="Morning Haarlem" width="400"/></span>
 
 Наивкуснейшую выпечку отведали из "Oscar Bakery". С кофе это чертовски вкусно. Пока фигура.
 
@@ -32,25 +32,25 @@ tags:
 
 ## Центр города
 
-<span class="article-content-center"><img src="i/Haarlem-center-2.jpg" class="article-img" alt="Haarlem Center" width="632"/></span>
+<span class="article-content__center"><img src="i/Haarlem-center-2.jpg" class="article-img" alt="Haarlem Center" width="632"/></span>
 
 В центре города с десяти утра кипит жизнь: с коляской достаточно тяжело протиснуться сквозь толпы. Плюсы и отличия от Амстердама: почти никто не курит травку и очень чисто.
 
-<span class="article-content-center"><img src="i/Haarlem-center-3.jpg" class="article-img" alt="Haarlem Center" width="680"/></span>
+<span class="article-content__center"><img src="i/Haarlem-center-3.jpg" class="article-img" alt="Haarlem Center" width="680"/></span>
 
 В магазинах очень вежливые и приятные консультанты/кассиры.
 
-<span class="article-content-center"><img src="i/Haarlem-center-4.jpg" class="article-img" alt="Haarlem Center" width="400"/></span>
+<span class="article-content__center"><img src="i/Haarlem-center-4.jpg" class="article-img" alt="Haarlem Center" width="400"/></span>
 
 Безумно красиво оформленные маленькие магазинчики. Сразу видно, что за центром города очень следят.
 
 ## Windmill De Adriaan (1779)
 
-<span class="article-content-center"><img src="i/Windmill-De-Adriaan.jpg" class="article-img" alt="Windmill De Adriaan" width="680"/></span>
+<span class="article-content__center"><img src="i/Windmill-De-Adriaan.jpg" class="article-img" alt="Windmill De Adriaan" width="680"/></span>
 
 Изюминка нашей поездки - Windmill De Adriaan. Она была построена в 1779 году на берегу реки Спарне и долгие годы служила для помола табака, а затем гипса и цемента. Сейчас там музей и экскурсии. Но с детьми можно только с 5 лет. Как можно догадаться: нас не пустили.
 
-<span class="article-content-center"><img src="i/Windmill-De-Adriaan-2.jpg" class="article-img" alt="Windmill De Adriaan" width="680"/></span>
+<span class="article-content__center"><img src="i/Windmill-De-Adriaan-2.jpg" class="article-img" alt="Windmill De Adriaan" width="680"/></span>
 
 Но мы не стали унывать и пошли...
 
@@ -58,14 +58,14 @@ tags:
 
 И мы пошли в тюрьму. Правда, бывшую. Сейчас там офисы компаний и арт-пространство. Видите на фото с мельницей большой купол? Вот это она.
 
-<span class="article-content-center"><img src="i/Koepelgevangenis.jpg" class="article-img" alt="Koepelgevangenis" width="682"/></span>
+<span class="article-content__center"><img src="i/Koepelgevangenis.jpg" class="article-img" alt="Koepelgevangenis" width="682"/></span>
 
 А это купол изнутри. В пространстве есть также кафе, кинотеатр и небольшие экспозиции в бывших тюремных камерах. В общем, хорошее место для культурного досуга.
 
 А еще в Харлем много животных, особенно кошек.
 
-<span class="article-content-center"><img src="i/Haarlem-cat2.jpg" class="article-img" alt="Cat" width="680"/></span>
+<span class="article-content__center"><img src="i/Haarlem-cat2.jpg" class="article-img" alt="Cat" width="680"/></span>
 
 Попробуйте найти тут ;)
 
-<span class="article-content-center"><img src="i/Haarlem-cat.jpg" class="article-img" alt="Cat" width="682"/></span>
+<span class="article-content__center"><img src="i/Haarlem-cat.jpg" class="article-img" alt="Cat" width="682"/></span>

@@ -12,7 +12,7 @@ tags:
 
 <section><span class="article-at __shift __green"><span class="article-bold">Лейден</span> -  город в нидерландской провинции Южная Голландия на реке Старый Рейн. Первый раз город упоминается на страницах летописей в 922 году.</span></section>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-01.jpg" alt="Leiden" width="500"/></span>
 </div>
 
@@ -20,13 +20,13 @@ tags:
 
 ## Мельницы
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-02.jpg" alt="Leiden" width="400"/></span>
 </div>
 
 Пробежали мимо мельницы <span class="article-bold">De Valk</span>: внутри музей. Мы сделали красивые картинки и побежали дальше.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-04.jpg" alt="De Put, Leiden" width="400"/></span>
 </div>
 
@@ -34,19 +34,19 @@ tags:
 
 ## Каналы
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-05.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 Действительно очень красиво, как все и пишут. Можно сделать безумное количество красивых картинок на память.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-03.jpg" alt="Leiden" width="400"/></span>
 </div>
 
 Это бывшая резиденция городского плотника <span class="article-bold">De Stadstimmerwerf</span>, открытая для посетителей.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-06.jpg" alt="Leiden" width="500"/></span>
 </div>
 
@@ -54,55 +54,55 @@ tags:
 
 А еще много странных мостов. Мы заметили, что у этого какая-то естественная ржавчина, поэтому он такого цвета.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-07.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 ## Прекрасные виды на город
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-08.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 Абсолютно бесплатно посмотреть и насладиться видом на город можно с <span class="article-bold">De Burcht</span> - средневековое укрепление типа бергфрид или просто замок. Возведен на насыпном холме. Мы зашли через Южные ворота, и вышли там же.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-09.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 Чудесный вид на <span class="article-bold">De Hooglandse Kerk</span>. А вот и хранитель стен замка.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-10.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 Еще немного видов, чтобы заставить вас забраться сюда.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-11.jpg" alt="Leiden" width="500"/></span>
 </div>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-12.jpg" alt="Leiden" width="500"/></span>
 </div>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-13.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 Уютные улочки. Гораздо чище, чем в Амстердаме.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-17.jpg" alt="Leiden" width="500"/></span>
 </div>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-18.jpg" alt="Leiden" width="500"/></span>
 </div>
 
 У меня соборы/церкви всегда не влезают в кадр: они тут безумных размеров. Самое главное, они все серые снаружи, а внутри очень красивые витражи. Но мы не смогли попасть внутрь: было закрыто из-за праздника.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-19.jpg" alt="Leiden" width="500"/></span>
 </div>
 
@@ -110,13 +110,13 @@ tags:
 
 ## Naturalis Biodiversity Center
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-14.JPG" alt="Naturalis Biodiversity Center, Leiden" width="500"/></span>
 </div>
 
 Безумно огромный естественно-научный музей. Там просто столько всего, что невозможно описать. [Официальный сайт](https://www.naturalis.nl/), где можно посмотреть всю информацию, купить билеты. Интересно будет всем. Детям 6+ зайдет 100%: много всяких штук потрогать, попереключать, наблюдать и etc. Помладше тоже можно, но много не поймут.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-15.jpg" alt="Naturalis Biodiversity Center, Leiden" width="500"/></span>
 </div>
 
@@ -132,7 +132,7 @@ tags:
 
 ## Заждунились?
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-16.jpg" alt="Naturalis Biodiversity Center, Leiden" width="400"/></span>
 </div>
 

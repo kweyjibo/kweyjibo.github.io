@@ -12,7 +12,7 @@ tags:
 
 <section><span class="article-at __shift __green"><span class="article-bold">Het Nationale Park De Hoge Veluwe</span> - один из самых известных и крупных национальных парков в Нидерландах. Расположен недалеко от города Arnhem.</span></section>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-19.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-19.jpg" alt="Het Nationale Park De Hoge Veluwe" width="500"/></a></span>
 </div>
 
@@ -22,7 +22,7 @@ tags:
 
 ## Рекреационный парк
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-12.jpg" alt="Het Nationale Park De Hoge Veluwe" width="500"/></span>
 </div>
 
@@ -42,7 +42,7 @@ tags:
 
 ## Отдых в стиле "crazy husky style"
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-10.jpg" alt="Het Nationale Park De Hoge Veluwe" width="500"/></span>
 </div>
 
@@ -54,7 +54,7 @@ tags:
 
 В De Hoge Veluwe есть свой парк велосипедов. На карте, которая на сайте, указаны станции. Велосипеды уже включены в стоимость входного билета. Мы очень часто находили их брошенными на обочинах.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-17.jpg" alt="Het Nationale Park De Hoge Veluwe" width="400"/></span>
 </div>
 
@@ -62,25 +62,25 @@ tags:
 
 ## Kröller-Müller Museum
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-6.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-6.jpg" alt="Kröller-Müller Museum" width="400"/></a></span>
 </div>
 
 Один из лучших музеев в стране с огромной коллекцией картин Ван Гога (вот ради этого я и затащила всех сюда), а также Пикассо, Моне, Сеура и др. Он небольшой, на самом деле. Но заглянуть точно стоит.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-20.JPG" alt="Kröller-Müller Museum" width="400"/></span>
 </div>
 
 Большая часть музея располагается на свежем воздухе, с современными скульптурами. Вот часть скульптуры, по которой можно бегать.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-8.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-8.jpg" alt="Kröller-Müller Museum" width="400"/></a></span>
 </div>
 
 А это "Амфитеатр". Если встать в кружок с дырочками и говорить, то там идет искажение звука. Мне не передать это картинкой. Я могу показать только размер арт-объекта.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-18.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-18.jpg" alt="Kröller-Müller Museum" width="400"/></a></span>
 </div>
 
@@ -88,7 +88,7 @@ tags:
 
 Тут, правда, один из нас пытался саботировать поездку.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-21.JPG" alt="Kröller-Müller Museum" width="400"/></span>
 </div>
 
@@ -96,7 +96,7 @@ tags:
 
 Ну чтож, после музея мы отправились в путшествие дальше. Это было впечатляюще.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23.jpg" alt="Het Nationale Park De Hoge Veluwe" width="500"/></a></span>
 </div>
 
@@ -104,7 +104,7 @@ tags:
 
 Во-вторых, обалденные виды. Я почти не снимала. Очень редко доставала камеру.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-1.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-1.jpg" alt="Het Nationale Park De Hoge Veluwe" width="400"/></a></span>
 </div>
 
@@ -112,17 +112,17 @@ tags:
 
 Хочу отметить, что в парке отличные велодорожки. Ехать всегда строго по ним. Этим этот парк отличается от своего соседа - "Nationaal Park Veluwezoom". В последнем мы были три раза.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-3.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-3.jpg" alt="Het Nationale Park De Hoge Veluwe" width="400"/></a></span>
 </div>
 
 И вот, как раз мы подошли к главному: в Veluwezoom мы ездили несколько раз и нам всегда там обещали оленей. Мы гоняли на великах, и даже с коляской, как угорелые. Но максимум, что там находили - это домашних лошадей на самовыгуле. И в этот раз мы выбрали De Hoge Veluwe. На самой первой картинке я стою у специального места для наблюдения за дикими животными. И в этот раз случилось чудо.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-2.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-2.jpg" alt="Het Nationale Park De Hoge Veluwe" width="400"/></a></span>
 </div>
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-16.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-16.jpg" alt="Het Nationale Park De Hoge Veluwe" width="400"/></a></span>
 </div>
 
@@ -130,7 +130,7 @@ tags:
 
 А вечером нас ждал ужин с вином. И вкусный торт. Потому что так мы обычно отмечаем день рождения в семье.
 
-<div class="article-center">
+<div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-15.jpg" alt="Kröller-Müller Museum" width="400"/></span>
 </div>
 

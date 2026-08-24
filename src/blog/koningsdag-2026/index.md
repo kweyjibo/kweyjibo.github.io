@@ -31,7 +31,7 @@ tags:
 
 После обеда мы поехали на трамвае в Амстердам. Весь транспорт был переполнен. Потом я уже сильно позже узнала, что было объявление не ездить в центр. Все площади и каналы были переполнены людьми.
 
-<div class="article-center"><figure class="article-img __top"><img src="./i/koningsdag-tram.jpg" alt="Koningsdag" width="400"/></figure></div>
+<div class="article-content__center"><figure class="article-img __top"><img src="./i/koningsdag-tram.jpg" alt="Koningsdag" width="400"/></figure></div>
 
 Тогровля кипела еще на улицах Амстердама.
 

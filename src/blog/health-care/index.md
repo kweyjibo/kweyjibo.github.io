@@ -11,7 +11,7 @@ tags:
   - здравоохранение в Нидерландах
 ---
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="i/img.jpg" alt="Paracetamol" width="329" />
 </div>
 

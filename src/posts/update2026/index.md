@@ -10,7 +10,7 @@ tags:
 
 I'm still working on my lovely project, <a href="https://paraplu.art/">paraplu.art</a>. At the same time, I'm looking for a new role at a small company. It's a difficult time. More and more companies want to hire only senior developers with AI experience. But where will they find senior developers in 15–20 years if nobody wants to hire juniors today?
 
-<div class="article-center">
+<div class="article-content__center">
   <img src="images/update2026.webp" alt="Picture" width="350" />
 </div>
 
