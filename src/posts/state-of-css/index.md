@@ -21,7 +21,7 @@ tags:
 }
 ```
 
-На MDN можно посмотреть все значения <span class="article-at __yellow">writing-mode</span>. По этой [ссылке](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation) описание и примеры. Суть этого свойства в расположении текста: вертикально или горизонтально.
+На MDN можно посмотреть все значения `writing-mode`. По этой [ссылке](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation) описание и примеры. Суть этого свойства в расположении текста: вертикально или горизонтально.
 
 <span class="article-bold">Пример</span><br/><br/>
 
@@ -36,7 +36,7 @@ tags:
 Lorem ipsum<br/>dolor sit amet<br/>consectetur<br/>adipiscing elit
 </div>
 
-Свойство <span class="article-at __yellow">text-orientation</span> работает при отображении текста вертикально.
+Свойство `text-orientation` работает при отображении текста вертикально.
 
 ## Свойство content-visibility
 
@@ -103,7 +103,7 @@ content-visibility: [value];
 
 Хорошо, посмотрим что у нас есть по работе с графикой.
 
-Наложила сверху на картинку фильтр sepia через свойство <span class="article-at __yellow">backdrop-filter</span>. Не знаю, как все это влияет на производительность. Ссылка на [mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter). И тут вы сейчас воскликнете <span class="article-at __yellow">filter</span>! А вот и главное отличие: эффекты filter примеменяются только к фону, а не к содержимому.
+Наложила сверху на картинку фильтр sepia через свойство `backdrop-filter`. Не знаю, как все это влияет на производительность. Ссылка на [mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter). И тут вы сейчас воскликнете `filter`! А вот и главное отличие: эффекты filter примеменяются только к фону, а не к содержимому.
 
 <style type="text/css">
 
@@ -149,7 +149,7 @@ content-visibility: [value];
 
 <div class="backdrop-filter __with">
   <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-  <img src="i/exp.jpg" alt="Example"  width="320" />
+  <img src="images/exp.jpg" alt="Example"  width="320" />
 </div>
 
 Я использовала псевдоэлемент для наложения эффекта через backdrop-filter. И с его помощью получилось накрыть часть фотографии.
@@ -169,7 +169,7 @@ content-visibility: [value];
 ```
 
 <div class="backdrop-filter __filter">
-  <img src="i/exp.jpg" alt="Example" class="img-filter" width="320" />
+  <img src="images/exp.jpg" alt="Example" class="img-filter" width="320" />
   <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
 </div>
 

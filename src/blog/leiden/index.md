@@ -6,7 +6,6 @@ date: 2025-05-06
 image: "i/Leiden.jpg"
 imageProp: "400px"
 tags:
-  - жизнь в Нидерландах
   - города Нидерландов
 ---
 

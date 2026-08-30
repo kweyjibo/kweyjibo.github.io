@@ -6,7 +6,7 @@ keywords: "Netherlands,беременность в Нидерландах,экс
 image: "i/preview.jpg"
 tags:
   - жизнь в Нидерландах
-  - беременность в Нидерландах
+  - беременность
 layout: post.njk
 ---
 

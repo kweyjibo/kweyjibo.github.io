@@ -6,7 +6,6 @@ date: 2025-09-02
 image: "i/preview.jpg"
 imageProp: "400px"
 tags:
-  - Хорватия
   - путешествия
 ---
 

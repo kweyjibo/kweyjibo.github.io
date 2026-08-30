@@ -8,7 +8,6 @@ imageProp: "400px"
 description: "test"
 keywords: "travel, life, Netherlands, Haarlem"
 tags:
-  - Haarlem
   - города Нидерландов
 ---
 

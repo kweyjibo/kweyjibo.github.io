@@ -6,7 +6,6 @@ date: 2025-03-29
 image: "i/preview.jpg"
 imageProp: "400px"
 tags:
-  - Нидерланды
   - жизнь в Нидерландах
 ---
 
