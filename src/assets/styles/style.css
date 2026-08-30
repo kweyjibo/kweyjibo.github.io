@@ -23,6 +23,7 @@
 
 /* extensions */
 @import "extensions/syntaxhighlight.css";
+@import "extensions/prism.css";
 
 /* Decorations */
 @import "decor/cup.css";

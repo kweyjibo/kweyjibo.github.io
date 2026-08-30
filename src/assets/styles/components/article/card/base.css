@@ -16,8 +16,6 @@
 
 .article-date {
   display: inline-block;
-  margin-top: 4px;
-  margin-bottom: 8px;
 
   font-size: 14px;
   color: var(--article-date);
@@ -33,8 +31,12 @@
   border-radius: var(--border-radius);
   background-color: var(--article-bg);
 
+  p {
+    line-height: var(--article-content-line-height);
+  }
+
   p:not(:first-child) {
-    padding-top: 20px;
+    padding-top: var(--article-content-p-shift);
   }
 
   h1,
@@ -42,8 +44,7 @@
     padding-top: 42px;
 
     font-family: var(--font-family-text-manrope);
-    font-size: 28px;
-    font-weight: 500;
+    font-size: var(--article-subtitle-font-size);
   }
 
   img {
@@ -62,6 +63,16 @@
   li:not(:first-child) {
     padding-top: 8px;
   }
+
+  blockquote {
+    padding-left: 15px;
+
+    color: var(--article-blockquote-text);
+    border-left: 4px solid var(--article-blockquote);
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+  }
 }
 
 .article-content a:not(:has(img)) {
@@ -72,6 +83,12 @@
   &:hover {
     color: var(--article-link-color-hover);
   }
+}
+
+.article-content :not(pre) > code {
+  padding: 2px;
+  border-radius: 2px;
+  background-color: var(--article-code-bg);
 }
 
 .article-content__center {
@@ -122,16 +139,6 @@
   &.__green {
     background-color: #f7f7e8;
   }
-}
-
-blockquote {
-  padding-left: 15px;
-
-  color: var(--article-blockquote-text);
-  border-left: 4px solid var(--article-blockquote);
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
 }
 
 /* Article additional navigation */

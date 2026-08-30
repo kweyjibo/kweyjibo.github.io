@@ -14,7 +14,7 @@
 
 @media (width < 1024px) {
   :root {
-    --post-item-shift: 12px;
+    --post-item-shift: 16px;
     --post-item-title-font-size: 24px;
     --post-content-font-size: 18px;
   }

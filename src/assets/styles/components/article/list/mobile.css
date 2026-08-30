@@ -1,11 +1,11 @@
 @media (width < 1024px) {
   .article-item {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .article-item_content {
     --shift: 16px;
-    padding: var(--shift);
+    padding: var(--shift) var(--shift) 0 var(--shift);
   }
 
   .article-item_title {
