@@ -17,6 +17,7 @@
 /* Layouts */
 @import "layouts/main/index.css";
 @import "layouts/header/index.css";
+@import "layouts/sidebar/index.css";
 @import "layouts/footer/index.css";
 @import "layouts/about/index.css";
 @import "layouts/404.css";

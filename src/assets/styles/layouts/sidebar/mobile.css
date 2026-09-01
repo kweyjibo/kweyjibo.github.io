@@ -1,0 +1,20 @@
+@media (width < 1024px) {
+  .sidebar {
+    @supports (animation-timeline: auto) {
+      box-shadow: 0 2px 0 transparent;
+      animation-fill-mode: both;
+      animation-name: --header-shadow;
+      animation-range: 0 100px;
+      animation-timeline: scroll();
+      animation-timing-function: linear;
+    }
+  }
+
+  @keyframes --header-shadow {
+    to {
+      padding: 8px;
+      box-shadow: 0 2px 0 #f6f6f6;
+      background-color: #fff;
+    }
+  }
+}
