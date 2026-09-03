@@ -13,6 +13,7 @@
 @import "components/article/index.css";
 @import "components/sections-tags/index.css";
 @import "components/social-list/index.css";
+@import "components/demo-box/index.css";
 
 /* Layouts */
 @import "layouts/main/index.css";

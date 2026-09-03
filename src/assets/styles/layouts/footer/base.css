@@ -1,9 +1,8 @@
 .footer {
-  --footer-shift: 20px;
   --family-font: var(--font-family-text-manrope);
 
-  padding-top: var(--footer-shift);
-  padding-bottom: var(--footer-shift);
+  padding-top: var(--site-gap);
+  padding-bottom: var(--site-gap);
   box-sizing: border-box;
 
   & .wrapper {
