@@ -1,0 +1,19 @@
+.demo-box {
+  display: block;
+  margin-top: var(--site-gap);
+
+  border: 1px solid #ddd;
+  overflow: hidden; /* border-radius */
+  border-radius: var(--border-radius);
+}
+
+.demo-box__title {
+  padding: 12px 16px;
+
+  background-color: #dddddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.demo-box__body {
+  padding: var(--site-gap);
+}
