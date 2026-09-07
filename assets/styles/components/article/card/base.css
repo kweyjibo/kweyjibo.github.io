@@ -157,6 +157,8 @@
 
 pre.shiki {
   overflow-x: auto;
+  max-width: 100%;
+
   margin-top: 24px;
   margin-bottom: 20px;
   padding: 16px;
