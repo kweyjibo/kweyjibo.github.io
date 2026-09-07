@@ -17,7 +17,7 @@
 .article-date {
   display: inline-block;
 
-  font-size: 14px;
+  font-size: 16px;
   color: var(--article-date);
 }
 
@@ -88,7 +88,7 @@
 .article-content :not(pre) > code {
   padding: 2px;
   border-radius: 2px;
-  background-color: var(--article-code-bg);
+  background-color: var(--code-example-bg);
 }
 
 .article-content__center {
@@ -153,4 +153,34 @@
 
 .article-bold {
   font-weight: 600;
+}
+
+pre.shiki {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  counter-reset: line;
+
+  background-color: var(--code-example-bg);
+  border-radius: var(--border-radius);
+
+  font-size: 14px;
+}
+
+pre.shiki .line {
+  display: inline-block;
+  width: 100%;
+}
+
+pre.shiki .line::before {
+  counter-increment: line;
+  content: counter(line);
+
+  display: inline-block;
+  margin-right: 12px;
+
+  color: var(--code-example-line-number-color);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
 }

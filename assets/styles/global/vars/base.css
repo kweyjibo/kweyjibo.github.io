@@ -31,6 +31,10 @@
   --footer-social-link: #555;
   --footer-social-link-hover: #ea5455;
 
+  --code-example-bg: #f5f2f0;
+  --code-example-left-linebg: #ffd460;
+  --code-example-line-number-color: #999;
+
   /* /Global variables for COLORS */
 
   /* Global variables for Sizes */

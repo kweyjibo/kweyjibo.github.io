@@ -23,10 +23,6 @@
 @import "layouts/about/index.css";
 @import "layouts/404.css";
 
-/* extensions */
-@import "extensions/syntaxhighlight.css";
-@import "extensions/prism.css";
-
 /* Decorations */
 @import "decor/cup.css";
 @import "decor/tags.css";

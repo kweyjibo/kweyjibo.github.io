@@ -2,7 +2,7 @@
   display: block;
   margin-top: var(--site-gap);
 
-  border: 1px solid #ddd;
+  border: 1px solid var(--code-example-bg);
   overflow: hidden; /* border-radius */
   border-radius: var(--border-radius);
 }
@@ -10,8 +10,11 @@
 .demo-box__title {
   padding: 12px 16px;
 
-  background-color: #dddddd;
-  border-bottom: 1px solid #ddd;
+  font-family: var(--font-family-text-geistmono);
+  font-weight: 500;
+
+  background-color: var(--code-example-bg);
+  border-bottom: 1px solid var(--code-example-bg);
 }
 
 .demo-box__body {
