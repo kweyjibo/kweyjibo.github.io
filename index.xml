@@ -4,7 +4,7 @@
   <subtitle>Frontend, travel, and life in the Netherlands — with a personal touch</subtitle>
   <link href="https://kweyjibo.com" />
   <link href="https://kweyjibo.com/feed/" rel="self" />
-  <updated>2026-08-21T00:00:00Z</updated>
+  <updated>2026-09-03T00:00:00Z</updated>
   <id>https://kweyjibo.com/</id>    
 
   <entry>
@@ -236,7 +236,7 @@
 &lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;writing-mode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; vertical-lr&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;text-orientation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; upright&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;На MDN можно посмотреть все значения &lt;span class=&quot;article-at __yellow&quot;&gt;writing-mode&lt;/span&gt;. По этой &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation&quot;&gt;ссылке&lt;/a&gt; описание и примеры. Суть этого свойства в расположении текста: вертикально или горизонтально.&lt;/p&gt;
+&lt;p&gt;На MDN можно посмотреть все значения &lt;code&gt;writing-mode&lt;/code&gt;. По этой &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation&quot;&gt;ссылке&lt;/a&gt; описание и примеры. Суть этого свойства в расположении текста: вертикально или горизонтально.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;article-bold&quot;&gt;Пример&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;style type=&quot;text/css&quot;&gt;
   .container-text {
@@ -247,7 +247,7 @@
 &lt;div class=&quot;container-text&quot;&gt;
 Lorem ipsum&lt;br/&gt;dolor sit amet&lt;br/&gt;consectetur&lt;br/&gt;adipiscing elit
 &lt;/div&gt;
-&lt;p&gt;Свойство &lt;span class=&quot;article-at __yellow&quot;&gt;text-orientation&lt;/span&gt; работает при отображении текста вертикально.&lt;/p&gt;
+&lt;p&gt;Свойство &lt;code&gt;text-orientation&lt;/code&gt; работает при отображении текста вертикально.&lt;/p&gt;
 &lt;h2&gt;Свойство content-visibility&lt;/h2&gt;
 &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token property&quot;&gt;content-visibility&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; [value]&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&quot;https://drafts.csswg.org/css-contain/#content-visibility&quot;&gt;Ссылка&lt;/a&gt; на саму спеку. Чем интересно данное свойство: с помощью него можно скрыть содержимое элемента, которое не будет участвоваь в рендеринге. Пока не вижу, что это кто-то сильно поддерживает. Разве что Chrome.&lt;/p&gt;
@@ -294,7 +294,7 @@ Lorem ipsum&lt;br/&gt;dolor sit amet&lt;br/&gt;consectetur&lt;br/&gt;adipiscing 
 &lt;p&gt;Поддерживают все браузеры.&lt;/p&gt;
 &lt;h2&gt;Shapes &amp;amp; Graphics&lt;/h2&gt;
 &lt;p&gt;Хорошо, посмотрим что у нас есть по работе с графикой.&lt;/p&gt;
-&lt;p&gt;Наложила сверху на картинку фильтр sepia через свойство &lt;span class=&quot;article-at __yellow&quot;&gt;backdrop-filter&lt;/span&gt;. Не знаю, как все это влияет на производительность. Ссылка на &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter&quot;&gt;mdn&lt;/a&gt;. И тут вы сейчас воскликнете &lt;span class=&quot;article-at __yellow&quot;&gt;filter&lt;/span&gt;! А вот и главное отличие: эффекты filter примеменяются только к фону, а не к содержимому.&lt;/p&gt;
+&lt;p&gt;Наложила сверху на картинку фильтр sepia через свойство &lt;code&gt;backdrop-filter&lt;/code&gt;. Не знаю, как все это влияет на производительность. Ссылка на &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter&quot;&gt;mdn&lt;/a&gt;. И тут вы сейчас воскликнете &lt;code&gt;filter&lt;/code&gt;! А вот и главное отличие: эффекты filter примеменяются только к фону, а не к содержимому.&lt;/p&gt;
 &lt;style type=&quot;text/css&quot;&gt;
 
 .backdrop-filter {
@@ -335,7 +335,7 @@ Lorem ipsum&lt;br/&gt;dolor sit amet&lt;br/&gt;consectetur&lt;br/&gt;adipiscing 
 &lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&quot;backdrop-filter __with&quot;&gt;
   &lt;div class=&quot;backdrop-filter-tx&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/div&gt;
-  &lt;img src=&quot;https://kweyjibo.com/posts/state-of-css/i/exp.jpg&quot; alt=&quot;Example&quot;  width=&quot;320&quot; /&gt;
+  &lt;img src=&quot;https://kweyjibo.com/posts/state-of-css/images/exp.jpg&quot; alt=&quot;Example&quot;  width=&quot;320&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;Я использовала псевдоэлемент для наложения эффекта через backdrop-filter. И с его помощью получилось накрыть часть фотографии.&lt;/p&gt;
 &lt;p&gt;А это эффект, если вы используеть filter.&lt;/p&gt;
@@ -348,7 +348,7 @@ Lorem ipsum&lt;br/&gt;dolor sit amet&lt;br/&gt;consectetur&lt;br/&gt;adipiscing 
 &lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sepia&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;80%&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&quot;backdrop-filter __filter&quot;&gt;
-  &lt;img src=&quot;https://kweyjibo.com/posts/state-of-css/i/exp.jpg&quot; alt=&quot;Example&quot; class=&quot;img-filter&quot; width=&quot;320&quot; /&gt;
+  &lt;img src=&quot;https://kweyjibo.com/posts/state-of-css/images/exp.jpg&quot; alt=&quot;Example&quot; class=&quot;img-filter&quot; width=&quot;320&quot; /&gt;
   &lt;div class=&quot;backdrop-filter-tx&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Если нужно наложить частичный эффект, то можно использовать backdrop-filter.&lt;/p&gt;
@@ -406,5 +406,162 @@ Lorem ipsum&lt;br/&gt;dolor sit amet&lt;br/&gt;consectetur&lt;br/&gt;adipiscing 
   &lt;img src=&quot;https://kweyjibo.com/posts/twenty-six-years-ago/images/first-USB-flash-drive.jpg&quot; class=&quot;article-img __big&quot; alt=&quot;Me in 2000&quot; /&gt;
 &lt;/span&gt;
 &lt;p&gt;This is my first USB flash drive. My father gave it to me in 2003. It&#39;s still with me. Before 2003, I used floppy disks. I still remember the sound of the floppy disk drive.&lt;/p&gt;</content>
+  </entry>    
+
+  <entry>
+    <title>Exploring State of CSS 2026</title>
+    <link href="https://kweyjibo.com/posts/exploring-state-of-css-2026/" />
+    <updated>2026-09-03T00:00:00Z</updated>
+    <id>https://kweyjibo.com/posts/exploring-state-of-css-2026/</id>
+    <content type="html" xml:lang="en">&lt;p&gt;I didn&#39;t take the survey this year. I had no time, sorry. But I would like to explore the results. I usually find some interesting things there. A couple of days ago, I started using &lt;code&gt;:has&lt;/code&gt;. Let&#39;s explore!&lt;/p&gt;
+&lt;h2&gt;&lt;code&gt;:has()&lt;/code&gt;&lt;/h2&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.article a:not(:has(img))&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--article-link-color&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;border-bottom&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 2px solid &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--article-link-border-color&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;&amp;amp;:hover&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--article-link-color-hover&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The functional pseudo-class &lt;code&gt;:has()&lt;/code&gt; is brilliant for me. It is so useful. Can you imagine another way to handle my case with non-standard links in my blog? The code above is simple. Sometimes I put an &lt;code&gt;img&lt;/code&gt; inside an &lt;code&gt;a&lt;/code&gt;. &lt;code&gt;:has()&lt;/code&gt; can handle it without any problems.&lt;/p&gt;
+&lt;p&gt;You can find more information on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;MDN&lt;/a&gt;. The article probably contains some difficult examples. CSS is becoming more and more confusing. All modern browsers support &lt;code&gt;:has()&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;CSS Nesting&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been using CSS nesting since 2023. It&#39;s convenient: no additional libraries, no preprocessors, no extra compilation. I try to keep the structure simple and avoid deep nesting.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.button&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--button-bg&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;&amp;amp;:hover:not(:disabled)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--button-bg-hover&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;&amp;amp;.active&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--button-bg-active&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Deep nesting can be difficult to understand. But simple nesting, like in the example above, is clear. By the way, it might not be enough for complex projects. But for smaller projects, it works really well.&lt;/p&gt;
+&lt;p&gt;Nesting reduces selector repetition and file size. More information is available on &lt;a href=&quot;https://drafts.csswg.org/css-nesting-1/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;CSSWG&lt;/a&gt; website.&lt;/p&gt;
+&lt;h2&gt;Subgrid&lt;/h2&gt;
+&lt;p&gt;I spent some time trying to understand how it works. But &lt;code&gt;subgrid&lt;/code&gt; is a really great feature. &lt;code&gt;Subgrid is&lt;/code&gt; a CSS Grid feature that allows a nested grid to use its parent&#39;s grid. Let me show you how it works.&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;cards&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;card&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Lorem ipsum&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;      tempor incididunt ut labore et dolore magna aliqua&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;More&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;card&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;More&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to keep all the titles aligned on the same line, you can do it differently with &lt;code&gt;subgrid&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.cards&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; grid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 1fr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; grid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;grid-row&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; span 3&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; subgrid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card:nth-child(even) {
+  border-inline-start: 2px dashed #ccc;
+  padding-inline-start: 20px;
+}
+
+.card {
+  display: grid;
+  grid-row: span 3;
+
+  grid-template-rows: subgrid;
+}
+&lt;/style&gt;
+&lt;div class=&quot;demo-box&quot;&gt;
+  &lt;h3 class=&quot;demo-box__title&quot;&gt;Result&lt;/h3&gt;
+  &lt;div class=&quot;demo-box__body&quot;&gt;
+    &lt;div class=&quot;cards&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;h4&gt;Lorem ipsum&lt;/h4&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua&lt;/p&gt;
+        &lt;button&gt;More&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;article class=&quot;card&quot;&gt;
+        &lt;h4&gt;Lorem ipsum dolor sit amet, consectetur adipiscing&lt;/h4&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
+        &lt;button&gt;More&lt;/button&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This is a simple example to get the idea. More information &lt;a href=&quot;https://web-platform-dx.github.io/web-features-explorer/features/subgrid/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;code&gt;@supports&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;CSS is changing all the time. There are a lot of new features, and we don&#39;t always know how they work in different browsers. &lt;code&gt;@supports&lt;/code&gt; exists to help with this. It allows us to tell the browser: &amp;quot;If you understand this property, apply these styles.&amp;quot;&lt;/p&gt;
+&lt;p&gt;For example, &lt;code&gt;grid&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.cards&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@supports&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; subgrid&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;.cards&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; grid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; subgrid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the browser doesn&#39;t support subgrid, it won&#39;t apply the styles inside this block.&lt;/p&gt;
+&lt;p&gt;It&#39;s also possible to add a fallback.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@supports&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; subgrid&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token comment&quot;&gt;/* fallback */&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But maybe progressive enhancement is a better approach. More information on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@supports&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;MDN&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;CSS container queries&lt;/h2&gt;
+&lt;p&gt;The main idea is that a container query looks at the size of the component&#39;s container. It&#39;s another way in CSS to change or adapt the size of elements on a web page.&lt;/p&gt;
+&lt;div class=&quot;article-content__center&quot;&gt;&lt;img src=&quot;https://kweyjibo.com/posts/exploring-state-of-css-2026/images/container-queries.jpg&quot; alt=&quot;Example&quot; width=&quot;400&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;For example, there are two identical cards in different places on the web page. One of them is in &lt;code&gt;main&lt;/code&gt; content, and the other is in &lt;code&gt;sidebar&lt;/code&gt;. When a user changes the page size or opens it on a different device, the card can have a one- or two-column layout. If you use &lt;code&gt;@media&lt;/code&gt; to define the card&#39;s layout, the viewport can be wide, but the &lt;code&gt;sidebar&lt;/code&gt; may stay narrow. In this case, the card may not be displayed correctly.&lt;/p&gt;
+&lt;p&gt;If the container is wide:&lt;/p&gt;
+&lt;div class=&quot;article-content__center&quot;&gt;&lt;img src=&quot;https://kweyjibo.com/posts/exploring-state-of-css-2026/images/container-queries-two.jpg&quot; alt=&quot;Example&quot; width=&quot;400&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;If the container is narrow:&lt;/p&gt;
+&lt;div class=&quot;article-content__center&quot;&gt;&lt;img src=&quot;https://kweyjibo.com/posts/exploring-state-of-css-2026/images/container-queries-one.jpg&quot; alt=&quot;Example&quot; width=&quot;260&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;In this case, using a container query is a good solution. The width of the card will depend on the width of its parent container.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;width &gt;= 500px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; grid&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token property&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 200px 1fr&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the styles are based on the nearest ancestor that establishes a query container.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.sidebar&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; sidebar / inline-size&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.card-container&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; card / inline-size&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A query container can also have a name. You can set it using the container-name and container-type properties, or with the container shorthand.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token atrule&quot;&gt;&lt;span class=&quot;token rule&quot;&gt;@container&lt;/span&gt; card &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;width &gt;= 400px&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token selector&quot;&gt;.card&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token comment&quot;&gt;/* depends on .card-container */&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I like new features. Some of them are difficult, while others are very helpful. This article explores several CSS features. Not all of them work in every browser, so it&#39;s worth checking browser support on &lt;a href=&quot;https://caniuse.com&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Can I Use&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of these features deserve separate articles and a deeper exploration to better understand how they work.&lt;/p&gt;</content>
   </entry>
 </feed>

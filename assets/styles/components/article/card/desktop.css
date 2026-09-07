@@ -4,15 +4,14 @@
     padding-bottom: 8px;
   }
 
+  .article-date {
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+
   .article-img {
     &.__big {
       max-width: 500px;
-    }
-  }
-
-  .article-content {
-    p {
-      line-height: 1.6;
     }
   }
 }

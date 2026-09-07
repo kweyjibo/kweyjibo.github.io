@@ -13,16 +13,19 @@
 @import "components/article/index.css";
 @import "components/sections-tags/index.css";
 @import "components/social-list/index.css";
+@import "components/demo-box/index.css";
 
 /* Layouts */
 @import "layouts/main/index.css";
 @import "layouts/header/index.css";
+@import "layouts/sidebar/index.css";
 @import "layouts/footer/index.css";
 @import "layouts/about/index.css";
 @import "layouts/404.css";
 
 /* extensions */
 @import "extensions/syntaxhighlight.css";
+@import "extensions/prism.css";
 
 /* Decorations */
 @import "decor/cup.css";

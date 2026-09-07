@@ -2,6 +2,7 @@
   .grid {
     padding-left: var(--site-gap);
     padding-right: var(--site-gap);
+    grid-template-columns: minmax(0, 1fr); /*  fix long content */
     gap: var(--site-gap);
   }
 

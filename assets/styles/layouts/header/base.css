@@ -1,10 +1,10 @@
-.header__left {
+.header {
   position: relative;
 }
 
 .header-title_tx {
   position: absolute;
-  top: 52px;
+  top: 68px;
 
   font-family: var(--font-family-text-geistmono);
   color: #5e554e;

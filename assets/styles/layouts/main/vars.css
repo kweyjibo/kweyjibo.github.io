@@ -6,6 +6,6 @@
 
 @media (width < 1024px) {
   :root {
-    --main-gap: 8px;
+    --main-gap: 12px;
   }
 }
