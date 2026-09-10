@@ -3,7 +3,6 @@ layout: post.njk
 title: "Update 2026"
 dsc: "I've been working on my project for two years now. It's time to share what I've achieved so far and my plans for the future."
 date: 2026-07-29
-section: work
 tags:
   - news
 ---

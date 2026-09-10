@@ -3,7 +3,8 @@ title: Blog
 pagination:
   data: collections.blog
   size: 5
-permalink: "{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}blog/index.html"
+permalink: "{% if pagination.pageNumber == 0 %}/blog/{% else %}/blog/{{ pagination.pageNumber + 1 }}/{% endif %}"
+section: blog
 eleventyNavigation:
   key: Blog
   order: 2

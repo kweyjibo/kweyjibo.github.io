@@ -5,7 +5,6 @@ dsc: "Расскажу немного о планах. Хотя, да, врем�
 date: 2022-11-09
 image: "../posts/update/images/update.png"
 imageProp: "234px"
-section: work
 tags:
   - news
 ---

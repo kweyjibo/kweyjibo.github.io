@@ -1,11 +1,13 @@
 ---
-title: Articles
+title: Home
 pagination:
   data: collections.work
   size: 5
 permalink: "{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+section: work
 eleventyNavigation:
-  key: Home
+  key: Work
+  title: Home
   order: 1
 layout: page.njk
 ---

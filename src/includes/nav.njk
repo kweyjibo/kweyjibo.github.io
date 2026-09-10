@@ -3,10 +3,23 @@
 <div class="navigation-cnt">
   <nav class="navigation" id="navigation" aria-label="Primary">
     <ul class="navigation-list">
+      {% set navPages = collections.all | eleventyNavigation %}
+
       {%- for entry in navPages %}
+
+        {% set isNavigationPage = entry.key == eleventyNavigation.key %}
+        {% set isSectionPage = section and (entry.key | lower == section | lower) %}
+        {% set isActive = isNavigationPage or isSectionPage %}
+
         <li class="navigation-i">
-          <a{% if entry.url == page.url %} class="navigation-link __active"{% endif %} class="navigation-link" {% if entry.url != page.url %}href="{{ entry.url }}"{% endif %}>{{ entry.title }}</a>
+          <a
+            class="navigation-link{% if isActive %} __active{% endif %}"
+            {% if not isActive %}href="{{ entry.url }}"{% endif %}
+          >
+            {{ entry.title }}
+          </a>
         </li>
+
       {%- endfor %}
 
       <li class="navigation-i">

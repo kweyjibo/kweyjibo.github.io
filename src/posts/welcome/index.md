@@ -3,7 +3,6 @@ layout: post.njk
 title: "Добро пожаловать"
 dsc: "Добро пожаловать в мой блог."
 date: 2017-05-08
-section: work
 tags:
   - news
 ---

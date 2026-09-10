@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 title: "Amsterdam Light Festival. Edition 13"
+section: blog
 dsc: "В Амстердаме вот уже 13-ый год проходит световой фестиваль. Показываю красивое."
 date: 2025-01-03
 image: "i/img.jpg"

@@ -5,7 +5,6 @@ dsc: "I would like to explore some CSS properties from the survey. You can build
 date: 2026-09-03
 image:
 imageProp:
-section: work
 tags:
   - css
 ---
@@ -36,16 +35,16 @@ I've been using CSS nesting since 2023. It's convenient: no additional libraries
 
 ```css
 .button {
-    background-color: var(--button-bg);
+  background-color: var(--button-bg);
+}
 
+&:hover:not(:disabled) {
+  background-color: var(--button-bg-hover);
+}
 
-  &:hover:not(:disabled) {
-    background-color: var(--button-bg-hover);
-  }
-
-  &.active {
-    background-color: var(--button-bg-active);
-  }
+&.active {
+  background-color: var(--button-bg-active);
+}
 ```
 
 Deep nesting can be difficult to understand. But simple nesting, like in the example above, is clear. By the way, it might not be enough for complex projects. But for smaller projects, it works really well.
@@ -54,7 +53,7 @@ Nesting reduces selector repetition and file size. More information is available
 
 ## Subgrid
 
-I spent some time trying to understand how it works. But `subgrid` is a really great feature. `Subgrid is` a CSS Grid feature that allows a nested grid to use its parent's grid. Let me show you how it works.
+I spent some time trying to understand how it works. But `subgrid` is a really great feature. `Subgrid` is a CSS Grid feature that allows a nested grid to use its parent's grid. Let me show you how it works.
 
 ```html
 <div class="cards">

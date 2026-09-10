@@ -5,7 +5,6 @@ dsc: "Рассмотрю немного новенького в css за 2023"
 date: 2023-11-26
 image:
 imageProp:
-section: work
 tags:
   - css
 ---
@@ -23,8 +22,6 @@ tags:
 
 На MDN можно посмотреть все значения `writing-mode`. По этой [ссылке](https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation) описание и примеры. Суть этого свойства в расположении текста: вертикально или горизонтально.
 
-<span class="article-bold">Пример</span><br/><br/>
-
 <style type="text/css">
   .container-text {
      writing-mode: vertical-lr;
@@ -32,8 +29,13 @@ tags:
   }
 </style>
 
-<div class="container-text">
-Lorem ipsum<br/>dolor sit amet<br/>consectetur<br/>adipiscing elit
+<div class="demo-box">
+  <h3 class="demo-box__title">Пример</h3>
+  <div class="demo-box__body">
+    <div class="container-text">
+    Lorem ipsum<br/>dolor sit amet<br/>consectetur<br/>adipiscing elit
+    </div>
+  </div>
 </div>
 
 Свойство `text-orientation` работает при отображении текста вертикально.
@@ -63,12 +65,13 @@ content-visibility: [value];
     accent-color: #f79a5b;
   }
 </style>
-
-<input type="checkbox" class="checkbox-accent-color" id="example-accent-color" />
-<label for="example-accent-color">Example accent-color</label>
-
-Пример для группы
-
+<div class="demo-box">
+  <h3 class="demo-box__title">Пример для checkbox</h3>
+  <div class="demo-box__body">
+    <input type="checkbox" class="checkbox-accent-color" id="example-accent-color" />
+    <label for="example-accent-color">Example accent-color</label>
+  </div>
+</div>
 <style type="text/css">
   .radio-accent-color {
     display: inline-block;
@@ -76,25 +79,26 @@ content-visibility: [value];
     width: 20px;
     height: 20px;
   }
-
   .radio-accent-color.green {
     accent-color: #74992e;
   }
-
   .radio-accent-color.yellow {
     accent-color: #ffff80;
   }
-
 </style>
+<div class="demo-box">
+  <h3 class="demo-box__title">Пример для группы</h3>
+  <div class="demo-box__body">
+    <div class="radio">
+      <input type="radio" class="radio-accent-color green" name="radio-accent-color" id="example-accent-color-radio1" />
+      <label for="example-accent-color-radio1">Example for green radio</label>
+    </div>
+    <div class="radio">
+      <input type="radio" class="radio-accent-color yellow" name="radio-accent-color" id="example-accent-color-radio2" />
+      <label for="example-accent-color-radio2">Example for yellow radio</label>
+    </div>
 
-<div class="radio">
-<input type="radio" class="radio-accent-color green" name="radio-accent-color" id="example-accent-color-radio1" />
-<label for="example-accent-color-radio1">Example for green radio</label>
-</div>
-
-<div class="radio">
-<input type="radio" class="radio-accent-color yellow" name="radio-accent-color" id="example-accent-color-radio2" />
-<label for="example-accent-color-radio2">Example for yellow radio</label>
+  </div>
 </div>
 
 Поддерживают все браузеры.
@@ -106,7 +110,6 @@ content-visibility: [value];
 Наложила сверху на картинку фильтр sepia через свойство `backdrop-filter`. Не знаю, как все это влияет на производительность. Ссылка на [mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter). И тут вы сейчас воскликнете `filter`! А вот и главное отличие: эффекты filter примеменяются только к фону, а не к содержимому.
 
 <style type="text/css">
-
 .backdrop-filter {
     display: inline-block;
     position:relative;
@@ -121,7 +124,6 @@ content-visibility: [value];
     right: 0;
     backdrop-filter: sepia(80%);
 }
-  
 .backdrop-filter-tx {
   position: absolute;
   top: 20px;
@@ -147,9 +149,14 @@ content-visibility: [value];
 }
 ```
 
-<div class="backdrop-filter __with">
-  <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-  <img src="images/exp.jpg" alt="Example"  width="320" />
+<div class="demo-box">
+  <h3 class="demo-box__title">Пример</h3>
+  <div class="demo-box__body">
+    <div class="backdrop-filter __with">
+      <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <img src="images/exp.jpg" alt="Example"  width="320" />
+    </div>
+</div>
 </div>
 
 Я использовала псевдоэлемент для наложения эффекта через backdrop-filter. И с его помощью получилось накрыть часть фотографии.
@@ -168,9 +175,14 @@ content-visibility: [value];
 }
 ```
 
-<div class="backdrop-filter __filter">
-  <img src="images/exp.jpg" alt="Example" class="img-filter" width="320" />
-  <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+<div class="demo-box">
+  <h3 class="demo-box__title">Результат</h3>
+  <div class="demo-box__body">
+    <div class="backdrop-filter __filter">
+      <img src="images/exp.jpg" alt="Example" class="img-filter" width="320" />
+      <div class="backdrop-filter-tx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+    </div>
+  </div>
 </div>
 
 Если нужно наложить частичный эффект, то можно использовать backdrop-filter.

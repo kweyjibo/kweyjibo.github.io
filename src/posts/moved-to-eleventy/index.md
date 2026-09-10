@@ -1,11 +1,11 @@
 ---
 layout: post.njk
 title: "Blog переехал на 11ty"
+section: post
 dsc: "Решила быть модной и перевезла свой блог на 11ty"
 date: 2023-08-03
 image: "../posts/moved-to-eleventy/images/img.jpg"
 imageProp: "400px"
-section: work
 tags:
   - news
 ---

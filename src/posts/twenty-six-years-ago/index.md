@@ -3,7 +3,6 @@ layout: post.njk
 title: "Twenty six years ago"
 dsc: "Many years ago, I started thinking about my future. I got my first computer in 1999. Before that, I had completed some tech courses. I followed a long path before becoming a frontend developer."
 date: 2026-08-21
-section: work
 tags:
   - technostalgia
 ---
