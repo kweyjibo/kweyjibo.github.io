@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import rss from "@11ty/eleventy-plugin-rss";
-import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import Shiki from "@shikijs/markdown-it";
 import { minify as htmlMinify } from "html-minifier-terser";
 import { load as yamlLoad } from "js-yaml";
 import markdownIt from "markdown-it";
@@ -13,6 +13,20 @@ const globalData = yamlLoad(readFileSync("src/data/global.yml", "utf8"));
 const markdown = markdownIt({
   html: true,
 });
+
+markdown.use(
+  await Shiki({
+    theme: "horizon-bright",
+    defaultColor: false,
+    transformers: [
+      {
+        pre(node) {
+          delete node.properties.style;
+        },
+      },
+    ],
+  }),
+);
 
 const paths = {
   posts: "src/posts/*/index.md",
@@ -97,10 +111,6 @@ export default function (eleventyConfig) {
   // Plugins
 
   eleventyConfig.addPlugin(rss);
-
-  eleventyConfig.addPlugin(syntaxHighlight, {
-    alwaysWrapLineHighlights: true,
-  });
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
