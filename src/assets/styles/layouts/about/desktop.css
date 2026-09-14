@@ -1,7 +1,5 @@
 @media (width >= 1024px) {
-  .about_cnt {
-    padding: 16px;
-  }
+
 
   .about-section_cnt {
     display: flex;

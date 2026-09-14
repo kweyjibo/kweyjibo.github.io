@@ -12,6 +12,7 @@
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
   color: var(--navigation-bg);
 
   background-color: #fff;

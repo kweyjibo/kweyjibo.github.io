@@ -3,8 +3,13 @@
     /* Global variables for Sizes */
 
     --site-gap: 20px;
+    --site-island-space: 16px;
+
+    /* Global variables for Fonts */
+
     --site-font-size: 16px;
 
+    /* Global variables for Spacing */
     --header-height: 158px;
     --footer-height: 120px;
 
