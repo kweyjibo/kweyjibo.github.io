@@ -6,10 +6,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width" />
 
     <title>{{ title }}</title>
-    <meta name="description" content="{{ global.description }}" />
+    {% if dsc.length > 0 %}
+      <meta name="description" content="{{ dsc | markdownRemove }}" />
+    {% endif %}
     <meta name="author" content="Alla Dolzhenko">
     <meta name="theme-color" content="#ffffff" />
 
@@ -18,7 +20,7 @@
     <meta property="og:title" content="{{ title }}" />
 
     {% if dsc.length > 0 %}
-    <meta property="og:description" content="{{ dsc | markdownRemove }}" />
+      <meta property="og:description" content="{{ dsc | markdownRemove }}" />
     {% endif %}
 
     <meta property="og:url" content="{{ global.domain + page.url }}" />
@@ -27,7 +29,6 @@
     <meta name="keywords" content="{{ keywords }}" />
     {% endif %}
 
-    <link href="/assets/styles/extensions/prism.css" rel="stylesheet" />
     <link href="/assets/styles/style.css" rel="stylesheet" />
     <link
       rel="preload"

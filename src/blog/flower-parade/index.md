@@ -9,7 +9,7 @@ tags:
   - жизнь в Нидерландах
 ---
 
-<section><span class="article-at __shift __green"><span class="article-bold">Het Bloemencorso Bollenstreek</span> - это ежегодный парад цветов, проходящий между Нордвейк (Noordwijk) и Харлемом (Haarlem).</span></section>
+<div class="article-at __shift __green"><span class="article-bold">Het Bloemencorso Bollenstreek</span> - это ежегодный парад цветов, проходящий между Нордвейк (Noordwijk) и Харлемом (Haarlem).</div>
 
 <div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}bloemencorso/flower-parade-2025.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}bloemencorso/s/flower-parade-2025.jpg" alt="Het Bloemencorso Bollenstreek 2025" width="600"/></a></span>
@@ -17,13 +17,15 @@ tags:
 
 Я расскажу немножко о параде. Подробную информацию можно найти на <a href="https://bloemencorso-bollenstreek.nl/en/">сайте фестиваля</a>.
 
-<section><span class="article-at __shift __green">
+<div class="article-at __shift __green">
+
 Протяженность: 42 километра.
 
 Сам парад: шествие роскошных платформ, украшенных миллионами свежих цветов, особенно тюльпанов, гиацинтов и нарциссов. Каждая платформа оформлена в определённой тематике и сопровождается музыкой, танцорами и артистами.
 
 Когда: проводится ежегодно в апреле, чаще всего в третью или четвёртую субботу месяца. В этом году 12-ого апреля.
-</span></section>
+
+</div>
 
 <div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}bloemencorso/flower-parade-2025-2-1.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}bloemencorso/s/flower-parade-2025-2.jpg" alt="Het Bloemencorso Bollenstreek 2025" width="400"/></a></span>

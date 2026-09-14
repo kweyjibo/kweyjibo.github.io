@@ -9,7 +9,7 @@ tags:
   - города Нидерландов
 ---
 
-<section><span class="article-at __shift __green"><span class="article-bold">Лейден</span> -  город в нидерландской провинции Южная Голландия на реке Старый Рейн. Первый раз город упоминается на страницах летописей в 922 году.</span></section>
+<div class="article-at __shift __green"><span class="article-bold">Лейден</span> -  город в нидерландской провинции Южная Голландия на реке Старый Рейн. Первый раз город упоминается на страницах летописей в 922 году.</div>
 
 <div class="article-content__center">
 <span class="article-img __top"><img src="{{ global.imageCDN }}Leiden/leiden-01.jpg" alt="Leiden" width="500"/></span>

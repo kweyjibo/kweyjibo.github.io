@@ -15,11 +15,9 @@ tags:
 
 Январь в Нидерландах - довольно мрачный месяц. Поэтому желательно чаще выходить из дома, не смотря на холод. Погода "балует" то туманом, то штормом. И в этот зимний сезон шторма побили все рекорды: и количественно, и масштабно. В перерывах между всем этим мы все тут пытаемся что-то делать. Сегодня я решила сделать свой любимый круг в двадцать километров.
 
-<section>
-<span class="article-at __shift __yellow">
+<div class="article-at __shift __yellow">
 (Все картинки кликабельны и открываются в новой вкладке)
-</span>
-</section>
+</div>
 
 <span class="article-content__center"><a href="{{ global.imageCDN }}cicling-jan-2025/26--5.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}cicling-jan-2025/26--5.jpg"  class="article-img" alt="Amstel" width="400"/></a></span>
 

@@ -10,7 +10,7 @@ tags:
   - Национальный парк
 ---
 
-<section><span class="article-at __shift __green"><span class="article-bold">Het Nationale Park De Hoge Veluwe</span> - один из самых известных и крупных национальных парков в Нидерландах. Расположен недалеко от города Arnhem.</span></section>
+<div class="article-at __shift __green"><span class="article-bold">Het Nationale Park De Hoge Veluwe</span> - один из самых известных и крупных национальных парков в Нидерландах. Расположен недалеко от города Arnhem.</div>
 
 <div class="article-content__center">
 <span class="article-img __top"><a href="{{ global.imageCDN }}de-hoge-veluwe/b/23-19.jpg" target="_blank" rel="noopener noreferrer"><img src="{{ global.imageCDN }}de-hoge-veluwe/23-19.jpg" alt="Het Nationale Park De Hoge Veluwe" width="500"/></a></span>
@@ -18,7 +18,7 @@ tags:
 
 Да-да, это я. Попозже расскажу о значимости этой картинки. Я решила кинуть в вас конец поездки. Ну, знаете, как это модно в современных фильмах. Ах, да, вот еще модная штука - disclaimer.
 
-<section><span class="article-at __shift __yellow">Я не могу передать картинками всю красоту обозначенного в заголовке места. Поэтому, приезжайте сами. Тут чудесно. ;)</section>
+<div class="article-at __shift __yellow">Я не могу передать картинками всю красоту обозначенного в заголовке места. Поэтому, приезжайте сами. Тут чудесно. ;)</div>
 
 ## Рекреационный парк
 
@@ -28,7 +28,7 @@ tags:
 
 В этот раз мы решили поселиться в таком месте. Если вы никогда не слышали, что это такое, то вот.
 
-<section><span class="article-at __shift __green">Рекреационный парк - место для отдыха на природе с проживанием. Такой современный парк отдыха предлагает домики, коттеджи, глэмпинг (палатки на платформах), кемпинг-площадки.</span></section>
+<div class="article-at __shift __green">Рекреационный парк - место для отдыха на природе с проживанием. Такой современный парк отдыха предлагает домики, коттеджи, глэмпинг (палатки на платформах), кемпинг-площадки.</div>
 
 На картинке я в домике. Чудесный вид на зелень. Никаких соседей сверху или снизу. Две небольшие спальни. Неплохой детокс от соседей.
 
