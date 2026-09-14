@@ -31,6 +31,7 @@ markdown.use(
 const paths = {
   posts: "src/posts/*/index.md",
   blog: "src/blog/*/index.md",
+  devnotes: "src/devnotes/*/index.md",
   pages: "src/pages/!(404)/**/index.njk",
 };
 
@@ -75,6 +76,12 @@ export default function (eleventyConfig) {
     return sortByDateDescending(collectionApi.getFilteredByGlob(paths.blog));
   });
 
+  eleventyConfig.addCollection("devnotes", (collectionApi) => {
+    return sortByDateDescending(
+      collectionApi.getFilteredByGlob(paths.devnotes),
+    );
+  });
+
   sectionNames.forEach((section) => {
     eleventyConfig.addCollection(section, (collectionApi) => {
       return getSectionItems(collectionApi, section);
@@ -98,6 +105,7 @@ export default function (eleventyConfig) {
     return collectionApi.getFilteredByGlob([
       paths.posts,
       paths.blog,
+      paths.devnotes,
       paths.pages,
     ]);
   });
@@ -143,6 +151,8 @@ export default function (eleventyConfig) {
     "src/posts/**/assets",
     "src/blog/**/images",
     "src/blog/**/assets",
+    "src/devnotes/**/images",
+    "src/devnotes/**/assets",
     "src/manifest.json",
     "src/blog/**/i",
     "CNAME",
