@@ -1,0 +1,30 @@
+.devnotes-item {
+  overflow: hidden;
+  padding: var(--site-island-space);
+
+  background-color: var(--devnotes-item-bg);
+  border-radius: var(--border-radius);
+}
+
+.devnotes-item__inner {
+  padding-top: var(--site-island-space);
+}
+
+.devnotes-item__lk {
+  color: var(--devnotes-item-link-color);
+  text-decoration: none;
+}
+
+.devnotes-item__title {
+  display: inline-block;
+  padding-right: 4px;
+
+  font-family: var(--font-family-text-manrope);
+  font-size: var(--devnotes-item-title-font-size);
+}
+
+.devnotes-item__desc {
+  font-size: var(--devnotes-content-font-size);
+  color: var(--devnotes-desc-color);
+  text-decoration: none;
+}

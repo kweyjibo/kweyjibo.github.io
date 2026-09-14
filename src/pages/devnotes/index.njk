@@ -1,0 +1,19 @@
+---
+title: DevNotes
+pagination:
+  data: collections.devnotes
+  size: 5
+permalink: "{% if pagination.pageNumber == 0 %}/devnotes/{% else %}/devnotes/{{ pagination.pageNumber + 1 }}/{% endif %}"
+section: devnotes
+eleventyNavigation:
+  key: devnotes
+  title: DevNotes
+  order: 2
+layout: page.njk
+---
+
+{% from "components/devnotes-list-item.njk" import devnotesList %}
+
+{{ devnotesList(pagination.items) }}
+
+{% include "paginator.njk" %}
