@@ -1,0 +1,32 @@
+pre.shiki {
+  overflow-x: auto;
+  max-width: 100%;
+
+  margin-top: 24px;
+  margin-bottom: 20px;
+  padding: 16px;
+  counter-reset: line;
+
+  background-color: var(--code-example-bg);
+  border-radius: var(--border-radius);
+
+  line-height: 1.6;
+}
+
+pre.shiki .line {
+  display: inline-block;
+  width: 100%;
+}
+
+pre.shiki .line::before {
+  counter-increment: line;
+  content: counter(line);
+
+  display: inline-block;
+  margin-right: 12px;
+
+  color: var(--code-example-line-number-color);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}

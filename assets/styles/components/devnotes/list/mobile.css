@@ -1,0 +1,9 @@
+@media (width < 1024px) {
+  .devnotes-item__title {
+    line-height: 1.2;
+  }
+
+  .devnotes-item__desc {
+    line-height: 1.4;
+  }
+}

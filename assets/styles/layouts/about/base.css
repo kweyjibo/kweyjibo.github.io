@@ -1,4 +1,5 @@
 .about_cnt {
+  padding: var(--site-island-space);
   border-radius: var(--border-radius);
   background-color: #fff;
 

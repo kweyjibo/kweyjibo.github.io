@@ -172,6 +172,31 @@
   </url>
     
   <url>
+    <loc>https://kweyjibo.com/devnotes/functions-bind/</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/devnotes/functions-call-and-apply/</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/devnotes/function-declaration/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/devnotes/function-returning-functions/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/devnotes/functions-closures/</loc>
+    <lastmod>2026-08-16</lastmod>
+  </url>
+    
+  <url>
     <loc>https://kweyjibo.com/posts/twenty-six-years-ago/</loc>
     <lastmod>2026-08-21</lastmod>
   </url>
@@ -179,6 +204,11 @@
   <url>
     <loc>https://kweyjibo.com/posts/exploring-state-of-css-2026/</loc>
     <lastmod>2026-09-03</lastmod>
+  </url>
+    
+  <url>
+    <loc>https://kweyjibo.com/devnotes/</loc>
+    <lastmod>2026-09-10</lastmod>
   </url>
    
 </urlset>

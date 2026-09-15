@@ -1,6 +1,7 @@
 @import "vars.css";
 @import "card/index.css";
+@import "back-button/index.css";
 @import "list/index.css";
-@import "navigation/index.css";
+@import "toc/index.css";
 @import "view-count.css";
 @import "video/index.css";

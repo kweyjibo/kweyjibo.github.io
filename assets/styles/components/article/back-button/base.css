@@ -1,0 +1,7 @@
+.back-button {
+  display: block;
+
+  line-height: 26px;
+  text-decoration: none;
+  color: var(--article-link-color);
+}

@@ -17,6 +17,7 @@
 
     --article-content-line-height: 1.6;
 
+    --article-content-gap: 20px;
     --article-content-p-shift: 20px;
   }
 }
@@ -29,6 +30,7 @@
 
     --article-content-line-height: 1.5;
 
+    --article-content-gap: 12px;
     --article-content-p-shift: 12px;
   }
 }

@@ -1,9 +1,9 @@
 @media (width < 1024px) {
-  .article-navigation_cnt {
+  .article-toc_cnt {
     margin-top: 16px;
   }
 
-  .article-navigation {
+  .article-toc {
     max-width: 100%;
     margin-top: 16px;
   }
