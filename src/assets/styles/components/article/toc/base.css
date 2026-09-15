@@ -1,4 +1,4 @@
-.article-navigation {
+.article-toc {
   display: block;
   margin-bottom: 12px;
   padding: 16px;
@@ -22,12 +22,12 @@
   }
 }
 
-.article-navigation_i {
+.article-toc_i {
   display: block;
   padding-bottom: 12px;
 }
 
-.article-navigation_lk {
+.article-toc_lk {
   text-decoration: none;
   border-bottom: 1px dashed;
   color: var(--orange);
@@ -37,7 +37,7 @@
     text-decoration: none;
   }
 
-  .article-navigation.__green & {
+  .article-toc.__green & {
     border-bottom-style: solid;
     color: #fff;
   }

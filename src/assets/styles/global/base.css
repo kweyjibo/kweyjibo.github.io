@@ -34,6 +34,11 @@ body {
   position: relative;
 }
 
+.flex {
+  display: flex;
+  gap: var(--site-gap);
+}
+
 .column.__wide {
   flex: 1;
 }

@@ -1,6 +1,5 @@
 @media (width < 1024px) {
   .article-title {
-    padding-top: 8px;
     font-size: 22px;
     line-height: 1.2;
   }

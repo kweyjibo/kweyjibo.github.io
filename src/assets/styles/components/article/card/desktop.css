@@ -1,9 +1,4 @@
 @media (width >= 1024px) {
-  .article-title {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
   .article-date {
     margin-top: 4px;
     margin-bottom: 8px;

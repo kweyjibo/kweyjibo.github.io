@@ -2,6 +2,12 @@
   --green-color: #b5c18e;
 }
 
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--site-gap);
+}
+
 .article-header {
   position: relative;
   padding: var(--site-island-space);
@@ -22,8 +28,6 @@
 }
 
 .article-content {
-  margin-top: 16px;
-  margin-bottom: 16px;
   padding: var(--site-island-space);
 
   font-size: var(--article-content-font-size);
@@ -48,7 +52,8 @@
   p + h1,
   p + h2,
   div + h2,
-  figure + h2 {
+  figure + h2,
+  details + h2 {
     padding-top: 42px;
   }
 
