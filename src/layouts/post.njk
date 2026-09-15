@@ -4,8 +4,20 @@ title: Blog
 ---
 
 <article class="article">
-  <header class="article-header">
+  <section class="island flex">
+    <div class="back-button__cnt">
+      <a
+        href="{{ sectionUrl }}"
+        class="back-button"
+        onclick="if (document.referrer.startsWith(location.origin)) { event.preventDefault(); history.back(); }"
+      >
+        &larr; Back
+      </a>
+    </div>
     {% include 'tags.njk' %}
+  </section>
+  <header class="article-header">
+    
     <h1 class="article-title">
       {{ title }}
     </h1>
