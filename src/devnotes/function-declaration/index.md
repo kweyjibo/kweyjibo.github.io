@@ -11,6 +11,8 @@ tags:
 ## Function Declaration
 
 ```js
+helloWorld();
+
 function helloWorld() {
   alert("Hello world!");
 }
@@ -19,9 +21,11 @@ function helloWorld() {
 ## Function Expression
 
 ```javascript
-let helloWorld = function () {
+const helloWorld = function () {
   alert("Hello world!");
 };
+
+helloWorld();
 ```
 
 How passing arguments works: value vs reference
