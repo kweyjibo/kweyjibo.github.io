@@ -12,44 +12,44 @@ layout: post.njk
 
 > Все будет хорошо, главное верить
 
-<div class="article-navigation_cnt">
-  <div class="article-navigation __yellow">
+<div class="article-toc_cnt">
+  <div class="article-toc __yellow">
     <span class="posts-block-right __yellow">
-      <span class="article-navigation_i">
-        <a href="#keep" class="article-navigation_lk">Сохранение беременности</a>
+      <span class="article-toc_i">
+        <a href="#keep" class="article-toc_lk">Сохранение беременности</a>
       </span>
-      <span class="article-navigation_i">
-        <a href="#eco" class="article-navigation_lk">ЭКО</a>
+      <span class="article-toc_i">
+        <a href="#eco" class="article-toc_lk">ЭКО</a>
       </span>
-      <span class="article-navigation_i">
-        <a href="#csection" class="article-navigation_lk">Кесарево сечение</a>
+      <span class="article-toc_i">
+        <a href="#csection" class="article-toc_lk">Кесарево сечение</a>
       </span>
-      <span class="article-navigation_i">
-        <a href="#delivery" class="article-navigation_lk">Обычные роды</a>
+      <span class="article-toc_i">
+        <a href="#delivery" class="article-toc_lk">Обычные роды</a>
       </span>
-      <span class="article-navigation_i">
-        <a href="#edelivery" class="article-navigation_lk">Преждевременные роды</a>
+      <span class="article-toc_i">
+        <a href="#edelivery" class="article-toc_lk">Преждевременные роды</a>
       </span>
-      <span class="article-navigation_i">
-        <a href="#kraamzorg" class="article-navigation_lk">Kraamzorg</a>
+      <span class="article-toc_i">
+        <a href="#kraamzorg" class="article-toc_lk">Kraamzorg</a>
       </span>
     </span>
   </div>
 
-  <div class="article-navigation __green __small">
-    <span class="article-navigation_i">
+  <div class="article-toc __green __small">
+    <span class="article-toc_i">
       Huisarts (нид.) - терапевт
     </span>
-    <span class="article-navigation_i">
+    <span class="article-toc_i">
       Midwife (нид.) - акушерка
     </span>
-    <span class="article-navigation_i">
+    <span class="article-toc_i">
       Kraamzorg (нид.) - забота после родов
     </span>
-    <span class="article-navigation_i">
+    <span class="article-toc_i">
       NIPT-тест - noninvasive prenatal testing
     </span>
-    <span class="article-navigation_i">
+    <span class="article-toc_i">
       Consultatiebureau - детский центр
     </span>
   </div>

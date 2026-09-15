@@ -11,33 +11,33 @@ layout: post.njk
 
 > Trust, but verify
 
-<nav class="article-navigation __right __yellow">
-  <span class="article-navigation_i">
-    <a href="#site" class="article-navigation_lk">Сайты для поиска</a>
+<nav class="article-toc __right __yellow">
+  <span class="article-toc_i">
+    <a href="#site" class="article-toc_lk">Сайты для поиска</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#type" class="article-navigation_lk">Тип жилья</a>
+  <span class="article-toc_i">
+    <a href="#type" class="article-toc_lk">Тип жилья</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#viewing" class="article-navigation_lk">Процесс просмотра жилья</a>
+  <span class="article-toc_i">
+    <a href="#viewing" class="article-toc_lk">Процесс просмотра жилья</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#deposit" class="article-navigation_lk">Депозит</a>
+  <span class="article-toc_i">
+    <a href="#deposit" class="article-toc_lk">Депозит</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#tax" class="article-navigation_lk">Комуналка и налоги</a>
+  <span class="article-toc_i">
+    <a href="#tax" class="article-toc_lk">Комуналка и налоги</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#contract" class="article-navigation_lk">Договор аренды</a>
+  <span class="article-toc_i">
+    <a href="#contract" class="article-toc_lk">Договор аренды</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#trustme" class="article-navigation_lk">Доверяй, но проверяй</a>
+  <span class="article-toc_i">
+    <a href="#trustme" class="article-toc_lk">Доверяй, но проверяй</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#diplomatic" class="article-navigation_lk">Diplomatic clause</a>
+  <span class="article-toc_i">
+    <a href="#diplomatic" class="article-toc_lk">Diplomatic clause</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="#label" class="article-navigation_lk">Energy label, зелень в окне</a>
+  <span class="article-toc_i">
+    <a href="#label" class="article-toc_lk">Energy label, зелень в окне</a>
   </span>
 </nav>
 
@@ -52,12 +52,12 @@ layout: post.njk
 
 ## Сайты для поиска <a name="site"></a>
 
-<nav class="article-navigation __right __green">
-  <span class="article-navigation_i">
-    <a href="https://www.funda.nl/en/" rel="nofollow" target=_blank class="article-navigation_lk">funda.nl</a>
+<nav class="article-toc __right __green">
+  <span class="article-toc_i">
+    <a href="https://www.funda.nl/en/" rel="nofollow" target=_blank class="article-toc_lk">funda.nl</a>
   </span>
-  <span class="article-navigation_i">
-    <a href="https://www.pararius.com/english" rel="nofollow" target=_blank class="article-navigation_lk">pararius.com</a>
+  <span class="article-toc_i">
+    <a href="https://www.pararius.com/english" rel="nofollow" target=_blank class="article-toc_lk">pararius.com</a>
   </span>
 </nav>
 
