@@ -53,8 +53,13 @@
   p + h2,
   div + h2,
   figure + h2,
-  details + h2 {
+  details + h2,
+  table + h2 {
     padding-top: 42px;
+  }
+
+  h2 + div {
+    margin-top: var(--site-gap);
   }
 
   img {
@@ -167,4 +172,54 @@
 
 .article-bold {
   font-weight: 600;
+}
+
+.table-container {
+  overflow: auto; /* Enables both horizontal and vertical scrolling */
+  border-radius: var(--border-radius);
+  /* overflow: hidden; */
+  border: 1px solid #ccc;
+}
+
+.table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+
+  h2 + &,
+  & + & {
+    margin-top: var(--site-gap);
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    border-right: 1px solid #ccc;
+  }
+
+  & td:nth-child(1),
+  & th:nth-child(1) {
+    position: sticky;
+    left: 0; /* Ensures the column stays on the left */
+    z-index: 1; /* Keeps the column above other cells */
+    background-color: #f9f9f9;
+  }
+
+  & th:nth-child(1) {
+    z-index: 2;
+    background: #f2f2f2;
+  }
+
+  th,
+  td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  th {
+    background: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background: #fafafa;
+  }
 }
