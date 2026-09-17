@@ -7,6 +7,7 @@
       animation-range: 0 100px;
       animation-timeline: scroll();
       animation-timing-function: linear;
+      z-index: 3; /* fixed table */
     }
   }
 
