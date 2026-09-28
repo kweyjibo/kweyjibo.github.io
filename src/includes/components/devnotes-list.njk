@@ -1,0 +1,5 @@
+{% macro devnotesList(devnotes, showTags = true) %}
+  {% for post in devnotes %}
+    {% include "components/devnotes-list-item.njk" %}
+  {% endfor %}
+{% endmacro %}

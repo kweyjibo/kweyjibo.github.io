@@ -2,7 +2,7 @@
 title: DevNotes
 pagination:
   data: collections.devnotes
-  size: 5
+  size: 10
 permalink: "{% if pagination.pageNumber == 0 %}/devnotes/{% else %}/devnotes/{{ pagination.pageNumber + 1 }}/{% endif %}"
 section: devnotes
 eleventyNavigation:
@@ -12,8 +12,8 @@ eleventyNavigation:
 layout: page.njk
 ---
 
-{% from "components/devnotes-list-item.njk" import devnotesList %}
+{% from "components/devnotes-list.njk" import devnotesList %}
 
-{{ devnotesList(pagination.items) }}
+{{ devnotesList(collections.devnotes) }}
 
 {% include "paginator.njk" %}

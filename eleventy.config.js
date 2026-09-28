@@ -92,6 +92,22 @@ export default function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("devnotesTags", (collectionApi) => {
+    const tags = new Set();
+
+    collectionApi.getAll().forEach((post) => {
+      if (post.data.section !== "devnotes") return;
+
+      (post.data.tags || []).forEach((tag) => {
+        if (tag !== "devnotes") {
+          tags.add(tag);
+        }
+      });
+    });
+
+    return [...tags];
+  });
+
   eleventyConfig.addCollection("sectionTags", (collectionApi) => {
     return sectionNames.flatMap((section) =>
       getSectionTags(collectionApi, section).map((tag) => ({

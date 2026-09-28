@@ -1,0 +1,23 @@
+---
+layout: page.njk
+
+pagination:
+  data: collections.devnotesTags
+  size: 1
+  alias: tag
+
+permalink: "/devnotes/{{ tag | slugify }}/"
+
+eleventyComputed:
+  title: "{{ tag }}"
+---
+
+<div class="island">
+  <h1 class="sections-tag__title">
+    {{ tag }}
+  </h1>
+</div>
+
+{% from "components/devnotes-list.njk" import devnotesList %}
+
+{{ devnotesList(collections[tag], false) }}
