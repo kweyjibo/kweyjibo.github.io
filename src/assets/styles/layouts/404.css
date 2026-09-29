@@ -1,21 +1,23 @@
-.error-page {
+.error-page__img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
 
-  padding-top: 46px;
+  padding-top: 0px;
   padding-left: 232px;
 
   width: 360px;
-  height: 360px;
+  height: 390px;
 
   color: #c5321d;
   font-weight: bold;
   font-size: 21px;
 
-  background-image: url("/assets/img/404.png");
-  background-size: 360px;
+  background-image: url("/assets/img/404.webp");
+  background-position: 0 24px;
+  background-size: 360px 346px;
+  background-repeat: no-repeat;
 }
 
 @keyframes error-page-s-anim {
@@ -31,8 +33,8 @@
   display: block;
 
   position: absolute;
-  top: 37px;
-  left: 148px;
+  top: 4px;
+  left: 152px;
 
   width: 52px;
   height: 39px;
