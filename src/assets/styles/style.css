@@ -1,4 +1,5 @@
-@import "global/vars/index.css";
+@import "global/vars/colors.css";
+@import "global/vars/sizes/index.css";
 @import "global/fonts.css";
 @import "global/base.css";
 

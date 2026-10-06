@@ -1,4 +1,4 @@
-@media (width >= 1024px) {
+@media (width >= 780px) {
   :root {
     /* Global variables for Sizes */
 
@@ -16,6 +16,8 @@
     /* Footer variables */
 
     --footer-h2-size: 22px;
+
+    /* /Footer variables */
 
     /* /Global variables for Sizes */
   }
