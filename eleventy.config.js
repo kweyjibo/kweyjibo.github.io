@@ -166,11 +166,12 @@ export default function (eleventyConfig) {
     "src/posts/**/images",
     "src/posts/**/assets",
     "src/blog/**/images",
+    "src/blog/**/i",
     "src/blog/**/assets",
     "src/devnotes/**/images",
     "src/devnotes/**/assets",
     "src/manifest.json",
-    "src/blog/**/i",
+
     "CNAME",
     "robots.txt",
   ].forEach((path) => {
