@@ -49,12 +49,7 @@
     font-size: var(--article-subtitle-font-size);
   }
 
-  p + h1,
-  p + h2,
-  div + h2,
-  figure + h2,
-  details + h2,
-  table + h2 {
+  & > * + h2 {
     padding-top: 42px;
   }
 

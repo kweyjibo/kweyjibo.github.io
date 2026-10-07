@@ -9,7 +9,7 @@
   --article-link-border-color: #e67e00;
 }
 
-@media (width >= 1024px) {
+@media (width >= 780px) {
   :root {
     --article-item-title-font-size: 28px;
     --article-subtitle-font-size: 24px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media (width < 1024px) {
+@media (width < 780px) {
   :root {
     --article-item-title-font-size: 22px;
     --article-subtitle-font-size: 20px;

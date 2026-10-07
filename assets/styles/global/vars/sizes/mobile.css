@@ -1,4 +1,4 @@
-@media (width < 1024px) {
+@media (width < 780px) {
   :root {
     --site-gap: 12px;
     --site-island-space: 12px;
@@ -7,8 +7,12 @@
 
     --site-font-size: 16px;
 
+    /* /Global variables for Fonts */
+
     /* Footer variables */
 
     --footer-h2-size: 18px;
+
+    /* /Footer variables */
   }
 }

@@ -1,4 +1,4 @@
-@media (width < 1024px) {
+@media (width < 780px) {
   .sidebar {
     @supports (animation-timeline: auto) {
       box-shadow: 0 2px 0 transparent;

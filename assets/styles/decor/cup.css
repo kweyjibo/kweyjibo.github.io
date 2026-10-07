@@ -41,7 +41,7 @@
     animation: cup-anim steps(9) 1.4s infinite;
   }
 
-  @media (width >= 1024px) {
+  @media (width >= 780px) {
     display: block;
   }
 }

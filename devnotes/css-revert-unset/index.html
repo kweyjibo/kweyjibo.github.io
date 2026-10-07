@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>CSS. Revert and unset</title><meta name="description" content="All around functions in Java Script"><meta name="author" content="Alla Dolzhenko"><meta name="theme-color" content="#ffffff"><meta property="og:site_name" content="Alla's Blog"><meta property="og:type" content="website"><meta property="og:title" content="CSS. Revert and unset"><meta property="og:description" content="All around functions in Java Script"><meta property="og:url" content="https://kweyjibo.com/devnotes/css-revert-unset/"><link href="/assets/styles/style.css" rel="stylesheet"><link rel="preload" href="/assets/fonts/GeistMono-Bold.woff2" crossorigin as="font" type="font/woff2"><link rel="preload" href="/assets/fonts/GeistMono-Regular.woff2" crossorigin as="font" type="font/woff2"><link rel="preload" href="/assets/fonts/Manrope-Bold.woff2" crossorigin as="font" type="font/woff2"><link rel="preload" href="/assets/fonts/Manrope-Regular.woff2" crossorigin as="font" type="font/woff2"><link rel="icon" href="/assets/img/favicon/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png"><link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png"><link rel="icon" type="image/svg+xml" href="/assets/img/favicon/favicon.svg"><link rel="manifest" href="/manifest.json"><script async src="https://www.googletagmanager.com/gtag/js?id=G-6V7R5PS0HC"></script><script>window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-6V7R5PS0HC", { anonymize_ip: true });</script></head><body><div class="grid"><header class="header cell__1" id="header"><div class="logo-cnt"><a class="logo" href="/" aria-label="Home"><ul class="waves-container"><li class="wave"></li><li class="wave"></li><li class="wave"></li><li class="wave"></li><li class="wave"></li><li class="wave"></li></ul><img src="/assets/img/header/logo.svg" width="110" height="110" alt="Logo"></a></div><div class="header-title_tx">With <span class="header-title_o">love</span> to all citizens of <span class="header-title_g">Earth</span></div></header><aside class="sidebar cell__2"><div class="navigation-cnt"><nav class="navigation" id="navigation" aria-label="Primary"><ul class="navigation-list"><li class="navigation-i"><a class="navigation-link" href="/">Home</a></li><li class="navigation-i"><a class="navigation-link __active">DevNotes</a></li><li class="navigation-i"><a class="navigation-link" href="/blog/">Blog</a></li><li class="navigation-i"><a class="navigation-link" href="/about/">About</a></li><li class="navigation-i"><a href="/index.xml" class="navigation-link">RSS</a></li></ul></nav></div></aside><main class="main cell__3"><article class="article"><section class="island flex"><div class="back-button__cnt"><a href="" class="back-button" onclick="if (document.referrer.startsWith(location.origin)) { event.preventDefault(); history.back(); }">← Back</a></div><div class="tags"><span class="tag_i"><a href="/tags/sss" class="tag_lk">сss </a></span><span class="tag_i"><a href="/tags/keyword" class="tag_lk">keyword</a></span></div></section><header class="article-header"><h1 class="article-title">CSS. Revert and unset</h1><time class="article-date" datetime="Thu Oct 01 2026 02:00:00 GMT+0200 (Central European Summer Time)">October 1</time><div class="view-count" id="view-count"><img src="/assets/img/icons/view.svg" width="24" height="24"></div></header><section class="article-content"><p><code>revert</code> rolls a property back to the value it would have had at an earlier cascade origin.</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-html"><span class="line"><span style="color:#DA103FB3">&lt;</span><span style="color:#DA103F">main</span><span style="color:#DC3318"> class</span><span style="color:#333333">=</span><span style="color:#F6661E">"green"</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">  &lt;</span><span style="color:#DA103F">section</span><span style="color:#DC3318"> class</span><span style="color:#333333">=</span><span style="color:#F6661E">"blue"</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;</span><span style="color:#DA103F">h1</span><span style="color:#DA103FB3">></span><span style="color:#333333">Lorem ipsum dolor sit amet</span><span style="color:#DA103FB3">&lt;/</span><span style="color:#DA103F">h1</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;</span><span style="color:#DA103F">p</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#333333">      Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et</span></span>
+<span class="line"><span style="color:#333333">      dolore magna aliqua. Ut enim...</span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;/</span><span style="color:#DA103F">p</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">  &lt;/</span><span style="color:#DA103F">section</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">  &lt;</span><span style="color:#DA103F">section</span><span style="color:#DC3318"> class</span><span style="color:#333333">=</span><span style="color:#F6661E">"blue revert"</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;</span><span style="color:#DA103F">h1</span><span style="color:#DA103FB3">></span><span style="color:#333333">Lorem ipsum dolor sit amet</span><span style="color:#DA103FB3">&lt;/</span><span style="color:#DA103F">h1</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;</span><span style="color:#DA103F">p</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#333333">      Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et</span></span>
+<span class="line"><span style="color:#333333">      dolore magna aliqua. Ut enim...</span></span>
+<span class="line"><span style="color:#DA103FB3">    &lt;/</span><span style="color:#DA103F">p</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">  &lt;/</span><span style="color:#DA103F">section</span><span style="color:#DA103FB3">></span></span>
+<span class="line"><span style="color:#DA103FB3">&lt;/</span><span style="color:#DA103F">main</span><span style="color:#DA103FB3">></span></span></code></pre><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DC3318">.green</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  color: </span><span style="color:#F77D26">green</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#DC3318">.blue</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  color: </span><span style="color:#F77D26">blue</span><span style="color:#333333">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#333333">  p {</span></span>
+<span class="line"><span style="color:#333333">    color: </span><span style="color:#F77D26">red</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">  }</span></span>
+<span class="line"><span style="color:#333333">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#DC3318">.revert</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  color: </span><span style="color:#F77D26">revert</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><div class="demo-box"><h3 class="demo-box__title">Example 1</h3><div class="demo-box__body"><style type="text/css">.green {
+      color: green;
+    }
+    .blue {
+      color: blue;
+      padding-bottom: 12px;
+      p { color: red; }
+      p:not(:first-child) {
+        padding-top: unset;
+      }
+    }
+    .revert { color: revert; }</style><main class="green"><section class="blue"><h1>Lorem ipsum dolor sit amet</h1><p>consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim...</p>Ad minim veniam, quis nostrud exercitation ullamco</section><section class="blue revert"><h1>Lorem ipsum dolor sit amet</h1><p>consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim...</p>Ad minim veniam, quis nostrud exercitation ullamco</section></main></div></div><p>At the same time, I use these rule:</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DC3318">.blue</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  ...</span></span>
+<span class="line"><span style="color:#333333">  p:not(:first-child) {</span></span>
+<span class="line"><span style="color:#333333">    padding-top: </span><span style="color:#F77D26">unset</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">  }</span></span>
+<span class="line"><span style="color:#333333">  ...</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><p>It allows me to reset <code>padding-top</code> for <code>p</code>. I don't use iframes for the examples, so they can be affected by the site's styles.</p><p>For <code>unset</code>, the following rules apply.</p><p>For non-inherited properties, <code>unset</code> works like initial:</p><ul><li><code>width</code></li><li><code>height</code></li><li><code>margin</code></li><li><code>padding</code></li><li><code>border</code></li></ul><p>For inherited properties, <code>unset</code> works like inherit:</p><ul><li><code>color</code></li><li><code>font-family</code></li><li><code>font-size</code></li><li><code>line-height</code></li></ul><h2>What is difference between <code>revert</code> and <code>unset</code></h2><p>Take a look at <code>p</code>. Browsers have their own default styles for it. For example:</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DA103F">p</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  display: </span><span style="color:#F77D26">block</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">  margin-block: </span><span style="color:#DC3318">1em</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><p>Then we can override the <code>margin</code>:</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DA103F">p</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  margin: </span><span style="color:#DC3318">30px</span><span style="color:#333333">;</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><p>Now we want to remove our value and restore the browser's default style.</p><p>With <code>upset</code>:</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DA103F">p</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  margin: </span><span style="color:#F77D26">unset</span><span style="color:#333333">; </span><span style="color:#33333380;font-style:italic">/* 0 */</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><p><code>margin</code> is a non-inherited property, so <code>unset</code> works like <code>initial</code>. The <code>initial</code> value of <code>margin</code> is 0.</p><p>At the same time:</p><pre class="shiki horizon-bright" tabindex="0"><code class="language-css"><span class="line"><span style="color:#DA103F">p</span><span style="color:#333333"> {</span></span>
+<span class="line"><span style="color:#333333">  margin: </span><span style="color:#F77D26">revert</span><span style="color:#333333">; </span><span style="color:#33333380;font-style:italic">/* 1em */</span></span>
+<span class="line"><span style="color:#333333">}</span></span></code></pre><p><code>revert</code> removes our author-level value and lets the browser's default style apply again.</p></section><script>var remark_config = {
+    host: "https://remark.kweyjibo.com",
+    site_id: "kweyjibo",
+  };</script><script>!(function (e, n) {
+    for (var o = 0; o < e.length; o++) {
+      var r = n.createElement("script"),
+        c = ".js",
+        d = n.head || n.body;
+      "noModule" in r ? ((r.type = "module"), (c = ".mjs")) : (r.async = !0),
+        (r.defer = !0),
+        (r.src = remark_config.host + "/web/" + e[o] + c),
+        d.appendChild(r);
+    }
+  })(remark_config.components || ["embed"], document);</script><div class="island"><div id="remark42"></div></div></article></main><footer class="footer cell__4"><div class="column __wide"><div class="footer-aboutme"><h2 class="footer-title"><img src="/assets/img/icons/ic-me.svg" alt="User icon" width="24" height="24" class="footer-aboutme_ic"> Alla Dolzhenko</h2></div><div class="footer-me_dsc">Frontend developer by day, illustrator, photographer & cat lover always</div></div><div class="column"><div class="social-cnt"><h2 class="footer-title">Contacts</h2><ul class="social-list"><li class="social-list__i"><a href="https://github.com/kweyjibo" class="footer-social_link">GitHub</a></li><li class="social-list__i"><a href="https://www.linkedin.com/in/alla-dolzhenko/" class="footer-social_link">LinkedIn</a></li><li class="social-list__i"><a href="mailto:kweyjibo@gmail.com" class="footer-social_link">E-mail</a></li></ul></div></div></footer></div><script src="/assets/scripts/view.js"></script></body></html>

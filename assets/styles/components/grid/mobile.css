@@ -1,4 +1,4 @@
-@media (width < 1024px) {
+@media (width < 780px) {
   .grid {
     padding-left: var(--site-gap);
     padding-right: var(--site-gap);

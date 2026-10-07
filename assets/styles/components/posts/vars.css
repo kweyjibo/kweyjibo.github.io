@@ -4,7 +4,7 @@
   --post-item-date: #8c8278;
 }
 
-@media (width >= 1024px) {
+@media (width >= 780px) {
   :root {
     --post-item-shift: 16px;
     --post-item-title-font-size: 28px;
@@ -12,7 +12,7 @@
   }
 }
 
-@media (width < 1024px) {
+@media (width < 780px) {
   :root {
     --post-item-shift: 16px;
     --post-item-title-font-size: 24px;
