@@ -1,5 +1,4 @@
 ---
-layout: post.njk
 title: Arrays. Simple methods.
 dsc: All around arrays
 date: 2026-08-14

@@ -1,5 +1,4 @@
 ---
-layout: post.njk
 title: Function. Returning functions.
 dsc: All around functions in Java Script
 date: 2026-08-16

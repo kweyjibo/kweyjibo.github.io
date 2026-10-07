@@ -1,5 +1,4 @@
 ---
-layout: post.njk
 title: Functions. Call and Apply
 dsc: All around functions in Java Script
 date: 2026-08-15

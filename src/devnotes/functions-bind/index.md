@@ -1,5 +1,4 @@
 ---
-layout: post.njk
 title: Functions. Bind method
 dsc: All around functions in Java Script
 date: 2026-08-15
@@ -91,7 +90,7 @@ enterPassword(
 );
 ```
 
-</p>
+  </p>
   <p>or</p>
   <p>
     
