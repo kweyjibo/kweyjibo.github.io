@@ -1,8 +1,4 @@
 @media (width >= 780px) {
-  .devnotes-item__inner {
-    padding-top: 16px;
-  }
-
   .devnotes-item__desc {
     line-height: 1.5;
   }

@@ -2,12 +2,12 @@
   overflow: hidden;
   padding: var(--site-island-space);
 
+  display: flex;
+  gap: var(--site-gap);
+  flex-direction: column;
+
   background-color: var(--devnotes-item-bg);
   border-radius: var(--border-radius);
-}
-
-.devnotes-item__inner {
-  padding-top: var(--site-island-space);
 }
 
 .devnotes-item__lk {
