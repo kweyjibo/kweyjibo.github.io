@@ -172,7 +172,6 @@
 .table-container {
   overflow: auto; /* Enables both horizontal and vertical scrolling */
   border-radius: var(--border-radius);
-  /* overflow: hidden; */
   border: 1px solid #ccc;
 }
 
