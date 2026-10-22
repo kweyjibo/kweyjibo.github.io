@@ -1,6 +1,6 @@
 ---
 title: CSS. Revert and unset
-dsc: All around functions in Java Script
+dsc: All about CSS global keywords
 date: 2026-10-01
 tags:
   - сss
@@ -116,7 +116,7 @@ For inherited properties, `unset` works like inherit:
 - `font-size`
 - `line-height`
 
-## What is difference between `revert` and `unset`
+## What is the difference between `revert` and `unset`
 
 Take a look at `p`. Browsers have their own default styles for it. For example:
 
