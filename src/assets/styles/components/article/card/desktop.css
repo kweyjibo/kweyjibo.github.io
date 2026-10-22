@@ -9,4 +9,8 @@
       max-width: 500px;
     }
   }
+
+  .table {
+    min-width: 100%;
+  }
 }
