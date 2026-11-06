@@ -1,26 +1,19 @@
 @media (width < 780px) {
   .post-item {
+    gap: 8px;
     padding: var(--post-item-shift);
   }
 
   .post-item_title {
-    padding-top: 12px;
     line-height: 1.2;
   }
 
   .post-item__desc {
-    padding-top: 12px;
-    padding-bottom: 12px;
-
     line-height: 1.4;
   }
 
   .post-item_img {
     display: block;
     width: 100%;
-  }
-
-  .post-item__footer {
-    padding-top: 8px;
   }
 }

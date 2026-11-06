@@ -1,5 +1,10 @@
 @media (width < 780px) {
-  .sections-tag__cnt {
-    padding-top: 8px;
+  .sections-tag {
+    padding: 4px 6px;
+    border-radius: var(--border-radius);
+  }
+
+  .sections-tag__lk {
+    font-size: 16px;
   }
 }

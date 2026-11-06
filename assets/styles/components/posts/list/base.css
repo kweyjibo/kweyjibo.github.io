@@ -1,5 +1,7 @@
 .post-item {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   padding: var(--post-item-shift);
 
   background-color: var(--post-item-bg);

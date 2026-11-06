@@ -2,16 +2,6 @@
   padding: var(--site-island-space);
   border-radius: var(--border-radius);
   background-color: #fff;
-
-  a {
-    color: var(--about-link-color);
-    text-decoration: none;
-    border-bottom: 1px solid var(--about-link-color-hover);
-  }
-
-  a:hover {
-    color: var(--about-link-color-hover);
-  }
 }
 
 /* Section About me */
@@ -26,8 +16,19 @@
   position: relative;
 }
 
-.about-me_text p:not(:first-child) {
-  padding-top: 12px;
+.about-me_text {
+  p:not(:first-child) {
+    padding-top: 12px;
+  }
+
+  a {
+    color: var(--site-text-color);
+    text-decoration: underline var(--about-link-underline) 2px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .about-me_img {
@@ -42,19 +43,16 @@
 
 .about-section {
   position: relative;
-
-  &.__top {
-    padding-top: 28px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.about-section_cnt {
-  &.__grid {
-    display: grid;
-    grid-template-columns: 100px auto;
-    column-gap: 16px;
-    row-gap: 16px;
-  }
+.about-section__grid {
+  display: grid;
+  grid-template-columns: 100px auto;
+  column-gap: 16px;
+  row-gap: 16px;
 }
 
 .about-section_h {
@@ -73,6 +71,7 @@
 
 .about-section_t {
   font-family: var(--font-family-text-manrope);
+  color: #594733;
   background-color: var(--about-title-bg);
 }
 
@@ -82,11 +81,12 @@
 }
 
 .about-section_dsc {
-  background-color: #fff8f1;
+  background-color: #f1f0e3;
+  color: #59614e;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .about-tx-color_light {
-  color: var(--gray-dark);
+  color: var(--about-text-secondary-color);
 }
