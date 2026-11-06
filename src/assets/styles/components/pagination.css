@@ -21,7 +21,7 @@
   display: block;
   background-color: var(--pagination-bg);
 
-  color: #fff;
+  color: var(--pagination-color);
   border-radius: 8px;
   text-decoration: none;
 
@@ -48,6 +48,6 @@
 }
 
 .pagination-link_svg {
-  color: #fff;
-  fill: #fff;
+  color: var(--pagination-color);
+  fill: var(--pagination-color);
 }

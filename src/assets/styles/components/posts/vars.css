@@ -1,7 +1,7 @@
 /* Local vars for article item */
 :root {
   --post-item-bg: #fff;
-  --post-item-date: #8c8278;
+  --post-item-date: var(--site-text-color-secondary);
 }
 
 @media (width >= 780px) {

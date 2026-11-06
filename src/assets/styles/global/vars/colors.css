@@ -1,31 +1,32 @@
 :root {
   /* Global variables for COLORS */
 
-  --site-text-color: #2f2a26;
-  --site-text-color-secondary: #555;
-  --background-color: #fff8f1;
+  --yellow: #f7cf73;
 
-  --header-green: #bfaf4c;
-  --header-orenge: #e67e00;
+  --site-text-color: #524f49;
+  --site-text-color-secondary: #aaa59e;
+  --site-title-color: #33312d;
 
-  --social-network-bg: #fff;
-  --social-network-bg-hover: #e88600;
+  --site-bg-color: #fff9f2;
 
-  --site-decor-color: #ffd460;
+  --site-decor-color: var(--yellow);
 
-  --navigation-bg: #f07b3f;
-  --navigation-bg-hover: #ea5455;
+  --navigation-color: #a6ad59;
+  --navigation-active-color: #48503d;
+  --navigation-hover-bg: #e9ebd1;
+  --navigation-active-bg: #b5be79;
 
-  --pagination-bg: #f07b3f;
-  --pagination-bg-hover: #ea5455;
+  --pagination-bg: #fae3c5;
+  --pagination-bg-hover: #efa747;
+  --pagination-color: #6e5945;
 
-  --tags-bg: #fdeedc;
-  --tags-color: #ff971d;
-  --tags-hover-bg: #c0b87a;
+  --tags-bg: #fae3c5;
+  --tags-color: #70665c;
+  --tags-hover-bg: #f6d1a0;
 
-  --about-title-bg: #ffd460;
-  --about-link-color: #1f2937;
-  --about-link-color-hover: #e58b2f;
+  --about-link-underline: var(--yellow);
+  --about-title-bg: var(--yellow);
+  --about-text-secondary-color: #96918a;
 
   --footer-secondary-txt-color: #8c8278;
   --footer-social-link: #555;

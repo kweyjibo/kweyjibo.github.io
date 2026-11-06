@@ -1,5 +1,6 @@
 @media (width < 780px) {
   .devnotes-item__title {
+    display: inline;
     line-height: 1.2;
   }
 

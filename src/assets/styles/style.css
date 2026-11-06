@@ -8,7 +8,7 @@
 @import "components/grid/index.css";
 @import "components/logo/index.css";
 @import "components/navigation/index.css";
-@import "components/tags.css";
+@import "components/tags/index.css";
 @import "components/pagination.css";
 @import "components/posts/index.css";
 @import "components/devnotes/index.css";

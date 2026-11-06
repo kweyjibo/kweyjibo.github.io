@@ -27,7 +27,14 @@ body {
   font-family: system-ui, sans-serif;
   color: var(--site-text-color);
   font-size: var(--site-font-size);
-  background-color: var(--background-color);
+  background-color: var(--site-bg-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--site-title-color);
 }
 
 .position {

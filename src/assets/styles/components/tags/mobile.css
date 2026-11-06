@@ -1,0 +1,6 @@
+@media (width < 780px) {
+  .tag_lk {
+    padding: 2px 4px;
+    border-radius: 6px;
+  }
+}
