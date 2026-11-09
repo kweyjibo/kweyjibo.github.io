@@ -1,6 +1,7 @@
 ---
 title: CSS. text-decoration CSS property
 dsc: CSS property
+description: "About the CSS property text-decoration."
 date: 2026-10-22
 tags:
   - сss
