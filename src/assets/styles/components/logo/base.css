@@ -2,6 +2,11 @@
 
 .logo-cnt {
   position: relative;
+  width: 110px;
+  height: 110px;
+
+  background-color: var(--site-decor-color);
+  border-radius: 50%;
 }
 
 .logo {
