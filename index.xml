@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://kweyjibo.com">
-  <title>Blog by Alla</title>
+  <title>Blog by Alla (@kweyjibo)</title>
   <subtitle>Frontend, travel, and life in the Netherlands — with a personal touch</subtitle>
   <link href="https://kweyjibo.com" />
   <link href="https://kweyjibo.com/feed/" rel="self" />

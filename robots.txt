@@ -1,5 +1,27 @@
 # https://www.robotstxt.org/robotstxt.html
 
 Sitemap: https://kweyjibo.com/sitemap.xml
+
+# Search engines
 User-agent: *
-Disallow:
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+# Google
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Meta
+User-agent: FacebookBot
+Disallow: /

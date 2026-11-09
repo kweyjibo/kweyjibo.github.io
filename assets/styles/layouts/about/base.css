@@ -31,12 +31,17 @@
   }
 }
 
-.about-me_img {
-  display: block;
+.about-me__cnt-img {
   width: 250px;
+  height: 250px;
+  background-color: var(--site-decor-color);
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
 
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+.about-me__img {
+  display: block;
 }
 
 /* Skills & work */
