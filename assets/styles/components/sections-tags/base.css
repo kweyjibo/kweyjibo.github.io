@@ -1,13 +1,19 @@
+.sections-tag__cnt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .sections-tag {
   display: inline-block;
+  height: 32px;
   background-color: var(--tags-bg);
-
-  &:not(:last-child) {
-    margin-right: 8px;
-  }
 }
 
 .sections-tag__lk {
+  display: inline-block;
+  height: 32px;
+  align-content: center;
+
   font-family: var(--font-family-text-geistmono);
   text-decoration: none;
   color: var(--tags-color);
