@@ -17,6 +17,7 @@
 @import "components/social-list/index.css";
 @import "components/demo-box/index.css";
 @import "components/shiki/index.css";
+@import "components/RSS.css";
 
 /* Layouts */
 @import "layouts/main/index.css";

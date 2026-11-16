@@ -1,6 +1,10 @@
 @media (width >= 780px) {
+  .sections-tag__cnt {
+    gap: 8px;
+  }
+
   .sections-tag {
-    padding: 6px 8px;
+    padding: 0 8px;
     border-radius: var(--border-radius);
   }
 }
