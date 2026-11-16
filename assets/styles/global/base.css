@@ -51,8 +51,14 @@ h3 {
   }
 }
 
-.column.__wide {
-  flex: 1;
+.column {
+  &.__wide {
+    flex: 1;
+  }
+
+  &.__right {
+    text-align: right;
+  }
 }
 
 .island {

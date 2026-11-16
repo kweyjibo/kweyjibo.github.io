@@ -1,5 +1,9 @@
 @media (width >= 780px) {
-  .waves-container {
-    display: flex;
+  .logo {
+    --logo-size: 42px;
+
+    &.__desktop {
+      display: block;
+    }
   }
 }

@@ -1,0 +1,14 @@
+@media (width < 780px) {
+  .hero-title_tx {
+    left: 120px;
+    z-index: 2;
+    top: 56px;
+    padding: 8px 8px;
+  }
+
+  .hero-title_tx,
+  .hero-title_g,
+  .hero-title_o {
+    font-size: 14px;
+  }
+}
