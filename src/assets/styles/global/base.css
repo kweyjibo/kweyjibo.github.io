@@ -44,6 +44,11 @@ h3 {
 .flex {
   display: flex;
   gap: var(--site-gap);
+
+  &.__center {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .column.__wide {
