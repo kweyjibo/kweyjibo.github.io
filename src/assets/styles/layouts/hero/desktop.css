@@ -1,0 +1,11 @@
+@media (width >= 780px) {
+  .hero {
+    padding: var(--site-island-space) 0;
+  }
+
+  .hero-title_tx {
+    left: 128px;
+    z-index: 2;
+    padding: 8px 12px;
+  }
+}

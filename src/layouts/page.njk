@@ -67,10 +67,13 @@
   <body>
     <div class="grid">
       {% include 'header.njk' %}
-      {% include 'aside.njk' %}
+
+      {% include 'hero.njk' %}
+      
       <main class="main cell__3">
         {{ content | safe }}
       </main>
+      
       {% include 'footer.njk' %}
     </div>
     <script src="/assets/scripts/view.js"></script>

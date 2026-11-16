@@ -14,14 +14,19 @@ layout: page.njk
 
 {% from "components/post-list-item.njk" import postList %}
 
-<div class="sections-tag__cnt">
-  {% for tag in collections.workTags %}
-    <span class="sections-tag">
-      <a href="/work/{{ tag | slugify }}/" class="sections-tag__lk">
-        {{ tag }}
-      </a>
-    </span>
-  {% endfor %}
+<div class="flex">
+  <div class="sections-tag__cnt">
+    {% for tag in collections.workTags %}
+      <span class="sections-tag">
+        <a href="/work/{{ tag | slugify }}/" class="sections-tag__lk">
+          {{ tag }}
+        </a>
+      </span>
+    {% endfor %}
+  </div>
+  <div class="column __wide __right">
+    {% include 'components/RSS.njk' %}
+  </div>
 </div>
 
 {{ postList(pagination.items) }}

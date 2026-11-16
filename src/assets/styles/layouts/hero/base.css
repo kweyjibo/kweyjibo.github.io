@@ -1,0 +1,114 @@
+.hero {
+  position: relative;
+}
+
+.hero-title_tx {
+  position: absolute;
+  top: 68px;
+
+  font-family: var(--font-family-text-geistmono);
+  color: #5e554e;
+
+  cursor: default;
+  background-color: var(--site-decor-color);
+  border-radius: 16px;
+}
+
+.hero-title_g,
+.hero-title_o {
+  font-weight: 600;
+}
+
+.hero-title_g {
+  color: #2d4059;
+}
+.hero-title_o {
+  color: #ea5455;
+}
+
+/* Logo */
+
+.robo-cnt {
+  position: relative;
+  width: 110px;
+  height: 110px;
+
+  background-color: var(--site-decor-color);
+  border-radius: 50%;
+}
+
+.robo {
+  --logo-size: 110px;
+
+  display: block;
+
+  width: var(--logo-size);
+  height: var(--logo-size);
+
+  & img {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.robo_svg {
+  position: relative;
+  z-index: 3;
+}
+
+.waves-container {
+  position: absolute;
+  display: flex;
+  top: 14px;
+  left: 52px;
+  z-index: 4;
+
+  width: 1px;
+  height: 1px;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+  margin: 0;
+}
+
+.wave {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  border: 2px solid #ffa31a;
+  animation: ripple 3s ease-out infinite;
+  opacity: 0;
+}
+
+.wave:nth-child(1) {
+  animation-delay: 0s;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(3) {
+  animation-delay: 1s;
+}
+.wave:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.wave:nth-child(5) {
+  animation-delay: 2s;
+}
+.wave:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

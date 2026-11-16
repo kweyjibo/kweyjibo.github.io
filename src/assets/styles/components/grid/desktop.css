@@ -1,49 +1,10 @@
 @media (width >= 780px) {
   .grid {
-    grid-template-columns: 160px 1fr;
-    grid-template-rows: var(--header-height) 1fr var(--footer-height);
-
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-left: var(--site-gap);
     padding-right: var(--site-gap);
 
     min-height: 100vh;
-  }
-
-  .cell__1 {
-    grid-row-start: 1;
-    grid-column-start: 1;
-
-    grid-row-end: 2;
-    grid-column-end: 3;
-  }
-
-  .cell__2 {
-    grid-row-start: 2;
-    grid-column-start: 1;
-
-    grid-row-end: 3;
-    grid-column-end: 2;
-
-    position: sticky;
-    top: 20px;
-    align-self: start;
-  }
-
-  .cell__3 {
-    grid-row-start: 2;
-    grid-column-start: 2;
-
-    grid-row-end: 3;
-    grid-column-end: 3;
-  }
-
-  .cell__4 {
-    grid-row-start: 3;
-    grid-column-start: 1;
-
-    grid-row-end: 4;
-    grid-column-end: 3;
   }
 }

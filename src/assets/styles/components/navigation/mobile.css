@@ -1,8 +1,4 @@
 @media (width < 780px) {
-  .navigation-list {
-    flex-direction: row;
-  }
-
   .navigation-link {
     padding: 6px 12px;
     border-radius: 8px;

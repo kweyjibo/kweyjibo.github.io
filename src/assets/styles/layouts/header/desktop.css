@@ -1,15 +1,7 @@
 @media (width >= 780px) {
   .header {
-    height: var(--header-height);
-
-    display: flex;
-    padding: 20px 0;
+    padding: var(--site-island-space) 0;
     box-sizing: border-box;
-
-    background-image: url("/assets/img/decor/bg-top-right.svg");
-    background-repeat: no-repeat;
-    background-position: 106px 0;
-    background-size: 889px 157px;
   }
 
   .header__left {
