@@ -2,11 +2,9 @@
 layout: post.njk
 title: "Haarlem. Vol.2"
 dsc: "Весенний Харлем в картинках и пару новых мест."
+description: "Красивый город Харлем весной."
 date: 2025-03-22
 image: "i/img.jpg"
-imageProp: "400px"
-description: "test"
-keywords: "travel, life, Netherlands, Haarlem"
 tags:
   - Haarlem
   - города Нидерландов
