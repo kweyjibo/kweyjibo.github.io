@@ -16,7 +16,10 @@ const markdown = markdownIt({
 
 markdown.use(
   await Shiki({
-    theme: "horizon-bright",
+    themes: {
+      light: "horizon-bright",
+      dark: "gruvbox-dark-soft",
+    },
     defaultColor: false,
     transformers: [
       {
