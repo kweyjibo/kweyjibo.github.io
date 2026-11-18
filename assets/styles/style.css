@@ -17,7 +17,11 @@
 @import "components/social-list/index.css";
 @import "components/demo-box/index.css";
 @import "components/shiki/index.css";
+@import "components/table.css";
 @import "components/RSS.css";
+@import "components/prefers-color-scheme/index.css";
+@import "components/decor-earth/index.css";
+@import "components/robo/index.css";
 
 /* Layouts */
 @import "layouts/main/index.css";

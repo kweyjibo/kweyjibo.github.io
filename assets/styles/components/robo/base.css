@@ -1,0 +1,63 @@
+.robo-svg {
+  display: none;
+}
+
+.robo-cnt {
+  position: relative;
+
+  background-color: var(--site-decor-color);
+  border-radius: 50%;
+}
+
+.waves-container {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+
+  width: 1px;
+  height: 1px;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+  margin: 0;
+}
+
+.wave {
+  position: absolute;
+
+  border-radius: 50%;
+  border: 2px solid #ffa31a;
+  animation: ripple 3s ease-out infinite;
+  opacity: 0;
+}
+
+.wave:nth-child(1) {
+  animation-delay: 0s;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(3) {
+  animation-delay: 1s;
+}
+.wave:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.wave:nth-child(5) {
+  animation-delay: 2s;
+}
+.wave:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

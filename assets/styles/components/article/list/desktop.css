@@ -1,17 +1,6 @@
 @media (width >= 780px) {
   .article-item {
     position: relative;
-
-    &:before {
-      content: "";
-      width: 180px;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-
-      background-image: url(../../../../img/dot.png);
-    }
   }
 
   .article-item_content {

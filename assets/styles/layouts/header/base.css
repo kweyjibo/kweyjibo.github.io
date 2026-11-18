@@ -4,22 +4,40 @@
   grid-auto-columns: max-content;
   column-gap: var(--site-gap);
 
-  @supports (animation-timeline: auto) {
-    box-shadow: 0 2px 0 transparent;
-    animation-fill-mode: both;
-    animation-name: --header-shadow;
-    animation-range: 0 100px;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background-color: var(--header-bg);
+    box-shadow: 0 4px 0 var(--header-shadow-bg);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  @supports (animation-timeline: scroll()) {
+    animation: --header-padding linear both;
     animation-timeline: scroll();
-    animation-timing-function: linear;
-    z-index: 3; /* fixed table */
+    animation-range: 0 100px;
+
+    &::before {
+      animation: --header-background linear both;
+      animation-timeline: scroll();
+      animation-range: 0 100px;
+    }
   }
 }
 
-@keyframes --header-shadow {
+@keyframes --header-padding {
   to {
     padding: 8px;
-    box-shadow: 0 2px 0 #f6f6f6;
-    background-color: #fff;
+  }
+}
+
+@keyframes --header-background {
+  to {
+    opacity: 1;
   }
 }
 

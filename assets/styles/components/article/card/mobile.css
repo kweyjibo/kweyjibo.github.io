@@ -15,4 +15,10 @@
       max-width: 320px;
     }
   }
+
+  .article-content {
+    & > * + h2 {
+      padding-top: 24px;
+    }
+  }
 }

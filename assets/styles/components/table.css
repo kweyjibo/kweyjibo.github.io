@@ -1,0 +1,48 @@
+.table-container {
+  overflow: auto; /* Enables both horizontal and vertical scrolling */
+  border-radius: var(--border-radius);
+  border: 1px solid var(--table-border-color);
+}
+
+.table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: separate;
+
+  h2 + &,
+  & + & {
+    margin-top: var(--site-gap);
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    border-right: 1px solid var(--table-border-color);
+  }
+
+  & td:nth-child(1),
+  & th:nth-child(1) {
+    position: sticky;
+    left: 0; /* Ensures the column stays on the left */
+    z-index: 1; /* Keeps the column above other cells */
+    background-color: var(--table-bg);
+  }
+
+  & th:nth-child(1) {
+    z-index: 2;
+    background: var(--table-top-bg);
+  }
+
+  th,
+  td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  th {
+    background: var(--table-top-bg);
+  }
+
+  tr:nth-child(even) {
+    background: var(--table-tr-bg);
+  }
+}

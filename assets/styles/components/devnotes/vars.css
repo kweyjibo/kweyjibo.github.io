@@ -1,8 +1,5 @@
 /* Local vars for article item */
 :root {
-  --devnotes-item-bg: #fff;
-  --devnotes-desc-color: var(--site-text-color-secondary);
-  --devnotes-item-link-color: var(--site-text-color);
 }
 
 @media (width >= 780px) {
