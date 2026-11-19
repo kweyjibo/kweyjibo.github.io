@@ -1,16 +1,27 @@
 :root {
+  color-scheme: light dark;
+
   /* Global variables for COLORS */
 
-  --yellow: #f7cf73;
+  --yellow: light-dark(#f7cf73, #ffcb53);
 
-  --site-text-color: #524f49;
+  --site-bg-color: light-dark(#fff9f2, #25221e);
+  --site-title-color: light-dark(#33312d, #ffffff);
+
+  --site-text-color: light-dark(#524f49, #d4d0c8);
   --site-text-color-secondary: #aaa59e;
-  --site-title-color: #33312d;
+  --site-title-color: light-dark(#33312d, #e8ded0);
 
-  --site-bg-color: #fff9f2;
+  --surface: light-dark(#fff, #403a33);
 
   --site-decor-color: var(--yellow);
 
+  --island-bg: var(--surface);
+
+  --header-bg: var(--surface);
+  --header-shadow-bg: light-dark(#f6f6f6, #5b5a55);
+
+  --navigation-link-bg: light-dark(#fff9f2, #332f2a);
   --navigation-color: #a6ad59;
   --navigation-active-color: #48503d;
   --navigation-hover-bg: #e9ebd1;
@@ -27,6 +38,33 @@
   --tags-color: #70665c;
   --tags-hover-bg: #f6d1a0;
 
+  --article-bg: var(--surface);
+  --article-date: var(--site-text-color-secondary);
+  --article-blockquote: #c1bbbb;
+  --article-blockquote-text: light-dark(#6d6552;, #d4d0c8);
+  --article-link-color: light-dark(#33312d, #ffffff);
+  --article-link-color-hover: light-dark(#2f2a26, #d2c7b8);
+  --article-link-border-color: #e67e00;
+
+  --article-at-yellow-bg: light-dark(#fffadd, #625b36);
+  --article-at-green-bg: light-dark(#f7f7e8, #607449);
+  --article-at-green-color: light-dark(#5e554e, #d4d0c8);
+
+  --article-toc-yellow-bg: light-dark(#fffadd, #625b36);
+  --article-toc-green-bg: light-dark(#f7f7e8, #607449);
+
+  --article-mark-bg: light-dark(#b5c18e, #788d5b);
+
+  --post-item-link-color: light-dark(#2f2a26, #e8ded0);
+  --post-item-link-hover-color: light-dark(#2f2a26, #d2c7b8);
+  --post-item-bg: var(--surface);
+  --post-item-date: var(--site-text-color-secondary);
+
+  --devnotes-item-bg: var(--surface);
+  --devnotes-desc-color: var(--site-text-color-secondary);
+  --devnotes-item-link-color: var(--site-text-color);
+  --devnotes-item-link-hover-color: light-dark(#2f2a26, #d2c7b8);
+
   --about-link-underline: var(--yellow);
   --about-title-bg: var(--yellow);
   --about-text-secondary-color: #96918a;
@@ -35,9 +73,24 @@
   --footer-social-link: #555;
   --footer-social-link-hover: #ea5455;
 
-  --code-example-bg: #f5f2f0;
+  --table-bg: light-dark(#f9f9f9, #4e473e);
+  --table-top-bg: light-dark(#f2f2f2, #474139);
+  --table-border-color: light-dark(#ccc, #474139);
+  --table-tr-bg: light-dark(#fafafa, #554d43);
+
+  --code-example-bg: light-dark(#f5f2f0, #332f2a);
   --code-example-left-linebg: #ffd460;
   --code-example-line-number-color: #999;
 
   /* /Global variables for COLORS */
+}
+
+/* Light theme */
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
