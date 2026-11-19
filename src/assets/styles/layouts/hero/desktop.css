@@ -4,8 +4,8 @@
   }
 
   .hero-title_tx {
+    bottom: 30px;
     left: 128px;
-    z-index: 2;
     padding: 8px 12px;
   }
 }
