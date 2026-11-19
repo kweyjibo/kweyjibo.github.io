@@ -1,0 +1,31 @@
+.prefers-color-scheme {
+  width: 32px;
+}
+
+.prefers-color-scheme__dark {
+  display: none;
+}
+
+.prefers-color-scheme__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .prefers-color-scheme__light {
+    display: none;
+  }
+
+  :root:not([data-theme]) .prefers-color-scheme__dark {
+    display: block;
+  }
+}
+
+:root[data-theme="dark"] .prefers-color-scheme__light {
+  display: none;
+}
+
+:root[data-theme="dark"] .prefers-color-scheme__dark {
+  display: block;
+}
