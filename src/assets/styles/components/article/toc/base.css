@@ -8,13 +8,13 @@
   border-radius: 12px;
 
   &.__yellow {
-    background-color: #f2d76b;
+    background-color: var(--article-toc-yellow-bg);
   }
 
   &.__green {
     color: #fff;
     line-height: 16px;
-    background-color: var(--green-color);
+    background-color: var(--article-toc-green-bg);
   }
 
   &.__small {

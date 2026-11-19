@@ -1,13 +1,4 @@
 /* Local vars for article item */
-:root {
-  --article-bg: #fff;
-  --article-date: var(--site-text-color-secondary);
-  --article-blockquote: #c1bbbb;
-  --article-blockquote-text: #6d6552;
-  --article-link-color: #2f2a26;
-  --article-link-color-hover: #e67e00;
-  --article-link-border-color: #e67e00;
-}
 
 @media (width >= 780px) {
   :root {

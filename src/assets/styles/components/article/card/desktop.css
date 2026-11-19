@@ -13,4 +13,14 @@
   .table {
     min-width: 100%;
   }
+
+  .article-content {
+    & > * + h2 {
+      padding-top: 42px;
+    }
+
+    h2 + div {
+      margin-top: var(--site-gap);
+    }
+  }
 }
