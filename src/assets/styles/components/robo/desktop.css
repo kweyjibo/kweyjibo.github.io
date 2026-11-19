@@ -1,0 +1,21 @@
+@media (width >= 780px) {
+  .robo-cnt {
+    width: 110px;
+    height: 110px;
+  }
+
+  .robo-svg {
+    &.__desktop {
+      display: block;
+    }
+  }
+  .waves-container {
+    top: 14px;
+    left: 52px;
+  }
+
+  .wave {
+    width: 100px;
+    height: 100px;
+  }
+}

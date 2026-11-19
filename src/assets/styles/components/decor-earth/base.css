@@ -1,0 +1,14 @@
+.decor-earth__cnt {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.decor-earth__switch {
+  position: absolute;
+  
+}
+
+.decor-earth-svg {
+  display: none;
+}

@@ -1,0 +1,10 @@
+@media (width >= 780px) {
+  .decor-earth-svg.__desktop {
+    display: block;
+  }
+
+  .decor-earth__switch {
+    top: -12px;
+    left: -20px;
+  }
+}
