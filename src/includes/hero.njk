@@ -1,24 +1,28 @@
 <div class="hero cell__2">
-  <div class="robo-cnt">
-    <ul class="waves-container">
-      <li class="wave"></li>
-      <li class="wave"></li>
-      <li class="wave"></li>
-      <li class="wave"></li>
-      <li class="wave"></li>
-      <li class="wave"></li>
-    </ul>
-
-    <img
-      src="/assets/img/header/robo.svg"
-      width="110"
-      height="110"
-      alt="robo"
-    />
-  </div>
+  {% include 'components/robo/robo.njk' %}
 
   <div class="hero-title_tx">
     With <span class="hero-title_o">love</span> to all citizens of
     <span class="hero-title_g">Earth</span>
+  </div>
+  
+  <div class="decor-earth__cnt">
+    <img
+      src="/assets/img/decor/Earth-day.svg"
+      width="110"
+      height="110"
+      alt="robo"
+      class="decor-earth-svg __desktop"
+    />
+    <img
+      src="/assets/img/decor/Earth-day.svg"
+      width="70"
+      height="70"
+      alt="robo"
+      class="decor-earth-svg __mobile"
+    />
+    <div class="decor-earth__switch">
+      {% include 'components/prefers-color-scheme.njk' %}
+    </div>
   </div>
 </div>
